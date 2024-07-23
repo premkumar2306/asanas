@@ -16,7 +16,7 @@ Extended triangle pose
 - Utkatanasana : Uneven pose
 Virabhadrasana (A & B) : Warrior pose
 
-### 2) SITTING POSES
+### 2) SITTING POSES 
 - Dandasana (Chaturanga Dandasana) : Four-Limbed Staff Pose (staff means spine, body support)
 - Paschimattanasana (3 types) : West-Back (extended-intense) stretching pose
 - Purvatanasana : Est-Front (extended-intense) stretching pose
