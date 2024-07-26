@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require("express");
 const cors = require("cors");
 const morgan = require("morgan");
@@ -13,7 +14,7 @@ const {
 const app = express();
 
 // Use environment variable for port or default to 7000
-const PORT = process.env.PORT || 7000;
+const PORT = process.env.PORT || 7001;
 
 // Use morgan for logging
 app.use(morgan("combined"));
@@ -48,3 +49,9 @@ app.get("/asanas/:id", getAsanaById);
 app.get("/asanas/category/:id", getAsanasByCategory);
 
 app.get("/asanas/difficulty/:id", getAsanasByDifficulty);
+
+// Error handling middleware
+app.use((err, req, res, next) => {
+  console.error(err.stack);
+  res.status(500).send('Something broke!');
+});
