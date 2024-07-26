@@ -1,16 +1,14 @@
 const asanas = require("./yoga-asanas.json");
 
-// change export to module.exports
 
 const getAsanas = (req, res) => {
-  console.log(asanas.map((a) => a));
   res.json(asanas.map((a) => a.sanskrit_name));
 };
 
 const searchAsanas = (req, res) => {
   const query = req.query.name;
   const searchResult = asanas.filter((asana) =>
-    asana.name.toLowerCase().includes(query.toLowerCase())
+    asana.english_name.toLowerCase().includes(query.toLowerCase())
   );
   res.json(searchResult);
 };

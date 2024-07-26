@@ -1,5 +1,8 @@
-// change to rquire
 const express = require("express");
+const cors = require("cors");
+const morgan = require("morgan");
+const helmet = require("helmet");
+const rateLimit = require("express-rate-limit");
 const {
   getAsanas,
   searchAsanas,
@@ -9,8 +12,27 @@ const {
 } = require("./asanasService.js");
 const app = express();
 
-app.listen(7000, () => {
-  console.log("Server is running on port 7000");
+// Use environment variable for port or default to 7000
+const PORT = process.env.PORT || 7000;
+
+// Use morgan for logging
+app.use(morgan("combined"));
+
+// Use helmet for security
+app.use(helmet());
+
+// Use cors for cross origin resource sharing
+app.use(cors());
+
+// Rate limiting
+const limiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 100, // limit each IP to 100 requests per windowMs
+});
+app.use(limiter);
+
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
 });
 
 app.get("/", (req, res) => {
