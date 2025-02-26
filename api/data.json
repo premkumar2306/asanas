@@ -1,0 +1,2138 @@
+[
+  {
+      "english_name": "Bharadvaja\u2019s Twist",
+      "sanskrit_name": "Bharadvajasana I",
+      "difficulty": 1,
+      "id": 0,
+      "description": "To practice Bharadvaja's Twist, you can follow these steps: 1. Begin by sitting on the floor with your legs extended in front of you. 2. Bend your knees and shift your weight to the right hip. 3. Bring your feet to the left side of your body, stacking your knees on top of each other. 4. Inhale and lengthen your spine. 5. Exhale and twist to the right, placing your left hand on your right knee and your right hand on the floor behind you. 6. Hold the twist for 5-10 breaths, then repeat on the other side.",
+      "pose_meta": [
+          "hipOpening",
+          "seated",
+          "twist"
+      ],
+      "category": "Seated Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/0.jpg",
+      "video_url": "https://example.com/yoga_videos/0.mp4",
+      "duration": "30s",
+      "difficulty_level": "Beginner"
+  },
+  {
+      "english_name": "Big Toe Pose",
+      "sanskrit_name": "Padangusthasana",
+      "difficulty": 1,
+      "id": 1,
+      "description": "Begin by standing with your feet hip-width apart, keeping your spine straight and shoulders relaxed. Exhale and bend forward from your hips, keeping your knees straight or slightly bent if needed. Reach down with your hands and hold your big toes with your thumb, index, and middle fingers. If you can't reach your toes, you can use a strap or hold onto your ankles or shins. With each inhale, lengthen your spine and look forward. With each exhale, fold deeper into the pose, bringing your chest closer to your thighs. Try to straighten your legs as much as you comfortably can, but don't strain or force them to be completely straight. Keep your weight balanced between the balls and heels of your feet, and actively engage your quadriceps to support your legs. Relax your neck and let your head hang, allowing any tension to release. Hold the pose for 5-10 breaths, breathing deeply and maintaining a steady, relaxed breath.",
+      "pose_meta": [
+          "forwardBend",
+          "standing"
+      ],
+      "category": "Standing Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/1.jpg",
+      "video_url": "https://example.com/yoga_videos/1.mp4",
+      "duration": "30s",
+      "difficulty_level": "Beginner"
+  },
+  {
+      "english_name": "Boat Pose",
+      "sanskrit_name": "Paripurna Navasana",
+      "difficulty": 2,
+      "id": 2,
+      "description": "Sit on the floor with your legs extended. Bend your knees, then lean back slightly and lift your feet off the ground, balancing on your sit bones. Extend your arms forward, parallel to the floor. Straighten your legs as much as you can, forming a V-shape with your body. Keep your back straight and hold for 5-10 breaths.",
+      "pose_meta": [
+          "core",
+          "seated",
+          "strengthening"
+      ],
+      "category": "Seated Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/2.jpg",
+      "video_url": "https://example.com/yoga_videos/2.mp4",
+      "duration": "30s",
+      "difficulty_level": "Intermediate"
+  },
+  {
+      "english_name": "Bound Angle Pose",
+      "sanskrit_name": "Baddha Konasana",
+      "difficulty": 1,
+      "id": 3,
+      "description": "Sit with your legs extended, then bend your knees and bring the soles of your feet together. Hold your feet with your hands, and gently press your knees towards the floor. Keep your spine straight and hold for several breaths.",
+      "pose_meta": [
+          "forwardBend",
+          "hipOpening",
+          "seated"
+      ],
+      "category": "Seated Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/3.jpg",
+      "video_url": "https://example.com/yoga_videos/3.mp4",
+      "duration": "30s",
+      "difficulty_level": "Beginner"
+  },
+  {
+      "english_name": "Bow Pose",
+      "sanskrit_name": "Dhanurasana",
+      "difficulty": 2,
+      "id": 4,
+      "description": "Lie on your stomach with your arms by your sides. Bend your knees and reach back to hold your ankles. Inhale and lift your chest and thighs off the floor, pulling your ankles up and back. Hold for several breaths.",
+      "pose_meta": [
+          "chestOpening",
+          "backbends"
+      ],
+      "category": "Backbends",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/4.jpg",
+      "video_url": "https://example.com/yoga_videos/4.mp4",
+      "duration": "30s",
+      "difficulty_level": "Intermediate"
+  },
+  {
+      "english_name": "Bridge Pose",
+      "sanskrit_name": "Setu Bandha Sarvangasana",
+      "difficulty": 2,
+      "id": 5,
+      "description": "Lie on your back with your knees bent and feet flat on the floor, hip-width apart. Place your arms alongside your body with palms facing down. Press your feet and arms into the floor as you lift your hips towards the ceiling. Hold for several breaths.",
+      "pose_meta": [
+          "backbends"
+      ],
+      "category": "Backbends",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/5.jpg",
+      "video_url": "https://example.com/yoga_videos/5.mp4",
+      "duration": "30s",
+      "difficulty_level": "Intermediate"
+  },
+  {
+      "english_name": "Camel Pose",
+      "sanskrit_name": "Ustrasana",
+      "difficulty": 2,
+      "id": 6,
+      "description": "Kneel on the floor with your knees hip-width apart. Place your hands on your lower back with your fingers pointing down. Press your hips forward and lean back, reaching for your heels. Lift your chest and hold for several breaths.",
+      "pose_meta": [
+          "chestOpening",
+          "backbends"
+      ],
+      "category": "Backbends",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/6.jpg",
+      "video_url": "https://example.com/yoga_videos/6.mp4",
+      "duration": "30s",
+      "difficulty_level": "Intermediate"
+  },
+  {
+      "english_name": "Cat Pose",
+      "sanskrit_name": "Marjaryasana",
+      "difficulty": 1,
+      "id": 7,
+      "description": "Start on your hands and knees with your wrists directly under your shoulders and your knees under your hips. On an exhale, round your spine towards the ceiling, tucking your chin to your chest. Inhale and return to a neutral spine.",
+      "pose_meta": [
+          "core"
+      ],
+      "category": "Core Strengthening",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/7.jpg",
+      "video_url": "https://example.com/yoga_videos/7.mp4",
+      "duration": "30s",
+      "difficulty_level": "Beginner"
+  },
+  {
+      "english_name": "Cat Cow Pose",
+      "sanskrit_name": "Chakravakasana",
+      "difficulty": 1,
+      "id": 8,
+      "description": "Start on your hands and knees with your wrists directly under your shoulders and your knees under your hips. Inhale, arch your back, and lift your head and tailbone towards the ceiling (Cow Pose). Exhale, round your spine and tuck your chin to your chest (Cat Pose). Repeat for several breaths.",
+      "pose_meta": [
+          "backbends"
+      ],
+      "category": "Backbends",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/8.jpg",
+      "video_url": "https://example.com/yoga_videos/8.mp4",
+      "duration": "30s",
+      "difficulty_level": "Beginner"
+  },
+  {
+      "english_name": "Knees, Chest and Chin Pose",
+      "sanskrit_name": "Ashtanga Namaskara",
+      "difficulty": 1,
+      "id": 9,
+      "description": "Begin in a plank position. Lower your knees to the floor, then lower your chest and chin, keeping your elbows close to your body. Your hips should remain slightly lifted. Hold for a few breaths.",
+      "pose_meta": [
+          "core"
+      ],
+      "category": "Core Strengthening",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/9.jpg",
+      "video_url": "https://example.com/yoga_videos/9.mp4",
+      "duration": "30s",
+      "difficulty_level": "Beginner"
+  },
+  {
+      "english_name": "Chair Pose",
+      "sanskrit_name": "Utkatasana",
+      "difficulty": 2,
+      "id": 10,
+      "description": "Stand with your feet together. Inhale and raise your arms above your head. Exhale and bend your knees, lowering your hips as if you are sitting back into a chair. Keep your chest lifted and hold for several breaths.",
+      "pose_meta": [
+          "core",
+          "standing",
+          "strengthening"
+      ],
+      "category": "Standing Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/10.jpg",
+      "video_url": "https://example.com/yoga_videos/10.mp4",
+      "duration": "30s",
+      "difficulty_level": "Intermediate"
+  },
+  {
+      "english_name": "Child\u2019s Pose",
+      "sanskrit_name": "Balasana",
+      "difficulty": 1,
+      "id": 11,
+      "description": "Kneel on the floor and sit back on your heels. Exhale and fold forward, bringing your forehead to the floor. Extend your arms in front of you or rest them alongside your body. Hold for several breaths.",
+      "pose_meta": [
+          "forwardBend",
+          "hipOpening",
+          "restorative"
+      ],
+      "category": "Forward Bends",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/11.jpg",
+      "video_url": "https://example.com/yoga_videos/11.mp4",
+      "duration": "30s",
+      "difficulty_level": "Beginner"
+  },
+  {
+      "english_name": "Cobra Pose",
+      "sanskrit_name": "Bhujangasana",
+      "difficulty": 1,
+      "id": 12,
+      "description": "Lie on your stomach with your hands under your shoulders. Press into your hands to lift your chest off the floor. Keep your elbows slightly bent and hold for several breaths.",
+      "pose_meta": [
+          "chestOpening",
+          "backbends"
+      ],
+      "category": "Backbends",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/12.jpg",
+      "video_url": "https://example.com/yoga_videos/12.mp4",
+      "duration": "30s",
+      "difficulty_level": "Beginner"
+  },
+  {
+      "english_name": "Corpse Pose",
+      "sanskrit_name": "Savasana",
+      "difficulty": 1,
+      "id": 13,
+      "description": "Lie on your back with your legs extended and arms at your sides, palms facing up. Close your eyes and relax your entire body, allowing it to sink into the floor. Hold for several minutes.",
+      "pose_meta": [
+          "restorative"
+      ],
+      "category": "Restorative Yoga",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/13.jpg",
+      "video_url": "https://example.com/yoga_videos/13.mp4",
+      "duration": "30s",
+      "difficulty_level": "Beginner"
+  },
+  {
+      "english_name": "Cow Face Pose",
+      "sanskrit_name": "Gomukhasana",
+      "difficulty": 2,
+      "id": 14,
+      "description": "Sit with your legs extended. Bend your right knee and place your right foot on the floor outside your left thigh. Bring your left foot to the outside of your right hip. Inhale and lengthen your spine, then exhale and twist to the right, placing your left hand on your right knee and your right hand behind you. Hold for several breaths and repeat on the other side.",
+      "pose_meta": [
+          "hipOpening",
+          "seated"
+      ],
+      "category": "Seated Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/14.jpg",
+      "video_url": "https://example.com/yoga_videos/14.mp4",
+      "duration": "30s",
+      "difficulty_level": "Intermediate"
+  },
+  {
+      "english_name": "Cow Pose",
+      "sanskrit_name": "Bitilasana",
+      "difficulty": 1,
+      "id": 15,
+      "description": "Start on your hands and knees with your wrists directly under your shoulders and your knees under your hips. Inhale, arch your back, and lift your head and tailbone towards the ceiling. Exhale, return to a neutral spine.",
+      "pose_meta": [
+          "chestOpening",
+          "backbends"
+      ],
+      "category": "Backbends",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/15.jpg",
+      "video_url": "https://example.com/yoga_videos/15.mp4",
+      "duration": "30s",
+      "difficulty_level": "Beginner"
+  },
+  {
+      "english_name": "Crane (Crow) Pose",
+      "sanskrit_name": "Bakasana",
+      "difficulty": 3,
+      "id": 16,
+      "description": "Start in a squatting position with your feet hip-width apart. Place your hands on the floor in front of you, shoulder-width apart. Bend your elbows and lift your hips, bringing your knees to the backs of your upper arms. Shift your weight forward and lift your feet off the ground, balancing on your hands. Hold for several breaths.",
+      "pose_meta": [
+          "armBalance",
+          "core"
+      ],
+      "category": "Core Strengthening",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/16.jpg",
+      "video_url": "https://example.com/yoga_videos/16.mp4",
+      "duration": "30s",
+      "difficulty_level": "Advanced"
+  },
+  {
+      "english_name": "Dolphin Plank Pose",
+      "sanskrit_name": "Makara Adho Mukha Svanasana",
+      "difficulty": 2,
+      "id": 17,
+      "description": "Start in a forearm plank position with your elbows under your shoulders and your body in a straight line. Engage your core and hold for several breaths.",
+      "pose_meta": [
+          "armBalance",
+          "core",
+          "strengthening"
+      ],
+      "category": "Core Strengthening",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/17.jpg",
+      "video_url": "https://example.com/yoga_videos/17.mp4",
+      "duration": "30s",
+      "difficulty_level": "Intermediate"
+  },
+  {
+      "english_name": "Dolphin Pose",
+      "sanskrit_name": "Ardha Pincha Mayurasana",
+      "difficulty": 2,
+      "id": 18,
+      "description": "Start on your hands and knees with your forearms on the floor, shoulder-width apart. Lift your hips towards the ceiling, forming an inverted V-shape with your body. Hold for several breaths.",
+      "pose_meta": [
+          "core",
+          "standing",
+          "strengthening"
+      ],
+      "category": "Standing Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/18.jpg",
+      "video_url": "https://example.com/yoga_videos/18.mp4",
+      "duration": "30s",
+      "difficulty_level": "Intermediate"
+  },
+  {
+      "english_name": "Downward-Facing Dog",
+      "sanskrit_name": "Adho Mukha Svanasana",
+      "difficulty": 2,
+      "id": 19,
+      "description": "Start on your hands and knees with your wrists directly under your shoulders and your knees under your hips. Lift your hips towards the ceiling, forming an inverted V-shape with your body. Keep your spine straight and hold for several breaths.",
+      "pose_meta": [
+          "forwardBend",
+          "standing",
+          "strengthening"
+      ],
+      "category": "Standing Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/19.jpg",
+      "video_url": "https://example.com/yoga_videos/19.mp4",
+      "duration": "30s",
+      "difficulty_level": "Intermediate"
+  },
+  {
+      "english_name": "Eagle Pose",
+      "sanskrit_name": "Garudasana",
+      "difficulty": 2,
+      "id": 20,
+      "description": "Stand with your feet together. Bend your knees slightly and lift your right foot, crossing your right thigh over your left. Wrap your right foot behind your left calf. Cross your left arm over your right and bring your palms together. Hold for several breaths and repeat on the other side.",
+      "pose_meta": [
+          "balancing",
+          "hipOpening",
+          "standing"
+      ],
+      "category": "Standing Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/20.jpg",
+      "video_url": "https://example.com/yoga_videos/20.mp4",
+      "duration": "30s",
+      "difficulty_level": "Intermediate"
+  },
+  {
+      "english_name": "Easy Pose",
+      "sanskrit_name": "Sukhasana",
+      "difficulty": 1,
+      "id": 21,
+      "description": "Sit on the floor with your legs crossed and your hands resting on your knees. Keep your spine straight and your shoulders relaxed. Hold for several breaths.",
+      "pose_meta": [
+          "hipOpening",
+          "seated"
+      ],
+      "category": "Seated Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/21.jpg",
+      "video_url": "https://example.com/yoga_videos/21.mp4",
+      "duration": "30s",
+      "difficulty_level": "Beginner"
+  },
+  {
+      "english_name": "Eight-Angle Pose",
+      "sanskrit_name": "Astavakrasana",
+      "difficulty": 3,
+      "id": 22,
+      "description": "Start in a seated position with your legs extended. Bend your knees and bring your feet to the floor. Place your right hand on the floor behind you and your left hand on your right knee. Inhale and lengthen your spine, then exhale and twist to the right. Hold for several breaths and repeat on the other side.",
+      "pose_meta": [
+          "armBalance"
+      ],
+      "category": "Arm Balance Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/22.jpg",
+      "video_url": "https://example.com/yoga_videos/22.mp4",
+      "duration": "30s",
+      "difficulty_level": "Advanced"
+  },
+  {
+      "english_name": "Extended Hand-To-Big-Toe Pose",
+      "sanskrit_name": "Utthita Hasta Padangustasana",
+      "difficulty": 3,
+      "id": 23,
+      "description": "Stand with your feet together. Lift your right leg and hold your big toe with your right hand. Extend your right leg forward, keeping your spine straight. Hold for several breaths and repeat on the other side.",
+      "pose_meta": [
+          "balancing",
+          "hipOpening",
+          "standing"
+      ],
+      "category": "Standing Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/23.jpg",
+      "video_url": "https://example.com/yoga_videos/23.mp4",
+      "duration": "30s",
+      "difficulty_level": "Advanced"
+  },
+  {
+      "english_name": "Extended Puppy Pose",
+      "sanskrit_name": "Uttana Shishosana",
+      "difficulty": 2,
+      "id": 24,
+      "description": "Start on your hands and knees with your wrists directly under your shoulders and your knees under your hips. Walk your hands forward, lowering your chest towards the floor while keeping your hips lifted. Hold for several breaths.",
+      "pose_meta": [
+          "forwardBend"
+      ],
+      "category": "Forward Bends",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/24.jpg",
+      "video_url": "https://example.com/yoga_videos/24.mp4",
+      "duration": "30s",
+      "difficulty_level": "Intermediate"
+  },
+  {
+      "english_name": "Extended Side Angle Pose",
+      "sanskrit_name": "Utthita Parsvakonasana",
+      "difficulty": 2,
+      "id": 25,
+      "description": "Stand with your feet wide apart. Turn your right foot out and bend your right knee, bringing your right thigh parallel to the floor. Place your right hand on the floor outside your right foot and extend your left arm over your head. Hold for several breaths and repeat on the other side.",
+      "pose_meta": [
+          "standing",
+          "strengthening"
+      ],
+      "category": "Standing Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/25.jpg",
+      "video_url": "https://example.com/yoga_videos/25.mp4",
+      "duration": "30s",
+      "difficulty_level": "Intermediate"
+  },
+  {
+      "english_name": "Extended Triangle Pose",
+      "sanskrit_name": "Utthita Trikonasana",
+      "difficulty": 1,
+      "id": 26,
+      "description": "Stand with your feet wide apart. Turn your right foot out and extend your arms parallel to the floor. Reach your right hand towards your right foot and extend your left arm towards the ceiling. Hold for several breaths and repeat on the other side.",
+      "pose_meta": [
+          "standing",
+          "strengthening"
+      ],
+      "category": "Standing Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/26.jpg",
+      "video_url": "https://example.com/yoga_videos/26.mp4",
+      "duration": "30s",
+      "difficulty_level": "Beginner"
+  },
+  {
+      "english_name": "Feathered Peacock Pose",
+      "sanskrit_name": "Pincha Mayurasana",
+      "difficulty": 3,
+      "id": 27,
+      "description": "Start in a forearm plank position with your elbows under your shoulders and your body in a straight line. Engage your core and lift one leg towards the ceiling. Hold for several breaths and repeat on the other side.",
+      "pose_meta": [
+          "inversion",
+          "strengthening"
+      ],
+      "category": "Inversions",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/27.jpg",
+      "video_url": "https://example.com/yoga_videos/27.mp4",
+      "duration": "30s",
+      "difficulty_level": "Advanced"
+  },
+  {
+      "english_name": "Fire Log Pose",
+      "sanskrit_name": "Agnistambhasana",
+      "difficulty": 1,
+      "id": 28,
+      "description": "Sit with your legs extended. Bend your right knee and place your right foot on the floor outside your left thigh. Bring your left foot to the outside of your right hip. Inhale and lengthen your spine, then exhale and twist to the right, placing your left hand on your right knee and your right hand behind you. Hold for several breaths and repeat on the other side.",
+      "pose_meta": [
+          "hipOpening",
+          "seated"
+      ],
+      "category": "Seated Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/28.jpg",
+      "video_url": "https://example.com/yoga_videos/28.mp4",
+      "duration": "30s",
+      "difficulty_level": "Beginner"
+  },
+  {
+      "english_name": "Firefly Pose",
+      "sanskrit_name": "Tittibhasana",
+      "difficulty": 3,
+      "id": 29,
+      "description": "Start in a squatting position with your feet hip-width apart. Place your hands on the floor in front of you, shoulder-width apart. Bend your elbows and lift your hips, bringing your knees to the backs of your upper arms. Shift your weight forward and lift your feet off the ground, balancing on your hands. Hold for several breaths.",
+      "pose_meta": [
+          "armBalance"
+      ],
+      "category": "Arm Balance Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/29.jpg",
+      "video_url": "https://example.com/yoga_videos/29.mp4",
+      "duration": "30s",
+      "difficulty_level": "Advanced"
+  },
+  {
+      "english_name": "Fish Pose",
+      "sanskrit_name": "Matsyasana",
+      "difficulty": 2,
+      "id": 30,
+      "description": "Lie on your back with your legs extended and your arms alongside your body. Inhale and lift your chest and legs off the floor, balancing on your sit bones. Keep your back straight and hold for several breaths.",
+      "pose_meta": [
+          "chestOpening",
+          "backbends"
+      ],
+      "category": "Backbends",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/30.jpg",
+      "video_url": "https://example.com/yoga_videos/30.mp4",
+      "duration": "30s",
+      "difficulty_level": "Intermediate"
+  },
+  {
+      "english_name": "Four-Limbed Staff Pose",
+      "sanskrit_name": "Chaturanga Dandasana",
+      "difficulty": 2,
+      "id": 31,
+      "description": "Start in a plank position with your wrists directly under your shoulders and your body in a straight line. Lower your body towards the floor, keeping your elbows close to your sides. Hold for several breaths.",
+      "pose_meta": [
+          "armBalance",
+          "core",
+          "strengthening"
+      ],
+      "category": "Core Strengthening",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/31.jpg",
+      "video_url": "https://example.com/yoga_videos/31.mp4",
+      "duration": "30s",
+      "difficulty_level": "Intermediate"
+  },
+  {
+      "english_name": "Garland Pose",
+      "sanskrit_name": "Malasana",
+      "difficulty": 1,
+      "id": 32,
+      "description": "Stand with your feet wide apart and your toes turned out. Lower your hips into a squat position, bringing your hands together in front of your chest. Hold for several breaths.",
+      "pose_meta": [
+          "standing"
+      ],
+      "category": "Standing Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/32.jpg",
+      "video_url": "https://example.com/yoga_videos/32.mp4",
+      "duration": "30s",
+      "difficulty_level": "Beginner"
+  },
+  {
+      "english_name": "Gate Pose",
+      "sanskrit_name": "Parighasana",
+      "difficulty": 1,
+      "id": 33,
+      "description": "Kneel on the floor with your knees hip-width apart. Extend your right leg to the side, keeping your foot flat on the floor. Inhale and raise your arms overhead, then exhale and lean to the right, placing your right hand on your right leg and extending your left arm over your head. Hold for several breaths and repeat on the other side.",
+      "pose_meta": [
+          "standing"
+      ],
+      "category": "Standing Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/33.jpg",
+      "video_url": "https://example.com/yoga_videos/33.mp4",
+      "duration": "30s",
+      "difficulty_level": "Beginner"
+  },
+  {
+      "english_name": "Half Frog Pose",
+      "sanskrit_name": "Ardha Bhekasana",
+      "difficulty": 2,
+      "id": 34,
+      "description": "Lie on your stomach with your arms by your sides. Bend your right knee and reach back to hold your right ankle. Inhale and lift your chest and right thigh off the floor, pulling your ankle up and back. Hold for several breaths and repeat on the other side.",
+      "pose_meta": [
+          "chestOpening",
+          "backbends"
+      ],
+      "category": "Backbends",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/34.jpg",
+      "video_url": "https://example.com/yoga_videos/34.mp4",
+      "duration": "30s",
+      "difficulty_level": "Intermediate"
+  },
+  {
+      "english_name": "Half Lord of the Fishes Pose",
+      "sanskrit_name": "Ardha Matsyendrasana",
+      "difficulty": 1,
+      "id": 35,
+      "description": "Sit with your legs extended. Bend your right knee and place your right foot on the floor outside your left thigh. Bring your left foot to the outside of your right hip. Inhale and lengthen your spine, then exhale and twist to the right, placing your left hand on your right knee and your right hand behind you. Hold for several breaths and repeat on the other side.",
+      "pose_meta": [
+          "hipOpening",
+          "seated",
+          "twist"
+      ],
+      "category": "Seated Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/35.jpg",
+      "video_url": "https://example.com/yoga_videos/35.mp4",
+      "duration": "30s",
+      "difficulty_level": "Beginner"
+  },
+  {
+      "english_name": "Lying Half Lord of the Fishes Pose",
+      "sanskrit_name": "Supta Matsyendrasana",
+      "difficulty": 1,
+      "id": 36,
+      "description": "Lie on your back with your legs extended. Bend your right knee and place your right foot on the floor outside your left thigh. Extend your arms out to the sides and gently twist your lower body to the left, bringing your right knee towards the floor. Hold for several breaths and repeat on the other side.",
+      "pose_meta": [
+          "hipOpening",
+          "restorative",
+          "twist"
+      ],
+      "category": "Hip Opening Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/36.jpg",
+      "video_url": "https://example.com/yoga_videos/36.mp4",
+      "duration": "30s",
+      "difficulty_level": "Beginner"
+  },
+  {
+      "english_name": "Half Moon Pose",
+      "sanskrit_name": "Ardha Chandrasana",
+      "difficulty": 2,
+      "id": 37,
+      "description": "Stand with your feet together. Lift your right leg and hold your right ankle with your right hand. Extend your right leg to the side, keeping your spine straight. Hold for several breaths and repeat on the other side.",
+      "pose_meta": [
+          "balancing",
+          "standing"
+      ],
+      "category": "Standing Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/37.jpg",
+      "video_url": "https://example.com/yoga_videos/37.mp4",
+      "duration": "30s",
+      "difficulty_level": "Intermediate"
+  },
+  {
+      "english_name": "Handstand",
+      "sanskrit_name": "Adho Mukha Vriksasana",
+      "difficulty": 3,
+      "id": 38,
+      "description": "Start in a standing position with your feet together. Place your hands on the floor in front of you, shoulder-width apart. Shift your weight onto your hands and lift your legs towards the ceiling, balancing on your hands. Hold for several breaths.",
+      "pose_meta": [
+          "balancing",
+          "inversion",
+          "strengthening"
+      ],
+      "category": "Inversions",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/38.jpg",
+      "video_url": "https://example.com/yoga_videos/38.mp4",
+      "duration": "30s",
+      "difficulty_level": "Advanced"
+  },
+  {
+      "english_name": "Happy Baby Pose",
+      "sanskrit_name": "Ananda Balasana",
+      "difficulty": 1,
+      "id": 39,
+      "description": "Lie on your back and hug your knees to your chest. Grab the outsides of your feet with your hands and gently pull your knees towards the floor, keeping your ankles stacked over your knees. Hold for several breaths.",
+      "pose_meta": [
+          "core"
+      ],
+      "category": "Core Strengthening",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/39.jpg",
+      "video_url": "https://example.com/yoga_videos/39.mp4",
+      "duration": "30s",
+      "difficulty_level": "Beginner"
+  },
+  {
+      "english_name": "Head-to-Knee Forward Bend",
+      "sanskrit_name": "Janu Sirsasana",
+      "difficulty": 1,
+      "id": 40,
+      "description": "Sit with your legs extended. Bend your right knee and place your right foot against your left inner thigh. Inhale and lengthen your spine, then exhale and fold forward over your left leg, reaching for your foot. Hold for several breaths and repeat on the other side.",
+      "pose_meta": [
+          "forwardBend",
+          "seated"
+      ],
+      "category": "Seated Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/40.jpg",
+      "video_url": "https://example.com/yoga_videos/40.mp4",
+      "duration": "30s",
+      "difficulty_level": "Beginner"
+  },
+  {
+      "english_name": "Hero Pose",
+      "sanskrit_name": "Virasana",
+      "difficulty": 2,
+      "id": 41,
+      "description": "Kneel on the floor with your knees together. Sit back on your heels and place your hands on your thighs. Hold for several breaths.",
+      "pose_meta": [
+          "seated"
+      ],
+      "category": "Seated Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/41.jpg",
+      "video_url": "https://example.com/yoga_videos/41.mp4",
+      "duration": "30s",
+      "difficulty_level": "Intermediate"
+  },
+  {
+      "english_name": "Heron Pose",
+      "sanskrit_name": "Krounchasana",
+      "difficulty": 1,
+      "id": 42,
+      "description": "Sit with your legs extended. Bend your right knee and place your right foot on the floor outside your left thigh. Inhale and lengthen your spine, then exhale and twist to the right, placing your left hand on your right knee and your right hand behind you. Hold for several breaths and repeat on the other side.",
+      "pose_meta": [
+          "seated"
+      ],
+      "category": "Seated Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/42.jpg",
+      "video_url": "https://example.com/yoga_videos/42.mp4",
+      "duration": "30s",
+      "difficulty_level": "Beginner"
+  },
+  {
+      "english_name": "High Lunge",
+      "sanskrit_name": "Utthita Ashwa Sanchalanasana",
+      "difficulty": 1,
+      "id": 43,
+      "description": "Start in a standing position with your feet together. Step your right foot back and bend your left knee, lowering into a lunge position. Keep your right leg straight and your back heel lifted. Hold for several breaths and repeat on the other side.",
+      "pose_meta": [
+          "standing"
+      ],
+      "category": "Standing Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/43.jpg",
+      "video_url": "https://example.com/yoga_videos/43.mp4",
+      "duration": "30s",
+      "difficulty_level": "Beginner"
+  },
+  {
+      "english_name": "Intense Side Stretch Pose",
+      "sanskrit_name": "Parsvottanasana",
+      "difficulty": 2,
+      "id": 44,
+      "description": "Stand with your feet together. Step your right foot back and bend your left knee, lowering into a lunge position. Straighten your left leg and fold forward over your left leg, reaching for your foot. Hold for several breaths and repeat on the other side.",
+      "pose_meta": [
+          "forwardBend",
+          "standing"
+      ],
+      "category": "Standing Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/44.jpg",
+      "video_url": "https://example.com/yoga_videos/44.mp4",
+      "duration": "30s",
+      "difficulty_level": "Intermediate"
+  },
+  {
+      "english_name": "Legs-Up-the-Wall Pose",
+      "sanskrit_name": "Viparita Karani",
+      "difficulty": 1,
+      "id": 45,
+      "description": "Sit with your legs extended and your back against a wall. Lift your legs up the wall, keeping your hips as close to the wall as possible. Extend your arms out to the sides and hold for several breaths.",
+      "pose_meta": [
+          "restorative"
+      ],
+      "category": "Restorative Yoga",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/45.jpg",
+      "video_url": "https://example.com/yoga_videos/45.mp4",
+      "duration": "30s",
+      "difficulty_level": "Beginner"
+  },
+  {
+      "english_name": "Locust Pose",
+      "sanskrit_name": "Salabhasana",
+      "difficulty": 2,
+      "id": 46,
+      "description": "Lie on your stomach with your arms by your sides. Inhale and lift your chest and legs off the floor, balancing on your lower abdomen. Hold for several breaths.",
+      "pose_meta": [
+          "chestOpening",
+          "strengthening",
+          "backbends"
+      ],
+      "category": "Backbends",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/46.jpg",
+      "video_url": "https://example.com/yoga_videos/46.mp4",
+      "duration": "30s",
+      "difficulty_level": "Intermediate"
+  },
+  {
+      "english_name": "Lord of the Dance Pose",
+      "sanskrit_name": "Natarajasana",
+      "difficulty": 3,
+      "id": 47,
+      "description": "Stand with your feet together. Lift your right foot and hold your right ankle with your right hand. Extend your right leg behind you and reach your left arm forward, balancing on your left leg. Hold for several breaths and repeat on the other side.",
+      "pose_meta": [
+          "balancing",
+          "chestOpening",
+          "standing",
+          "backbends"
+      ],
+      "category": "Standing Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/47.jpg",
+      "video_url": "https://example.com/yoga_videos/47.mp4",
+      "duration": "30s",
+      "difficulty_level": "Advanced"
+  },
+  {
+      "english_name": "Lotus Pose",
+      "sanskrit_name": "Padmasana",
+      "difficulty": 2,
+      "id": 48,
+      "description": "Sit with your legs crossed and your hands resting on your knees. Keep your spine straight and your shoulders relaxed. Hold for several breaths.",
+      "pose_meta": [
+          "seated"
+      ],
+      "category": "Seated Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/48.jpg",
+      "video_url": "https://example.com/yoga_videos/48.mp4",
+      "duration": "30s",
+      "difficulty_level": "Intermediate"
+  },
+  {
+      "english_name": "Low Lunge",
+      "sanskrit_name": "Anjaneyasana",
+      "difficulty": 2,
+      "id": 49,
+      "description": "Start in a standing position with your feet together. Step your right foot back and bend your left knee, lowering into a lunge position. Lower your right knee to the floor and extend your arms overhead. Hold for several breaths and repeat on the other side.",
+      "pose_meta": [
+          "standing"
+      ],
+      "category": "Standing Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/49.jpg",
+      "video_url": "https://example.com/yoga_videos/49.mp4",
+      "duration": "30s",
+      "difficulty_level": "Intermediate"
+  },
+  {
+      "english_name": "Marichi\u2019s Pose",
+      "sanskrit_name": "Marichyasana III",
+      "difficulty": 2,
+      "id": 50,
+      "description": "Sit with your legs extended. Bend your right knee and place your right foot on the floor outside your left thigh. Bring your left foot to the outside of your right hip. Inhale and lengthen your spine, then exhale and twist to the right, placing your left hand on your right knee and your right hand behind you. Hold for several breaths and repeat on the other side.",
+      "pose_meta": [
+          "hipOpening",
+          "seated",
+          "twist"
+      ],
+      "category": "Seated Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/50.jpg",
+      "video_url": "https://example.com/yoga_videos/50.mp4",
+      "duration": "30s",
+      "difficulty_level": "Intermediate"
+  },
+  {
+      "english_name": "Monkey Pose",
+      "sanskrit_name": "Hanumanasana",
+      "difficulty": 3,
+      "id": 51,
+      "description": "Start in a kneeling position with your knees together. Step your right foot forward and lower your left hip towards the floor, extending your left leg behind you. Place your hands on the floor for support and hold for several breaths. Repeat on the other side.",
+      "pose_meta": [
+          "seated"
+      ],
+      "category": "Seated Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/51.jpg",
+      "video_url": "https://example.com/yoga_videos/51.mp4",
+      "duration": "30s",
+      "difficulty_level": "Advanced"
+  },
+  {
+      "english_name": "Mountain Pose",
+      "sanskrit_name": "Tadasana",
+      "difficulty": 1,
+      "id": 52,
+      "description": "Stand with your feet together and your arms at your sides. Keep your spine straight and your shoulders relaxed. Hold for several breaths.",
+      "pose_meta": [
+          "standing"
+      ],
+      "category": "Standing Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/52.jpg",
+      "video_url": "https://example.com/yoga_videos/52.mp4",
+      "duration": "30s",
+      "difficulty_level": "Beginner"
+  },
+  {
+      "english_name": "Noose Pose",
+      "sanskrit_name": "Pasasana",
+      "difficulty": 3,
+      "id": 53,
+      "description": "Stand with your feet together. Bend your knees and lower your hips into a squat position. Wrap your arms around your legs and twist your torso to the right, bringing your left elbow to the outside of your right knee. Hold for several breaths and repeat on the other side.",
+      "pose_meta": [
+          "binding",
+          "hipOpening",
+          "strengthening",
+          "twist"
+      ],
+      "category": "Hip Opening Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/53.jpg",
+      "video_url": "https://example.com/yoga_videos/53.mp4",
+      "duration": "30s",
+      "difficulty_level": "Advanced"
+  },
+  {
+      "english_name": "One-Legged King Pigeon Pose",
+      "sanskrit_name": "Eka Pada Rajakapotasana",
+      "difficulty": 3,
+      "id": 54,
+      "description": "Start in a kneeling position with your knees together. Step your right foot forward and lower your left hip towards the floor, extending your left leg behind you. Bend your left knee and reach back to hold your left ankle with your left hand. Hold for several breaths and repeat on the other side.",
+      "pose_meta": [
+          "hipOpening",
+          "backbends"
+      ],
+      "category": "Backbends",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/54.jpg",
+      "video_url": "https://example.com/yoga_videos/54.mp4",
+      "duration": "30s",
+      "difficulty_level": "Advanced"
+  },
+  {
+      "english_name": "One-Legged King Pigeon Pose II",
+      "sanskrit_name": "Eka Pada Rajakapotasana II",
+      "difficulty": 3,
+      "id": 55,
+      "description": "Start in a kneeling position with your knees together. Step your right foot forward and lower your left hip towards the floor, extending your left leg behind you. Bend your left knee and reach back to hold your left ankle with your left hand. Hold for several breaths and repeat on the other side.",
+      "pose_meta": [
+          "backbends"
+      ],
+      "category": "Backbends",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/55.jpg",
+      "video_url": "https://example.com/yoga_videos/55.mp4",
+      "duration": "30s",
+      "difficulty_level": "Advanced"
+  },
+  {
+      "english_name": "Peacock Pose",
+      "sanskrit_name": "Mayurasana",
+      "difficulty": 1,
+      "id": 56,
+      "description": "Start in a seated position with your legs extended. Bend your knees and place your hands on the floor behind you, fingers pointing towards your body. Lift your hips towards the ceiling and hold for several breaths.",
+      "pose_meta": [
+          "armBalance"
+      ],
+      "category": "Arm Balance Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/56.jpg",
+      "video_url": "https://example.com/yoga_videos/56.mp4",
+      "duration": "30s",
+      "difficulty_level": "Beginner"
+  },
+  {
+      "english_name": "Pigeon Pose",
+      "sanskrit_name": "Kapotasana",
+      "difficulty": 3,
+      "id": 57,
+      "description": "Begin in a tabletop position. Slide your right knee forward towards your right wrist. Extend your left leg behind you, keeping the top of your foot on the floor. Ensure your hips are square and lean forward to rest on your forearms or forehead. Hold for several breaths and switch sides.",
+      "pose_meta": [
+          "backbends"
+      ],
+      "category": "Backbends",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/57.jpg",
+      "video_url": "https://example.com/yoga_videos/57.mp4",
+      "duration": "30s",
+      "difficulty_level": "Advanced"
+  },
+  {
+      "english_name": "Plank Pose",
+      "sanskrit_name": "Phalakasana",
+      "difficulty": 1,
+      "id": 58,
+      "description": "Start in a tabletop position with your hands directly under your shoulders and your knees under your hips. Step your feet back, one at a time, until your body forms a straight line from your head to your heels. Engage your core and hold for several breaths.",
+      "pose_meta": [
+          "armBalance",
+          "core",
+          "strengthening"
+      ],
+      "category": "Core Strengthening",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/58.jpg",
+      "video_url": "https://example.com/yoga_videos/58.mp4",
+      "duration": "30s",
+      "difficulty_level": "Beginner"
+  },
+  {
+      "english_name": "Plow Pose",
+      "sanskrit_name": "Halasana",
+      "difficulty": 3,
+      "id": 59,
+      "description": "Lie on your back with your arms by your sides. Lift your legs over your head and bring your toes to the floor behind you. Keep your legs straight and your hands on your lower back for support. Hold for several breaths.",
+      "pose_meta": [
+          "inversion"
+      ],
+      "category": "Inversions",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/59.jpg",
+      "video_url": "https://example.com/yoga_videos/59.mp4",
+      "duration": "30s",
+      "difficulty_level": "Advanced"
+  },
+  {
+      "english_name": "Pose Dedicated to the Sage Koundinya I",
+      "sanskrit_name": "Eka Pada Koundinyanasana I",
+      "difficulty": 3,
+      "id": 60,
+      "description": "Begin in a low lunge with your right foot forward. Twist your torso to the right and place your left hand on the floor. Lift your right leg and extend it to the side, balancing on your hands. Hold for several breaths and switch sides.",
+      "pose_meta": [
+          "armBalance",
+          "twist"
+      ],
+      "category": "Arm Balance Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/60.jpg",
+      "video_url": "https://example.com/yoga_videos/60.mp4",
+      "duration": "30s",
+      "difficulty_level": "Advanced"
+  },
+  {
+      "english_name": "Pose Dedicated to the Sage Koundinya II",
+      "sanskrit_name": "Eka Pada Koundinyanasana II",
+      "difficulty": 3,
+      "id": 61,
+      "description": "Begin in a low lunge with your right foot forward. Place your hands on the floor and lift your right leg, extending it to the side. Balance on your hands and hold for several breaths. Switch sides.",
+      "pose_meta": [
+          "armBalance"
+      ],
+      "category": "Arm Balance Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/61.jpg",
+      "video_url": "https://example.com/yoga_videos/61.mp4",
+      "duration": "30s",
+      "difficulty_level": "Advanced"
+  },
+  {
+      "english_name": "Pose Dedicated to the Sage Marichi I",
+      "sanskrit_name": "Marichyasana I",
+      "difficulty": 2,
+      "id": 62,
+      "description": "Sit with your legs extended in front of you. Bend your right knee and place your foot close to your left thigh. Twist your torso to the right and wrap your left arm around your right knee, bringing your right hand to the floor behind you. Hold for several breaths and switch sides.",
+      "pose_meta": [
+          "binding",
+          "forwardBend",
+          "hipOpening",
+          "seated"
+      ],
+      "category": "Seated Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/62.jpg",
+      "video_url": "https://example.com/yoga_videos/62.mp4",
+      "duration": "30s",
+      "difficulty_level": "Intermediate"
+  },
+  {
+      "english_name": "Reclining Bound Angle Pose",
+      "sanskrit_name": "Supta Baddha Konasana",
+      "difficulty": 1,
+      "id": 63,
+      "description": "Lie on your back with your knees bent and the soles of your feet together. Let your knees fall open to the sides. Place your arms by your sides or on your abdomen. Hold for several breaths.",
+      "pose_meta": [
+          "hipOpening",
+          "restorative"
+      ],
+      "category": "Hip Opening Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/63.jpg",
+      "video_url": "https://example.com/yoga_videos/63.mp4",
+      "duration": "30s",
+      "difficulty_level": "Beginner"
+  },
+  {
+      "english_name": "Reclining Hand-to-Big-Toe Pose",
+      "sanskrit_name": "Supta Padangusthasana",
+      "difficulty": 2,
+      "id": 64,
+      "description": "Lie on your back with your legs extended. Lift your right leg and hold your big toe with your right hand. Keep your left leg grounded. Hold for several breaths and switch sides.",
+      "pose_meta": [
+          "restorative"
+      ],
+      "category": "Restorative Yoga",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/64.jpg",
+      "video_url": "https://example.com/yoga_videos/64.mp4",
+      "duration": "30s",
+      "difficulty_level": "Intermediate"
+  },
+  {
+      "english_name": "Reclining Hero Pose",
+      "sanskrit_name": "Supta Virasana",
+      "difficulty": 2,
+      "id": 65,
+      "description": "Sit on your heels with your knees together. Lean back and place your hands on the floor behind you. Lower your back to the floor, keeping your knees close together. Hold for several breaths.",
+      "pose_meta": [
+          "restorative"
+      ],
+      "category": "Restorative Yoga",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/65.jpg",
+      "video_url": "https://example.com/yoga_videos/65.mp4",
+      "duration": "30s",
+      "difficulty_level": "Intermediate"
+  },
+  {
+      "english_name": "Revolved Head-to-Knee Pose",
+      "sanskrit_name": "Parivrtta Janu Sirsasana",
+      "difficulty": 1,
+      "id": 66,
+      "description": "Sit with your legs extended in front of you. Bend your right knee and place your foot against your left inner thigh. Extend your left arm towards your left foot and twist your torso to the right. Hold for several breaths and switch sides.",
+      "pose_meta": [
+          "seated",
+          "twist"
+      ],
+      "category": "Seated Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/66.jpg",
+      "video_url": "https://example.com/yoga_videos/66.mp4",
+      "duration": "30s",
+      "difficulty_level": "Beginner"
+  },
+  {
+      "english_name": "Revolved Side Angle Pose",
+      "sanskrit_name": "Parivrtta Parsvakonasana",
+      "difficulty": 2,
+      "id": 67,
+      "description": "Stand with your feet wide apart. Turn your right foot out and bend your right knee. Reach your left arm towards the floor and your right arm towards the ceiling, twisting your torso to the right. Hold for several breaths and switch sides.",
+      "pose_meta": [
+          "standing",
+          "strengthening",
+          "twist"
+      ],
+      "category": "Standing Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/67.jpg",
+      "video_url": "https://example.com/yoga_videos/67.mp4",
+      "duration": "30s",
+      "difficulty_level": "Intermediate"
+  },
+  {
+      "english_name": "Revolved Triangle Pose",
+      "sanskrit_name": "Parivrtta Trikonasana",
+      "difficulty": 2,
+      "id": 68,
+      "description": "Stand with your feet wide apart. Turn your right foot out and extend your arms parallel to the floor. Reach your left hand towards the floor and your right arm towards the ceiling, twisting your torso to the right. Hold for several breaths and switch sides.",
+      "pose_meta": [
+          "standing",
+          "strengthening",
+          "twist"
+      ],
+      "category": "Standing Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/68.jpg",
+      "video_url": "https://example.com/yoga_videos/68.mp4",
+      "duration": "30s",
+      "difficulty_level": "Intermediate"
+  },
+  {
+      "english_name": "Scale Pose",
+      "sanskrit_name": "Tolasana",
+      "difficulty": 2,
+      "id": 69,
+      "description": "Sit in a cross-legged position. Place your hands on the floor beside your hips. Lift your body off the floor using the strength of your arms and core. Hold for several breaths.",
+      "pose_meta": [
+          "armBalance",
+          "core"
+      ],
+      "category": "Core Strengthening",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/69.jpg",
+      "video_url": "https://example.com/yoga_videos/69.mp4",
+      "duration": "30s",
+      "difficulty_level": "Intermediate"
+  },
+  {
+      "english_name": "Seated Forward Bend",
+      "sanskrit_name": "Paschimottanasana",
+      "difficulty": 1,
+      "id": 70,
+      "description": "Sit with your legs extended in front of you. Reach forward with your hands towards your feet, keeping your spine long. Hold your feet or shins and fold forward, keeping your back straight. Hold for several breaths.",
+      "pose_meta": [
+          "forwardBend",
+          "seated"
+      ],
+      "category": "Seated Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/70.jpg",
+      "video_url": "https://example.com/yoga_videos/70.mp4",
+      "duration": "30s",
+      "difficulty_level": "Beginner"
+  },
+  {
+      "english_name": "Side Crane (Crow) Pose",
+      "sanskrit_name": "Parsva Bakasana",
+      "difficulty": 3,
+      "id": 72,
+      "description": "Start in a squat position with your hands on the floor. Twist your torso to the right and place your left elbow on the outside of your right knee. Lift your feet off the floor and balance on your hands. Hold for several breaths and switch sides.",
+      "pose_meta": [
+          "armBalance"
+      ],
+      "category": "Arm Balance Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/72.jpg",
+      "video_url": "https://example.com/yoga_videos/72.mp4",
+      "duration": "30s",
+      "difficulty_level": "Advanced"
+  },
+  {
+      "english_name": "Side Plank Pose",
+      "sanskrit_name": "Vasisthasana",
+      "difficulty": 3,
+      "id": 73,
+      "description": "Start in a plank position. Shift your weight to your right hand and roll onto the outside edge of your right foot. Stack your left foot on top of your right foot and lift your left arm towards the ceiling. Hold for several breaths and switch sides.",
+      "pose_meta": [
+          "armBalance",
+          "balancing",
+          "core"
+      ],
+      "category": "Core Strengthening",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/73.jpg",
+      "video_url": "https://example.com/yoga_videos/73.mp4",
+      "duration": "30s",
+      "difficulty_level": "Advanced"
+  },
+  {
+      "english_name": "Side-Reclining Leg Lift",
+      "sanskrit_name": "Anantasana",
+      "difficulty": 1,
+      "id": 74,
+      "description": "Lie on your right side with your legs extended. Place your right hand under your head for support. Lift your left leg towards the ceiling and hold your big toe with your left hand. Hold for several breaths and switch sides.",
+      "pose_meta": [
+          "balancing",
+          "core"
+      ],
+      "category": "Core Strengthening",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/74.jpg",
+      "video_url": "https://example.com/yoga_videos/74.mp4",
+      "duration": "30s",
+      "difficulty_level": "Beginner"
+  },
+  {
+      "english_name": "Sphinx Pose",
+      "sanskrit_name": "Salamba Bhujangasana",
+      "difficulty": 1,
+      "id": 75,
+      "description": "Lie on your stomach with your elbows under your shoulders and your forearms on the floor. Press into your forearms and lift your chest off the floor, keeping your hips grounded. Hold for several breaths.",
+      "pose_meta": [
+          "chestOpening",
+          "backbends"
+      ],
+      "category": "Backbends",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/75.jpg",
+      "video_url": "https://example.com/yoga_videos/75.mp4",
+      "duration": "30s",
+      "difficulty_level": "Beginner"
+  },
+  {
+      "english_name": "Staff Pose",
+      "sanskrit_name": "Dandasana",
+      "difficulty": 1,
+      "id": 76,
+      "description": "Sit with your legs extended in front of you and your hands by your sides. Press your hands into the floor and lengthen your spine. Flex your feet and engage your thighs. Hold for several breaths.",
+      "pose_meta": [
+          "seated"
+      ],
+      "category": "Seated Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/76.jpg",
+      "video_url": "https://example.com/yoga_videos/76.mp4",
+      "duration": "30s",
+      "difficulty_level": "Beginner"
+  },
+  {
+      "english_name": "Standing Forward Bend",
+      "sanskrit_name": "Uttanasana",
+      "difficulty": 2,
+      "id": 77,
+      "description": "Stand with your feet hip-width apart. Hinge at your hips and fold forward, reaching your hands towards the floor or your shins. Keep your knees slightly bent and your spine long. Hold for several breaths.",
+      "pose_meta": [
+          "forwardBend"
+      ],
+      "category": "Forward Bends",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/77.jpg",
+      "video_url": "https://example.com/yoga_videos/77.mp4",
+      "duration": "30s",
+      "difficulty_level": "Intermediate"
+  },
+  {
+      "english_name": "Standing Half Forward Bend",
+      "sanskrit_name": "Ardha Uttanasana",
+      "difficulty": 1,
+      "id": 78,
+      "description": "Stand with your feet hip-width apart. Hinge at your hips and fold forward, reaching your hands towards the floor. Lift your torso halfway up, keeping your back flat and your hands on your shins or the floor. Hold for several breaths.",
+      "pose_meta": [
+          "forwardBend",
+          "standing"
+      ],
+      "category": "Standing Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/78.jpg",
+      "video_url": "https://example.com/yoga_videos/78.mp4",
+      "duration": "30s",
+      "difficulty_level": "Beginner"
+  },
+  {
+      "english_name": "Standing Split",
+      "sanskrit_name": "Urdhva Prasarita Eka Padasana",
+      "difficulty": 2,
+      "id": 79,
+      "description": "Stand with your feet together. Hinge at your hips and fold forward, reaching your hands towards the floor. Lift your right leg towards the ceiling, keeping your hips square. Hold for several breaths and switch sides.",
+      "pose_meta": [
+          "forwardBend",
+          "standing"
+      ],
+      "category": "Standing Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/79.jpg",
+      "video_url": "https://example.com/yoga_videos/79.mp4",
+      "duration": "30s",
+      "difficulty_level": "Intermediate"
+  },
+  {
+      "english_name": "Supported Headstand",
+      "sanskrit_name": "Salamba Sirsasana",
+      "difficulty": 3,
+      "id": 80,
+      "description": "Begin in a tabletop position with your forearms on the floor and your fingers interlaced. Place the crown of your head on the floor and lift your hips. Walk your feet towards your head and lift your legs towards the ceiling, coming into a headstand. Hold for several breaths.",
+      "pose_meta": [
+          "balancing",
+          "inversion"
+      ],
+      "category": "Inversions",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/80.jpg",
+      "video_url": "https://example.com/yoga_videos/80.mp4",
+      "duration": "30s",
+      "difficulty_level": "Advanced"
+  },
+  {
+      "english_name": "Supported Shoulderstand",
+      "sanskrit_name": "Salamba Sarvangasana",
+      "difficulty": 3,
+      "id": 81,
+      "description": "Lie on your back with your legs extended. Lift your legs over your head and place your hands on your lower back for support. Straighten your legs towards the ceiling, coming into a shoulderstand. Hold for several breaths.",
+      "pose_meta": [
+          "balancing",
+          "inversion"
+      ],
+      "category": "Inversions",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/81.jpg",
+      "video_url": "https://example.com/yoga_videos/81.mp4",
+      "duration": "30s",
+      "difficulty_level": "Advanced"
+  },
+  {
+      "english_name": "Tree Pose",
+      "sanskrit_name": "Vriksasana",
+      "difficulty": 2,
+      "id": 82,
+      "description": "Stand with your feet together. Shift your weight to your left foot and place the sole of your right foot on your left inner thigh or calf. Bring your hands to your heart or overhead. Hold for several breaths and switch sides.",
+      "pose_meta": [
+          "balancing",
+          "standing"
+      ],
+      "category": "Standing Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/82.jpg",
+      "video_url": "https://example.com/yoga_videos/82.mp4",
+      "duration": "30s",
+      "difficulty_level": "Intermediate"
+  },
+  {
+      "english_name": "Upward Bow (Wheel) Pose",
+      "sanskrit_name": "Urdhva Dhanurasana",
+      "difficulty": 3,
+      "id": 83,
+      "description": "Lie on your back with your knees bent and your feet on the floor. Place your hands beside your ears with your fingers pointing towards your shoulders. Press into your hands and feet to lift your hips and chest off the floor, coming into a backbend. Hold for several breaths.",
+      "pose_meta": [
+          "chestOpening",
+          "strengthening",
+          "backbends"
+      ],
+      "category": "Backbends",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/83.jpg",
+      "video_url": "https://example.com/yoga_videos/83.mp4",
+      "duration": "30s",
+      "difficulty_level": "Advanced"
+  },
+  {
+      "english_name": "Upward Facing Two-Foot Staff Pose",
+      "sanskrit_name": "Dwi Pada Viparita Dandasana",
+      "difficulty": 3,
+      "id": 84,
+      "description": "Begin in a bridge pose with your feet on the floor and your hands by your sides. Walk your hands towards your feet and lift your hips towards the ceiling. Straighten your legs and lift your chest, coming into an upward-facing staff pose. Hold for several breaths.",
+      "pose_meta": [
+          "chestOpening",
+          "backbends"
+      ],
+      "category": "Backbends",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/84.jpg",
+      "video_url": "https://example.com/yoga_videos/84.mp4",
+      "duration": "30s",
+      "difficulty_level": "Advanced"
+  },
+  {
+      "english_name": "Upward Plank Pose",
+      "sanskrit_name": "Purvottanasana",
+      "difficulty": 2,
+      "id": 85,
+      "description": "Sit with your legs extended in front of you and your hands behind your hips. Press into your hands and lift your hips towards the ceiling, coming into a reverse plank. Hold for several breaths.",
+      "pose_meta": [
+          "strengthening"
+      ],
+      "category": "Strengthening Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/85.jpg",
+      "video_url": "https://example.com/yoga_videos/85.mp4",
+      "duration": "30s",
+      "difficulty_level": "Intermediate"
+  },
+  {
+      "english_name": "Upward Salute",
+      "sanskrit_name": "Urdhva Hastasana",
+      "difficulty": 1,
+      "id": 86,
+      "description": "Stand with your feet together. Reach your arms overhead and bring your palms together. Lengthen through your spine and gaze towards your hands. Hold for several breaths.",
+      "pose_meta": [
+          "standing"
+      ],
+      "category": "Standing Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/86.jpg",
+      "video_url": "https://example.com/yoga_videos/86.mp4",
+      "duration": "30s",
+      "difficulty_level": "Beginner"
+  },
+  {
+      "english_name": "Upward-Facing Dog Pose",
+      "sanskrit_name": "Urdhva Mukha Svanasana",
+      "difficulty": 2,
+      "id": 87,
+      "description": "Lie on your stomach with your hands under your shoulders and your elbows close to your sides. Press into your hands and lift your chest and thighs off the floor, keeping your arms straight. Hold for several breaths.",
+      "pose_meta": [
+          "chestOpening",
+          "backbends"
+      ],
+      "category": "Backbends",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/87.jpg",
+      "video_url": "https://example.com/yoga_videos/87.mp4",
+      "duration": "30s",
+      "difficulty_level": "Intermediate"
+  },
+  {
+      "english_name": "Warrior I Pose",
+      "sanskrit_name": "Virabhadrasana I",
+      "difficulty": 2,
+      "id": 88,
+      "description": "Stand with your feet wide apart. Turn your right foot out and bend your right knee. Reach your arms overhead and gaze towards your hands. Hold for several breaths and switch sides.",
+      "pose_meta": [
+          "standing",
+          "strengthening"
+      ],
+      "category": "Standing Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/88.jpg",
+      "video_url": "https://example.com/yoga_videos/88.mp4",
+      "duration": "30s",
+      "difficulty_level": "Intermediate"
+  },
+  {
+      "english_name": "Warrior II Pose",
+      "sanskrit_name": "Virabhadrasana II",
+      "difficulty": 2,
+      "id": 89,
+      "description": "Stand with your feet wide apart. Turn your right foot out and bend your right knee. Extend your arms parallel to the floor and gaze over your right hand. Hold for several breaths and switch sides.",
+      "pose_meta": [
+          "standing",
+          "strengthening"
+      ],
+      "category": "Standing Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/89.jpg",
+      "video_url": "https://example.com/yoga_videos/89.mp4",
+      "duration": "30s",
+      "difficulty_level": "Intermediate"
+  },
+  {
+      "english_name": "Warrior III Pose",
+      "sanskrit_name": "Virabhadrasana III",
+      "difficulty": 3,
+      "id": 90,
+      "description": "Stand with your feet together. Lift your right leg behind you and hinge at your hips, extending your torso forward. Reach your arms forward and balance on your left leg. Hold for several breaths and switch sides.",
+      "pose_meta": [
+          "balancing",
+          "standing",
+          "strengthening"
+      ],
+      "category": "Standing Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/90.jpg",
+      "video_url": "https://example.com/yoga_videos/90.mp4",
+      "duration": "30s",
+      "difficulty_level": "Advanced"
+  },
+  {
+      "english_name": "Wide-Angle Seated Forward Bend",
+      "sanskrit_name": "Upavistha Konasana",
+      "difficulty": 3,
+      "id": 91,
+      "description": "Sit with your legs extended wide apart. Hinge at your hips and fold forward, reaching your hands towards your feet or the floor. Keep your back straight and hold for several breaths.",
+      "pose_meta": [
+          "forwardBend",
+          "hipOpening",
+          "seated"
+      ],
+      "category": "Seated Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/91.jpg",
+      "video_url": "https://example.com/yoga_videos/91.mp4",
+      "duration": "30s",
+      "difficulty_level": "Advanced"
+  },
+  {
+      "english_name": "Wide-Legged Forward Bend",
+      "sanskrit_name": "Prasarita Padottanasana",
+      "difficulty": 1,
+      "id": 92,
+      "description": "Stand with your feet wide apart. Hinge at your hips and fold forward, reaching your hands towards the floor. Keep your back straight and hold for several breaths.",
+      "pose_meta": [
+          "forwardBend",
+          "hipOpening",
+          "standing",
+          "strengthening"
+      ],
+      "category": "Standing Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/92.jpg",
+      "video_url": "https://example.com/yoga_videos/92.mp4",
+      "duration": "30s",
+      "difficulty_level": "Beginner"
+  },
+  {
+      "english_name": "Wild Thing",
+      "sanskrit_name": "Camatkarasana",
+      "difficulty": 2,
+      "id": 93,
+      "description": "Begin in a side plank position. Lift your top leg and place your foot behind you, turning your chest towards the ceiling. Reach your top arm overhead and hold for several breaths. Switch sides.",
+      "pose_meta": [
+          "armBalance",
+          "chestOpening"
+      ],
+      "category": "Arm Balance Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/93.jpg",
+      "video_url": "https://example.com/yoga_videos/93.mp4",
+      "duration": "30s",
+      "difficulty_level": "Intermediate"
+  },
+  {
+      "english_name": "Yogic Sleep",
+      "sanskrit_name": "Yoganidrasana",
+      "difficulty": 3,
+      "id": 94,
+      "description": "Lie on your back with your arms by your sides and your legs extended. Close your eyes and relax your entire body. Focus on your breath and hold for several minutes.",
+      "pose_meta": [
+          "forwardBend",
+          "seated"
+      ],
+      "category": "Seated Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/94.jpg",
+      "video_url": "https://example.com/yoga_videos/94.mp4",
+      "duration": "30s",
+      "difficulty_level": "Advanced"
+  },
+  {
+      "english_name": "Scorpion Pose",
+      "sanskrit_name": "Vrischikasana",
+      "difficulty": 3,
+      "id": 95,
+      "description": "Begin in a forearm stand with your forearms on the floor and your legs extended towards the ceiling. Bend your knees and lower your feet towards your head, arching your back. Hold for several breaths.",
+      "pose_meta": [
+          "backbends",
+          "inversion"
+      ],
+      "category": "Backbends",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/95.jpg",
+      "video_url": "https://example.com/yoga_videos/95.mp4",
+      "duration": "30s",
+      "difficulty_level": "Advanced"
+  },
+  {
+      "english_name": "Thunderbolt Pose",
+      "sanskrit_name": "Vajrasana",
+      "difficulty": 1,
+      "id": 96,
+      "description": "Sit on your heels with your knees together and your hands on your thighs. Lengthen through your spine and hold for several breaths.",
+      "pose_meta": [
+          "kneeling",
+          "seated"
+      ],
+      "category": "Seated Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/96.jpg",
+      "video_url": "https://example.com/yoga_videos/96.mp4",
+      "duration": "30s",
+      "difficulty_level": "Beginner"
+  },
+  {
+      "english_name": "Balance Pose",
+      "sanskrit_name": "Tulasana",
+      "difficulty": 2,
+      "id": 97,
+      "description": "Sit in a cross-legged position. Place your hands on the floor beside your hips. Lift your body off the floor using the strength of your arms and core. Hold for several breaths.",
+      "pose_meta": [
+          "armBalance"
+      ],
+      "category": "Arm Balance Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/97.jpg",
+      "video_url": "https://example.com/yoga_videos/97.mp4",
+      "duration": "30s",
+      "difficulty_level": "Intermediate"
+  },
+  {
+      "english_name": "Lion Pose",
+      "sanskrit_name": "Simhasana",
+      "difficulty": 1,
+      "id": 98,
+      "description": "Sit on your heels with your knees apart. Place your hands on your knees and lean forward slightly. Open your mouth wide and stick your tongue out, roaring like a lion. Hold for several breaths.",
+      "pose_meta": [
+          "seated"
+      ],
+      "category": "Seated Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/98.jpg",
+      "video_url": "https://example.com/yoga_videos/98.mp4",
+      "duration": "30s",
+      "difficulty_level": "Beginner"
+  },
+  {
+      "english_name": "Crocodile Pose",
+      "sanskrit_name": "Makarasana",
+      "difficulty": 1,
+      "id": 99,
+      "description": "Lie on your stomach with your arms folded under your head. Rest your forehead on your arms and relax your entire body. Hold for several breaths.",
+      "pose_meta": [
+          "restorative"
+      ],
+      "category": "Restorative Yoga",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/99.jpg",
+      "video_url": "https://example.com/yoga_videos/99.mp4",
+      "duration": "30s",
+      "difficulty_level": "Beginner"
+  },
+  {
+      "english_name": "Pendant Pose",
+      "sanskrit_name": "Lolasana",
+      "difficulty": 3,
+      "id": 100,
+      "description": "Sit in a cross-legged position. Place your hands on the floor beside your hips. Lift your body off the floor using the strength of your arms and core. Hold for several breaths.",
+      "pose_meta": [
+          "armBalance",
+          "core"
+      ],
+      "category": "Core Strengthening",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/100.jpg",
+      "video_url": "https://example.com/yoga_videos/100.mp4",
+      "duration": "30s",
+      "difficulty_level": "Advanced"
+  },
+  {
+      "english_name": "Tortoise Pose",
+      "sanskrit_name": "Kurmasana",
+      "difficulty": 3,
+      "id": 101,
+      "description": "Sit with your legs extended in front of you. Bend your knees and slide your arms under your legs. Reach your hands towards your feet and fold forward, bringing your forehead to the floor. Hold for several breaths.",
+      "pose_meta": [
+          "forwardBend",
+          "seated"
+      ],
+      "category": "Seated Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/101.jpg",
+      "video_url": "https://example.com/yoga_videos/101.mp4",
+      "duration": "30s",
+      "difficulty_level": "Advanced"
+  },
+  {
+      "english_name": "Embryo in Womb Pose",
+      "sanskrit_name": "Garbha Pindasana",
+      "difficulty": 3,
+      "id": 102,
+      "description": "Sit with your legs crossed and your hands on your knees. Fold forward and bring your forehead to the floor, wrapping your arms around your legs. Hold for several breaths.",
+      "pose_meta": [
+          "seated"
+      ],
+      "category": "Seated Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/102.jpg",
+      "video_url": "https://example.com/yoga_videos/102.mp4",
+      "duration": "30s",
+      "difficulty_level": "Advanced"
+  },
+  {
+      "english_name": "Durvasasana",
+      "sanskrit_name": "Durvasasana",
+      "difficulty": 3,
+      "id": 103,
+      "description": "Stand with your feet together. Lift your right leg and place your right foot behind your head. Balance on your left leg and hold for several breaths. Switch sides.",
+      "pose_meta": [
+          "standing",
+          "balancing"
+      ],
+      "category": "Standing Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/103.jpg",
+      "video_url": "https://example.com/yoga_videos/103.mp4",
+      "duration": "30s",
+      "difficulty_level": "Advanced"
+  },
+  {
+      "english_name": "Bhujapidasana",
+      "sanskrit_name": "Bhujapidasana",
+      "difficulty": 3,
+      "id": 71,
+      "description": "Start in a squat position. Place your hands on the floor in front of you and lift your hips. Slide your arms under your legs and press your hands into the floor. Lift your feet off the floor and balance on your hands. Hold for several breaths.",
+      "pose_meta": [
+          "armBalance",
+          "core"
+      ],
+      "category": "Core Strengthening",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/71.jpg",
+      "video_url": "https://example.com/yoga_videos/71.mp4",
+      "duration": "30s",
+      "difficulty_level": "Advanced"
+  },
+  {
+      "english_name": "Frog Pose",
+      "sanskrit_name": "Bhekasana",
+      "difficulty": 2,
+      "id": 104,
+      "description": "Begin in a tabletop position with your hands under your shoulders and your knees under your hips. Slide your knees out to the sides and lower your hips towards the floor. Keep your feet flexed and hold for several breaths.",
+      "pose_meta": [
+          "chestOpening",
+          "backbends"
+      ],
+      "category": "Backbends",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/104.jpg",
+      "video_url": "https://example.com/yoga_videos/104.mp4",
+      "duration": "30s",
+      "difficulty_level": "Intermediate"
+  },
+  {
+      "english_name": "Formidable Pose",
+      "sanskrit_name": "Bhairavasana",
+      "difficulty": 2,
+      "id": 105,
+      "description": "Sit with your legs extended in front of you. Bend your right knee and place your right foot on the floor. Twist your torso to the right and place your left hand on the floor behind you. Hold for several breaths and switch sides.",
+      "pose_meta": [
+          "hipOpening"
+      ],
+      "category": "Hip Opening Poses",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/105.jpg",
+      "video_url": "https://example.com/yoga_videos/105.mp4",
+      "duration": "30s",
+      "difficulty_level": "Intermediate"
+  },
+  {
+      "english_name": "Formidable Face/Chin Stand Pose",
+      "sanskrit_name": "Ganda Bherundasana",
+      "difficulty": 3,
+      "id": 106,
+      "description": "Begin in a forearm stand with your forearms on the floor and your legs extended towards the ceiling. Lower your chin towards the floor and balance on your forearms and chin. Hold for several breaths.",
+      "pose_meta": [
+          "inversion",
+          "backbends",
+          "strengthening"
+      ],
+      "category": "Backbends",
+      "benefits": [
+          "Improves flexibility",
+          "Enhances relaxation"
+      ],
+      "image_url": "https://example.com/yoga_poses/106.jpg",
+      "video_url": "https://example.com/yoga_videos/106.mp4",
+      "duration": "30s",
+      "difficulty_level": "Advanced"
+  }
+]
