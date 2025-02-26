@@ -19,7 +19,11 @@ const resolvers = {
   Query: {
     poses: (
       _: unknown,
-      { limit, offset, search }: { limit?: number; offset?: number; search?: string }
+      {
+        limit,
+        offset,
+        search,
+      }: { limit?: number; offset?: number; search?: string },
     ): Pose[] => {
       let filteredPoses = poses;
 
@@ -28,11 +32,14 @@ const resolvers = {
           (pose) =>
             pose.english_name.toLowerCase().includes(search.toLowerCase()) ||
             pose.sanskrit_name.toLowerCase().includes(search.toLowerCase()) ||
-            pose.category.toLowerCase().includes(search.toLowerCase())
+            pose.category.toLowerCase().includes(search.toLowerCase()),
         );
       }
 
-      return filteredPoses.slice(offset || 0, (offset || 0) + (limit || filteredPoses.length));
+      return filteredPoses.slice(
+        offset || 0,
+        (offset || 0) + (limit || filteredPoses.length),
+      );
     },
     pose: (_: unknown, { id }: { id: number }): Pose | undefined =>
       poses.find((p) => p.id === id),

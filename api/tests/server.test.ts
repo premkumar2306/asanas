@@ -1,10 +1,10 @@
-import { ApolloServer } from '@apollo/server';
-import { startStandaloneServer } from '@apollo/server/standalone';
-import { gql } from 'graphql-tag';
-import typeDefs from '../graphql/typeDefs';
-import resolvers from '../graphql/resolvers';
+import { ApolloServer } from "@apollo/server";
+import { startStandaloneServer } from "@apollo/server/standalone";
+import { gql } from "graphql-tag";
+import typeDefs from "../graphql/typeDefs";
+import resolvers from "../graphql/resolvers";
 
-describe('Apollo Server', () => {
+describe("Apollo Server", () => {
   let server: ApolloServer;
 
   beforeAll(async () => {
@@ -19,7 +19,7 @@ describe('Apollo Server', () => {
     await server.stop();
   });
 
-  it('should return hello world', async () => {
+  it("should return hello world", async () => {
     const result = await server.executeOperation({
       query: gql`
         query {
@@ -29,6 +29,6 @@ describe('Apollo Server', () => {
     });
 
     expect(result.errors).toBeUndefined();
-    expect(result.data?.hello).toBe('Hello world!');
+    expect(result.data?.hello).toBe("Hello world!");
   });
 });

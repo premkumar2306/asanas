@@ -1,4 +1,4 @@
-var fs = require('fs');
+var fs = require("fs");
 const sample = require("./list.json");
 
 const map = new Map();
@@ -13,10 +13,9 @@ for (let pose of sample) {
   }
 }
 
-
 console.log(map);
 const getAsanasByCategory = function (category) {
-    const asanas = sample.filter((asana) => asana.pose_meta.includes(category));
-    return asanas;
-}
+  const asanas = sample.filter((asana) => asana.pose_meta.includes(category));
+  return asanas;
+};
 console.log(getAsanasByCategory("Twist"));
