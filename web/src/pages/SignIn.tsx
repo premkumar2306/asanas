@@ -1,31 +1,7 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import { useTranslation } from "react-i18next";
-import { auth } from "../../firebase";
-import { useAuthState } from 'react-firebase-hooks/auth';
-import { signOut, GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-function Navbar() {
-  const { t } = useTranslation();
-  const [user] = useAuthState(auth);
-
-  const handleSignOut = async () => {
-    try {
-      await signOut(auth);
-    } catch (error) {
-      console.error("Error signing out:", error);
-    }
-  };
-
-  const signInWithGoogle = async () => {
-    const provider = new GoogleAuthProvider();
-    try {
-      await signInWithPopup(auth, provider);
-    } catch (error) {
-      console.error("Error signing in:", error);
-    }
-  };
-
+function Navbar({ user, handleSignOut, signInWithGoogle }) {
   return (
     <nav className="bg-gray-800 text-white p-4 flex justify-between items-center">
       <div>

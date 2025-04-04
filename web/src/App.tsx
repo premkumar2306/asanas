@@ -4,7 +4,8 @@ import InstructorSignup from "./pages/InstructorSignup";
 import StudentDashboard from "./pages/StudentDashboard";
 import FlowBuilder from "./pages/FlowBuilder";
 import SessionSummary from "./pages/SessionSummary";
-import Poses from  './pages/Poses';
+import Poses from './pages/Poses';
+import SignIn from './pages/SignIn';
 import Navbar from "./components/Shared/Navbar";
 import Footer from "./components/Shared/Footer";
 
@@ -14,6 +15,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Poses />} />
+        <Route path="/signin" element={<SignIn />} />
         <Route path="/dashboard" element={<StudentDashboard />} />
         <Route path="/instructor/signup" element={<InstructorSignup />} />
         <Route path="/flow-builder" element={<FlowBuilder />} />
