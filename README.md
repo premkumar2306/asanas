@@ -55,3 +55,114 @@ Virabhadrasana (A & B) : Warrior pose
 - Padmasana :  Lotus pose
 - Uth Pluthi (Tolasana) :  Sprung up
 - Shavasana :  Corpse pose
+
+
+
+
+**Instructor Dashboard UI/UX Design**
+
+### **1. Dashboard Overview**
+
+- **Welcome Section:**
+
+  - Greeting message: "Hello, [Instructor Name]! Ready to teach today?"
+  - Quick summary of today’s schedule & student stats.
+
+- **Key Metrics Display:**
+
+  - Total Students: [XX]
+  - Active Memberships: [XX]
+  - Total Earnings: [\$XX]
+  - Upcoming Classes: [XX]
+
+- **Quick Actions Panel:**
+
+  - [ + ] Create New Class
+  - [ 📩 ] Invite Students
+  - [ 📊 ] View Reports
+  - [ ⚙ ] Edit Profile & Settings
+
+---
+
+### **2. Class Management Panel**
+
+- **Class List View:**
+  - Table or Card view displaying:
+    - Class Name
+    - Date & Time
+    - Enrollment Status (Open/Closed)
+    - Student Count
+    - Edit/Delete Options
+- **Add New Class Form:**
+  - Class Name
+  - Description (Optional)
+  - Class Type (Online/In-Person)
+  - Duration & Time
+  - Recurring Option (Daily/Weekly/Custom)
+  - Pricing (Free/Paid)
+  - Publish Button
+
+---
+
+### **3. Student Management**
+
+- **Student List:**
+  - Student Name, Email, Membership Status (Active/Inactive)
+  - Enrollment Date
+  - Payment Status
+- **Student Profiles:**
+  - Attendance Tracking
+  - Payment History
+  - Notes & Preferences
+
+---
+
+### **4. Payment & Memberships**
+
+- **Earnings Dashboard:**
+  - Total Revenue This Month: [\$XX]
+  - Pending Payouts: [\$XX]
+  - Latest Transactions Table (Student Name, Amount, Date, Status)
+- **Subscription Management:**
+  - View & Modify Student Subscriptions
+  - Pause/Cancel Memberships
+  - Set Custom Pricing Plans
+
+---
+
+### **5. Notifications & Engagement Tools**
+
+- **Notification Panel:**
+  - New Student Signups
+  - Class Reminders
+  - Payment Received Alerts
+- **Community Feature (Future Add-on):**
+  - Chatroom for student interactions
+  - Private messaging between students & instructors
+
+---
+
+### **6. Settings & Customization**
+
+- Profile & Branding:
+
+  - Instructor Bio & Profile Picture
+  - Custom Logo & Theme Color
+
+- Payment Settings:
+
+  - Link Stripe or PayPal for payouts
+
+- Booking Preferences:
+
+  - Set Cancellation & Refund Policy
+  - Auto-approve class signups (Yes/No)
+
+---
+
+### **7. Mobile-Friendly Design Considerations**
+
+- Responsive UI (Desktop & Mobile)
+- Quick-Access Dashboard on Mobile
+- One-Click Class Creation & Booking
+
