@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import InstructorSignup from "./pages/InstructorSignup";
+import ClassBooking from "./pages/Instructor";
 import StudentDashboard from "./pages/StudentDashboard";
 import FlowBuilder from "./pages/FlowBuilder";
 import SessionSummary from "./pages/SessionSummary";
@@ -17,7 +17,7 @@ function App() {
         <Route path="/" element={<Poses />} />
         <Route path="/signin" element={<SignIn />} />
         <Route path="/dashboard" element={<StudentDashboard />} />
-        <Route path="/instructor/signup" element={<InstructorSignup />} />
+        <Route path="/instructor" element={<ClassBooking />} />
         <Route path="/flow-builder" element={<FlowBuilder />} />
         <Route path="/session-summary" element={<SessionSummary />} />
       </Routes>
