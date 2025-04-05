@@ -4,12 +4,19 @@ import { useTranslation } from "react-i18next";
 import { auth } from "../../firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { signOut, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
+import { useIsMobile } from "../../hooks/useIsMobile";
 
 function Navbar() {
   const { t } = useTranslation();
   const [user] = useAuthState(auth);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [desktopDropdownOpen, setDesktopDropdownOpen] = useState<string | null>(null);
+  const isMobile = useIsMobile();
+  useEffect(() => {
+    setActiveDropdown(null);
+    setDesktopDropdownOpen(null);
+  }, [isMobile]);
 
   const handleSignOut = async () => {
     try {
@@ -35,9 +42,9 @@ function Navbar() {
         { label: "Upcoming", path: "/upcoming-classes" },
         { label: "Recent", path: "/class-recent" },
         { label: "Settings", path: "/class-settings" },
-        { label: "Zoom host key", path: "/zoom-host-key" },
-        { label: "Zoom recording", path: "/zoom-recording-settings" },
-        { label: "Teacher settings", path: "/teacher-settings" },
+        // { label: "Zoom host key", path: "/zoom-host-key" },
+        // { label: "Zoom recording", path: "/zoom-recording-settings" },
+        // { label: "Teacher settings", path: "/teacher-settings" },
         { label: "Session summary", path: "/session-summary" }
       ],
     },
@@ -86,25 +93,52 @@ function Navbar() {
           Dashboard
         </Link>
 
-        {navSections.map((section) => (
-          <div key={section.label} className="block md:inline-block">
-            <button
-              onClick={() => setActiveDropdown(activeDropdown === section.label ? null : section.label)}
-              className="block w-full text-left py-2 hover:text-gray-300"
+        {navSections.map((section) => {
+          const isDropdownOpen =
+            (isMobile && activeDropdown === section.label) ||
+            (!isMobile && desktopDropdownOpen === section.label);
+
+          return (
+            <div
+              key={section.label}
+              className="block md:relative md:inline-block"
+              onMouseEnter={() => !isMobile && setDesktopDropdownOpen(section.label)}
+              onMouseLeave={() => !isMobile && setDesktopDropdownOpen(null)}
             >
-              {section.label}
-            </button>
-            {activeDropdown === section.label && (
-              <div className="pl-4 md:absolute md:top-full md:left-0 mt-1 w-max bg-gray-700 rounded shadow-lg z-50 py-2 px-4 space-y-1">
-                {section.links.map((link) => (
-                  <Link key={link.label} to={link.path} onClick={() => setMobileMenuOpen(false)} className="block hover:text-gray-300">
-                    {link.label}
-                  </Link>
-                ))}
-              </div>
-            )}
-          </div>
-        ))}
+              <button
+                onClick={() => {
+                  if (isMobile) {
+                    setActiveDropdown((prev) =>
+                      prev === section.label ? null : section.label
+                    );
+                  }
+                }}
+                className="block w-full text-left py-2 hover:text-gray-300"
+              >
+                {section.label}
+              </button>
+
+              {isDropdownOpen && (
+                <div className="pl-4 md:absolute md:top-full md:left-0 mt-1 w-max bg-gray-700 rounded shadow-lg z-50 py-2 px-4 space-y-1">
+                  {section.links.map((link) => (
+                    <Link
+                      key={link.label}
+                      to={link.path}
+                      onClick={() => {
+                        setMobileMenuOpen(false);
+                        setActiveDropdown(null);
+                        setDesktopDropdownOpen(null);
+                      }}
+                      className="block hover:text-gray-300"
+                    >
+                      {link.label}
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
+          );
+        })}
 
         <Link to="/help" onClick={() => setMobileMenuOpen(false)} className="block py-2 hover:text-gray-300">
           Help
