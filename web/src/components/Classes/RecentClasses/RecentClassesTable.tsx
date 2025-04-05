@@ -5,9 +5,13 @@ import { SearchStudentModal } from "./SearchStudentModal";
 
 interface RecentClassesTableProps {
   classes: RecentClass[];
+  onClassesUpdate: (updatedClasses: RecentClass[]) => void;
 }
 
-export const RecentClassesTable: React.FC<RecentClassesTableProps> = ({ classes }) => {
+export const RecentClassesTable: React.FC<RecentClassesTableProps> = ({ 
+  classes,
+  onClassesUpdate 
+}) => {
   const [selectedClass, setSelectedClass] = useState<RecentClass | null>(null);
   const [showSearchModal, setShowSearchModal] = useState(false);
   const [activeClass, setActiveClass] = useState<RecentClass | null>(null);
@@ -19,6 +23,31 @@ export const RecentClassesTable: React.FC<RecentClassesTableProps> = ({ classes 
   const handleManualCheckIn = (cls: RecentClass) => {
     setActiveClass(cls);
     setShowSearchModal(true);
+  };
+
+  const handleAddStudent = (student: Student) => {
+    if (!activeClass) return;
+
+    const updatedClasses = classes.map((cls) => {
+      if (cls.id === activeClass.id) {
+        return {
+          ...cls,
+          checkins: (cls.checkins || 0) + 1,
+          students: [
+            ...(cls.students || []),
+            {
+              ...student,
+              checkInTime: new Date().toLocaleTimeString()
+            }
+          ]
+        };
+      }
+      return cls;
+    });
+
+    onClassesUpdate(updatedClasses);
+    setShowSearchModal(false);
+    setActiveClass(null);
   };
 
   return (
@@ -41,7 +70,7 @@ export const RecentClassesTable: React.FC<RecentClassesTableProps> = ({ classes 
                 <td className="px-4 py-2">{cls.title}</td>
                 <td className="px-4 py-2">{cls.teacher}</td>
                 <td className="px-4 py-2">{cls.time}</td>
-                <td className="px-4 py-2">{cls.checkins}</td>
+                <td className="px-4 py-2">{cls.checkins || 0}</td>
                 <td className="px-4 py-2">
                   <button
                     onClick={() => handleManualCheckIn(cls)}
@@ -78,26 +107,7 @@ export const RecentClassesTable: React.FC<RecentClassesTableProps> = ({ classes 
             setShowSearchModal(false);
             setActiveClass(null);
           }}
-          onAddStudent={(student) => {
-            // Update the class with the new student
-            const updatedClasses = classes.map((cls) => {
-              if (cls.id === activeClass.id) {
-                return {
-                  ...cls,
-                  checkins: (cls.checkins || 0) + 1,
-                  students: [...(cls.students || []), {
-                    ...student,
-                    checkInTime: new Date().toLocaleTimeString()
-                  }]
-                };
-              }
-              return cls;
-            });
-            // Here you would typically update your backend
-            console.log("Updated classes:", updatedClasses);
-            setShowSearchModal(false);
-            setActiveClass(null);
-          }}
+          onAddStudent={handleAddStudent}
         />
       )}
     </>
