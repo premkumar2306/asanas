@@ -16,7 +16,6 @@ jobs:
       - name: Build app
         run: 
           npm run build
-          ls -al
         working-directory: web
 
       - name: Deploy to Firebase
