@@ -1,4 +1,4 @@
-yogasara-app-final-v1/
+`yogasara-app-final-v1/
 ├── web/
 │   ├── public/data/poses.json          ✅ 100+ yoga poses
 │   ├── assets/poses/                   ✅ SVG illustrations
@@ -128,3 +128,4 @@ GMeet integration
 GitHub CI/CD
 Admin account
 SVG Yoga pose library
+`
