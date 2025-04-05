@@ -11,6 +11,8 @@ import UpCommingClasses from './pages/Classes/UpCommingClasses';
 import StudioDetails from './pages/Studio/StudioDetails';
 import InStudioLocations from './pages/Studio/InStudioLocations';
 import PlansPricing from './pages/Studio/PlansPricing';
+import RecentClasses from "./pages/Classes/RecentClasses";
+
 import Team from "./pages/Studio/Team";
 function App() {
   return (
@@ -26,6 +28,7 @@ function App() {
         <Route path="/studio-details" element={<StudioDetails />} />
         <Route path="/in-studio-locations" element={<InStudioLocations />} />
         <Route path="/team" element={<Team />} />
+        <Route path="/class-recent" element={<RecentClasses />} />
         <Route path="/plans-pricing" element={<PlansPricing />} />
       </Routes>
       <Footer />

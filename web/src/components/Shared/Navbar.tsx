@@ -32,7 +32,7 @@ function Navbar() {
       label: "Classes",
       links: [
         { label: "Upcoming", path: "/upcoming-classes" },
-        { label: "Book", path: "/book-classes" },
+        { label: "Recent", path: "/class-recent" },
         { label: "Settings", path: "/class-settings" },
         { label: "Zoom host key", path: "/zoom-host-key" },
         { label: "Zoom recording", path: "/zoom-recording-settings" },
@@ -42,7 +42,7 @@ function Navbar() {
     },
 
     {
-      label: "Studio Info",
+      label: "Studio",
       links: [
         { label: "Studio Details", path: "/studio-details" },
         { label: "Locations", path: "/in-studio-locations" },
@@ -70,7 +70,7 @@ function Navbar() {
       </Link>
       <div className="flex space-x-6 items-center">
         <Link to="/flow-builder" className="hover:text-gray-300">
-          {t("flowBuilder")}
+         Flow{/* {t("flowBuilder")} */}
         </Link>
         {/* New Direct Nav Links */}
         <Link to="/dashboard" className="hover:text-gray-300">

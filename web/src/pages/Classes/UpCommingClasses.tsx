@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ClassForm from "../../components/Classes/ClassForm";
 import { ClassFormData } from "../../components/Classes/types";
+import { CheckInsModal } from '../../components/Classes/CheckInsModal';
 
 interface ClassItem {
   id: number;
@@ -11,6 +12,13 @@ interface ClassItem {
   type: "group" | "personal" | "workshop" | "video";
   fees: string;
   canStart: boolean;
+  students?: {
+    id: string;
+    name: string;
+    email: string;
+    avatar?: string;
+    checkInTime?: string;
+  }[];
 }
 
 export default function UpCommingClasses() {
@@ -20,6 +28,7 @@ export default function UpCommingClasses() {
   const [showModal, setShowModal] = useState(false);
   const [editingClass, setEditingClass] = useState<ClassItem | null>(null);
   const [formMode, setFormMode] = useState<'create' | 'edit'>('create');
+  const [selectedClassForAttendance, setSelectedClassForAttendance] = useState<ClassItem | null>(null);
 
   // Update current time every second
   useEffect(() => {
@@ -118,6 +127,10 @@ export default function UpCommingClasses() {
     }
   };
 
+  const handleCheckInsClick = (cls: ClassItem) => {
+    setSelectedClassForAttendance(cls);
+  };
+
   return (
     <div className="p-4 max-w-5xl mx-auto">
       <div className="flex justify-between items-center mb-4">
@@ -211,6 +224,12 @@ export default function UpCommingClasses() {
                           >
                             Delete
                           </button>
+                          <button
+                            onClick={() => handleCheckInsClick(cls)}
+                            className="text-green-600 hover:underline"
+                          >
+                            Check-ins
+                          </button>
                         </td>
                       </tr>
                     ))}
@@ -258,6 +277,17 @@ export default function UpCommingClasses() {
             />
           </div>
         </div>
+      )}
+
+      {selectedClassForAttendance && (
+        <CheckInsModal
+          classTitle={selectedClassForAttendance.title}
+          date={selectedClassForAttendance.date}
+          time={selectedClassForAttendance.time}
+          teacher={selectedClassForAttendance.teacher}
+          students={selectedClassForAttendance.students || []}
+          onClose={() => setSelectedClassForAttendance(null)}
+        />
       )}
     </div>
   );
