@@ -49,60 +49,104 @@ firebase deploy
 
 ## 📖 Yoga Poses - Ashtanga Primary Series
 
-### 1) Standing Poses
-- Samasthiti: Standing still
-- Surya Namaskara (A & B): Sun salutation
-- Padangushtasana: Thumb to foot pose
-- Pada hastasana: Hand to foot pose
-- Utthita Trikonasana: Extended triangle pose
-- Parivritta Trikonasana: Revolved extended triangle pose
-- Utthita Parshvakonasana: Extended sideway angle pose
-- Parivritta Parshvakonasana: Revolved extended sideway angle pose
-- Prasarita Padottanasana (A, B, C & D): Spread feet stretching pose
-- Parshvottanasana: Sideways stretching pose
-- Utthita Hasta Padangushtasana: Extended triangle pose
-- Ardha Baddha Padmottanasana: Half bound lotus stretching pose
-- Utkatanasana: Uneven pose
-- Virabhadrasana (A & B): Warrior pose
+# Ashtanga Yoga Series - Pose List
 
-### 2) Sitting Poses
-- Dandasana (Chaturanga Dandasana): Four-Limbed Staff Pose (staff means spine, body support)
-- Paschimattanasana (3 types): West-Back (extended-intense) stretching pose
-- Purvatanasana: Est-Front (extended-intense) stretching pose
-- Ardha Baddha Padma Paschimattanasana: Half bound lotus forward pose
-- Trianga Mukhaekapada Paschima: One foot transversely facing back forward stretch
-- Janu Shirshasana (A, B & C): Head to knee pose
-- Marichyasana (A, B, C & D): Marichya (Ray of light (of sun or moon)) pose
-- Navasana: Boat pose
-- Bhujapidasana: Arm pressure pose
-- Kurmasana: Tortoise pose
-- Supta Kurmasana: Sleeping tortoise pose
-- Garbha Pindasana: Embryo in the womb pose
-- Kukkutasana: Roster pose
-- Baddha Konasana: Bound angle pose
-- Upavishta Konasana: Seated angle pose
-- Supta Konasana: Sleeping angle pose
-- Supta Padangushtasana: Lateral sleeping thumb to foot pose
-- Ubhaya Padangushtasana: Both thumbs to feet pose
-- Urdhva Mukha Paschimattanasana: Upward facing forward stretch pose
-- Setu Bandhasana: Bridge configuration (construction) pose
-- Urdhva Dhanurasana: Elevated bow pose
-- Paschimattanasana: West-Back (extended-intense) stretching pose
+## 1. Surya Namaskara A (Sun Salutation A)
+- Samasthitihi
+- Ekam
+- Dwe
+- Trini
+- Chatwari
+- Pancha
+- Shat
+- Saptah
+- Ashtau
+- Nava
+- Samasthitihi
 
-### 3) Finishing Poses
-- Salamba Sarvangasana: All limbs pose
-- Halasana: Plow pose
-- Karnapidasana: Ear pressure pose
-- Urdhva Padmasana: Elevated lotus pose
-- Pindasana: Embryo pose
-- Matsyasana: Fish pose
-- Uttana Padasana: Extended foot pose
-- Shirshasana: Head standing pose
-- Baddha Padmasana: Bound lotus pose
-- Yoga Mudra: Yoga gesture
-- Padmasana: Lotus pose
-- Uth Pluthi (Tolasana): Sprung up
-- Shavasana: Corpse pose
+## 2. Surya Namaskara B (Sun Salutation B)
+- Includes Sun Salutation A plus:
+  - Utkatasana
+  - Virabhadrasana A
+
+## 3. Primary Series (Yoga Chikitsa)
+- Padangusthasana
+- Pada Hastasana
+- Utthita Trikonasana
+- Parivritta Trikonasana
+- Utthita Parsvakonasana
+- Parivritta Parsvakonasana
+- Prasarita Padottanasana A, B, C, D
+- Parsvottanasana
+- Utthita Hasta Padangusthasana A, B, C, D
+- Ardha Baddha Padmottanasana
+- Utkatasana
+- Virabhadrasana A, B
+- Dandasana
+- Paschimattanasana A, B, C
+- Purvottanasana
+- Ardha Baddha Padma Paschimattanasana
+- Triang Mukhaikapada Paschimattanasana
+- Janu Sirsasana A, B, C
+- Marichyasana A, B, C, D
+- Navasana
+- Bhujapidasana
+- Kurmasana
+- Supta Kurmasana
+- Garbha Pindasana
+- Kukkutasana
+- Baddha Konasana A, B
+- Upavishta Konasana A, B
+- Supta Konasana A, B
+- Supta Padangusthasana A, B
+- Ubhaya Padangusthasana
+- Urdhva Mukha Paschimattanasana
+- Setu Bandhasana
+
+## 4. Intermediate Series (Nadi Shodhana)
+- Pasasana
+- Krounchasana
+- Salabhasana A, B
+- Bhekasana
+- Dhanurasana
+- Parsva Dhanurasana
+- Ustrasana
+- Laghuvajrasana
+- Kapotasana
+- Supta Vajrasana
+- Bakasana A, B
+- Bharadvajasana
+- Ardha Matsyendrasana
+- Ekapada Sirsasana A, B, C
+- Dwipada Sirsasana
+- Yoga Nidrasana
+- Tittibhasana A, B, C
+- Pincha Mayurasana
+- Karandavasana
+- Mayurasana
+- Nakrasana
+- Vatayanasana
+- Parighasana
+- Gomukhasana A, B
+- Supta Urdhva Pada Vajrasana
+- Mukta Hasta Sirsasana A, B, C
+- Baddha Hasta Sirsasana A, B, C, D
+- Urdhva Dandasana A, B
+
+## 5. Finishing Asanas
+- Salamba Sarvangasana
+- Halasana
+- Karnapidasana
+- Urdhva Padmasana
+- Pindasana
+- Matsyasana
+- Uttana Padasana
+- Sirsasana
+- Yoga Mudra
+- Padmasana
+- Utplutih
+- Savasana
+
 
 ---
 
