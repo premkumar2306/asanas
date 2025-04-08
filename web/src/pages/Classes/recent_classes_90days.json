@@ -1,0 +1,4623 @@
+[
+  {
+    "id": "1744128000-0",
+    "date": "2025-04-08",
+    "location": "Zoom class",
+    "teacher": "Janaki G",
+    "time": "04:00PM",
+    "checkins": 6,
+    "students": [
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      }
+    ],
+    "timestamp": 1744128000000
+  },
+  {
+    "id": "1744106400-1",
+    "date": "2025-04-08",
+    "location": "In-studio",
+    "teacher": "Janaki G",
+    "time": "10:00AM",
+    "checkins": 2,
+    "students": [
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      }
+    ],
+    "timestamp": 1744106400000
+  },
+  {
+    "id": "1744041600-2",
+    "date": "2025-04-07",
+    "location": "Zoom class",
+    "teacher": "Vaidy Bala",
+    "time": "04:00PM",
+    "checkins": 5,
+    "students": [
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      }
+    ],
+    "timestamp": 1744041600000
+  },
+  {
+    "id": "1744020000-0",
+    "date": "2025-04-07",
+    "location": "Zoom class",
+    "teacher": "Sneha Rao",
+    "time": "10:00AM",
+    "checkins": 3,
+    "students": [
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      }
+    ],
+    "timestamp": 1744020000000
+  },
+  {
+    "id": "1744005600-1",
+    "date": "2025-04-07",
+    "location": "Zoom class",
+    "teacher": "Vaidy Bala",
+    "time": "06:00AM",
+    "checkins": 4,
+    "students": [
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      }
+    ],
+    "timestamp": 1744005600000
+  },
+  {
+    "id": "1743962400-0",
+    "date": "2025-04-06",
+    "location": "In-studio",
+    "teacher": "Arjun Iyer",
+    "time": "06:00PM",
+    "checkins": 5,
+    "students": [
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      }
+    ],
+    "timestamp": 1743962400000
+  },
+  {
+    "id": "1743933600-2",
+    "date": "2025-04-06",
+    "location": "Zoom class",
+    "teacher": "Sneha Rao",
+    "time": "10:00AM",
+    "checkins": 5,
+    "students": [
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      }
+    ],
+    "timestamp": 1743933600000
+  },
+  {
+    "id": "1743919200-1",
+    "date": "2025-04-06",
+    "location": "In-studio",
+    "teacher": "Janaki G",
+    "time": "06:00AM",
+    "checkins": 5,
+    "students": [
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      }
+    ],
+    "timestamp": 1743919200000
+  },
+  {
+    "id": "1743847200-1",
+    "date": "2025-04-05",
+    "location": "In-studio",
+    "teacher": "Sneha Rao",
+    "time": "10:00AM",
+    "checkins": 4,
+    "students": [
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      }
+    ],
+    "timestamp": 1743847200000
+  },
+  {
+    "id": "1743840000-0",
+    "date": "2025-04-05",
+    "location": "Zoom class",
+    "teacher": "Sneha Rao",
+    "time": "08:00AM",
+    "checkins": 6,
+    "students": [
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      }
+    ],
+    "timestamp": 1743840000000
+  },
+  {
+    "id": "1743840000-2",
+    "date": "2025-04-05",
+    "location": "In-studio",
+    "teacher": "Vaidy Bala",
+    "time": "08:00AM",
+    "checkins": 6,
+    "students": [
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      }
+    ],
+    "timestamp": 1743840000000
+  },
+  {
+    "id": "1743760800-0",
+    "date": "2025-04-04",
+    "location": "Zoom class",
+    "teacher": "Vaidy Bala",
+    "time": "10:00AM",
+    "checkins": 6,
+    "students": [
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      }
+    ],
+    "timestamp": 1743760800000
+  },
+  {
+    "id": "1743696000-0",
+    "date": "2025-04-03",
+    "location": "In-studio",
+    "teacher": "Arjun Iyer",
+    "time": "04:00PM",
+    "checkins": 4,
+    "students": [
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      }
+    ],
+    "timestamp": 1743696000000
+  },
+  {
+    "id": "1743609600-0",
+    "date": "2025-04-02",
+    "location": "In-studio",
+    "teacher": "Arjun Iyer",
+    "time": "04:00PM",
+    "checkins": 6,
+    "students": [
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      }
+    ],
+    "timestamp": 1743609600000
+  },
+  {
+    "id": "1743588000-1",
+    "date": "2025-04-02",
+    "location": "Zoom class",
+    "teacher": "Sneha Rao",
+    "time": "10:00AM",
+    "checkins": 3,
+    "students": [
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      }
+    ],
+    "timestamp": 1743588000000
+  },
+  {
+    "id": "1743588000-2",
+    "date": "2025-04-02",
+    "location": "In-studio",
+    "teacher": "Vaidy Bala",
+    "time": "10:00AM",
+    "checkins": 3,
+    "students": [
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      }
+    ],
+    "timestamp": 1743588000000
+  },
+  {
+    "id": "1743523200-0",
+    "date": "2025-04-01",
+    "location": "In-studio",
+    "teacher": "Vaidy Bala",
+    "time": "04:00PM",
+    "checkins": 5,
+    "students": [
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      }
+    ],
+    "timestamp": 1743523200000
+  },
+  {
+    "id": "1743444000-1",
+    "date": "2025-03-31",
+    "location": "In-studio",
+    "teacher": "Sneha Rao",
+    "time": "06:00PM",
+    "checkins": 4,
+    "students": [
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      }
+    ],
+    "timestamp": 1743444000000
+  },
+  {
+    "id": "1743436800-0",
+    "date": "2025-03-31",
+    "location": "Zoom class",
+    "teacher": "Janaki G",
+    "time": "04:00PM",
+    "checkins": 3,
+    "students": [
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      }
+    ],
+    "timestamp": 1743436800000
+  },
+  {
+    "id": "1743321600-1",
+    "date": "2025-03-30",
+    "location": "Zoom class",
+    "teacher": "Sneha Rao",
+    "time": "08:00AM",
+    "checkins": 6,
+    "students": [
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      }
+    ],
+    "timestamp": 1743321600000
+  },
+  {
+    "id": "1743314400-0",
+    "date": "2025-03-30",
+    "location": "Zoom class",
+    "teacher": "Janaki G",
+    "time": "06:00AM",
+    "checkins": 6,
+    "students": [
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      }
+    ],
+    "timestamp": 1743314400000
+  },
+  {
+    "id": "1743271200-1",
+    "date": "2025-03-29",
+    "location": "Zoom class",
+    "teacher": "Arjun Iyer",
+    "time": "06:00PM",
+    "checkins": 3,
+    "students": [
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      }
+    ],
+    "timestamp": 1743271200000
+  },
+  {
+    "id": "1743264000-0",
+    "date": "2025-03-29",
+    "location": "In-studio",
+    "teacher": "Arjun Iyer",
+    "time": "04:00PM",
+    "checkins": 2,
+    "students": [
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      }
+    ],
+    "timestamp": 1743264000000
+  },
+  {
+    "id": "1743184800-0",
+    "date": "2025-03-28",
+    "location": "In-studio",
+    "teacher": "Arjun Iyer",
+    "time": "06:00PM",
+    "checkins": 2,
+    "students": [
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      }
+    ],
+    "timestamp": 1743184800000
+  },
+  {
+    "id": "1743184800-2",
+    "date": "2025-03-28",
+    "location": "Zoom class",
+    "teacher": "Arjun Iyer",
+    "time": "06:00PM",
+    "checkins": 5,
+    "students": [
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      }
+    ],
+    "timestamp": 1743184800000
+  },
+  {
+    "id": "1743177600-1",
+    "date": "2025-03-28",
+    "location": "In-studio",
+    "teacher": "Janaki G",
+    "time": "04:00PM",
+    "checkins": 3,
+    "students": [
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      }
+    ],
+    "timestamp": 1743177600000
+  },
+  {
+    "id": "1743091200-0",
+    "date": "2025-03-27",
+    "location": "In-studio",
+    "teacher": "Vaidy Bala",
+    "time": "04:00PM",
+    "checkins": 3,
+    "students": [
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      }
+    ],
+    "timestamp": 1743091200000
+  },
+  {
+    "id": "1743012000-2",
+    "date": "2025-03-26",
+    "location": "Zoom class",
+    "teacher": "Vaidy Bala",
+    "time": "06:00PM",
+    "checkins": 4,
+    "students": [
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      }
+    ],
+    "timestamp": 1743012000000
+  },
+  {
+    "id": "1742983200-0",
+    "date": "2025-03-26",
+    "location": "Zoom class",
+    "teacher": "Sneha Rao",
+    "time": "10:00AM",
+    "checkins": 2,
+    "students": [
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      }
+    ],
+    "timestamp": 1742983200000
+  },
+  {
+    "id": "1742983200-1",
+    "date": "2025-03-26",
+    "location": "In-studio",
+    "teacher": "Arjun Iyer",
+    "time": "10:00AM",
+    "checkins": 4,
+    "students": [
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      }
+    ],
+    "timestamp": 1742983200000
+  },
+  {
+    "id": "1742918400-2",
+    "date": "2025-03-25",
+    "location": "Zoom class",
+    "teacher": "Vaidy Bala",
+    "time": "04:00PM",
+    "checkins": 4,
+    "students": [
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      }
+    ],
+    "timestamp": 1742918400000
+  },
+  {
+    "id": "1742896800-0",
+    "date": "2025-03-25",
+    "location": "Zoom class",
+    "teacher": "Arjun Iyer",
+    "time": "10:00AM",
+    "checkins": 3,
+    "students": [
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      }
+    ],
+    "timestamp": 1742896800000
+  },
+  {
+    "id": "1742889600-1",
+    "date": "2025-03-25",
+    "location": "Zoom class",
+    "teacher": "Sneha Rao",
+    "time": "08:00AM",
+    "checkins": 5,
+    "students": [
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      }
+    ],
+    "timestamp": 1742889600000
+  },
+  {
+    "id": "1742810400-0",
+    "date": "2025-03-24",
+    "location": "In-studio",
+    "teacher": "Arjun Iyer",
+    "time": "10:00AM",
+    "checkins": 6,
+    "students": [
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      }
+    ],
+    "timestamp": 1742810400000
+  },
+  {
+    "id": "1742716800-0",
+    "date": "2025-03-23",
+    "location": "Zoom class",
+    "teacher": "Arjun Iyer",
+    "time": "08:00AM",
+    "checkins": 6,
+    "students": [
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      }
+    ],
+    "timestamp": 1742716800000
+  },
+  {
+    "id": "1742623200-0",
+    "date": "2025-03-22",
+    "location": "Zoom class",
+    "teacher": "Janaki G",
+    "time": "06:00AM",
+    "checkins": 3,
+    "students": [
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      }
+    ],
+    "timestamp": 1742623200000
+  },
+  {
+    "id": "1742580000-2",
+    "date": "2025-03-21",
+    "location": "In-studio",
+    "teacher": "Vaidy Bala",
+    "time": "06:00PM",
+    "checkins": 3,
+    "students": [
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      }
+    ],
+    "timestamp": 1742580000000
+  },
+  {
+    "id": "1742536800-0",
+    "date": "2025-03-21",
+    "location": "Zoom class",
+    "teacher": "Arjun Iyer",
+    "time": "06:00AM",
+    "checkins": 5,
+    "students": [
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      }
+    ],
+    "timestamp": 1742536800000
+  },
+  {
+    "id": "1742536800-1",
+    "date": "2025-03-21",
+    "location": "In-studio",
+    "teacher": "Sneha Rao",
+    "time": "06:00AM",
+    "checkins": 3,
+    "students": [
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      }
+    ],
+    "timestamp": 1742536800000
+  },
+  {
+    "id": "1742464800-0",
+    "date": "2025-03-20",
+    "location": "In-studio",
+    "teacher": "Arjun Iyer",
+    "time": "10:00AM",
+    "checkins": 2,
+    "students": [
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      }
+    ],
+    "timestamp": 1742464800000
+  },
+  {
+    "id": "1742457600-1",
+    "date": "2025-03-20",
+    "location": "Zoom class",
+    "teacher": "Arjun Iyer",
+    "time": "08:00AM",
+    "checkins": 4,
+    "students": [
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      }
+    ],
+    "timestamp": 1742457600000
+  },
+  {
+    "id": "1742371200-0",
+    "date": "2025-03-19",
+    "location": "In-studio",
+    "teacher": "Vaidy Bala",
+    "time": "08:00AM",
+    "checkins": 5,
+    "students": [
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      }
+    ],
+    "timestamp": 1742371200000
+  },
+  {
+    "id": "1742371200-1",
+    "date": "2025-03-19",
+    "location": "In-studio",
+    "teacher": "Sneha Rao",
+    "time": "08:00AM",
+    "checkins": 4,
+    "students": [
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      }
+    ],
+    "timestamp": 1742371200000
+  },
+  {
+    "id": "1742320800-0",
+    "date": "2025-03-18",
+    "location": "In-studio",
+    "teacher": "Arjun Iyer",
+    "time": "06:00PM",
+    "checkins": 3,
+    "students": [
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      }
+    ],
+    "timestamp": 1742320800000
+  },
+  {
+    "id": "1742198400-2",
+    "date": "2025-03-17",
+    "location": "In-studio",
+    "teacher": "Vaidy Bala",
+    "time": "08:00AM",
+    "checkins": 4,
+    "students": [
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      }
+    ],
+    "timestamp": 1742198400000
+  },
+  {
+    "id": "1742191200-0",
+    "date": "2025-03-17",
+    "location": "Zoom class",
+    "teacher": "Sneha Rao",
+    "time": "06:00AM",
+    "checkins": 5,
+    "students": [
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      }
+    ],
+    "timestamp": 1742191200000
+  },
+  {
+    "id": "1742191200-1",
+    "date": "2025-03-17",
+    "location": "Zoom class",
+    "teacher": "Sneha Rao",
+    "time": "06:00AM",
+    "checkins": 3,
+    "students": [
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      }
+    ],
+    "timestamp": 1742191200000
+  },
+  {
+    "id": "1742148000-0",
+    "date": "2025-03-16",
+    "location": "Zoom class",
+    "teacher": "Arjun Iyer",
+    "time": "06:00PM",
+    "checkins": 3,
+    "students": [
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      }
+    ],
+    "timestamp": 1742148000000
+  },
+  {
+    "id": "1742148000-1",
+    "date": "2025-03-16",
+    "location": "Zoom class",
+    "teacher": "Sneha Rao",
+    "time": "06:00PM",
+    "checkins": 2,
+    "students": [
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      }
+    ],
+    "timestamp": 1742148000000
+  },
+  {
+    "id": "1742104800-2",
+    "date": "2025-03-16",
+    "location": "Zoom class",
+    "teacher": "Janaki G",
+    "time": "06:00AM",
+    "checkins": 5,
+    "students": [
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      }
+    ],
+    "timestamp": 1742104800000
+  },
+  {
+    "id": "1742054400-0",
+    "date": "2025-03-15",
+    "location": "Zoom class",
+    "teacher": "Janaki G",
+    "time": "04:00PM",
+    "checkins": 4,
+    "students": [
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      }
+    ],
+    "timestamp": 1742054400000
+  },
+  {
+    "id": "1741946400-0",
+    "date": "2025-03-14",
+    "location": "Zoom class",
+    "teacher": "Vaidy Bala",
+    "time": "10:00AM",
+    "checkins": 4,
+    "students": [
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      }
+    ],
+    "timestamp": 1741946400000
+  },
+  {
+    "id": "1741881600-0",
+    "date": "2025-03-13",
+    "location": "Zoom class",
+    "teacher": "Sneha Rao",
+    "time": "04:00PM",
+    "checkins": 5,
+    "students": [
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      }
+    ],
+    "timestamp": 1741881600000
+  },
+  {
+    "id": "1741802400-1",
+    "date": "2025-03-12",
+    "location": "Zoom class",
+    "teacher": "Janaki G",
+    "time": "06:00PM",
+    "checkins": 6,
+    "students": [
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      }
+    ],
+    "timestamp": 1741802400000
+  },
+  {
+    "id": "1741795200-2",
+    "date": "2025-03-12",
+    "location": "In-studio",
+    "teacher": "Arjun Iyer",
+    "time": "04:00PM",
+    "checkins": 6,
+    "students": [
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      }
+    ],
+    "timestamp": 1741795200000
+  },
+  {
+    "id": "1741773600-0",
+    "date": "2025-03-12",
+    "location": "In-studio",
+    "teacher": "Sneha Rao",
+    "time": "10:00AM",
+    "checkins": 4,
+    "students": [
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      }
+    ],
+    "timestamp": 1741773600000
+  },
+  {
+    "id": "1741687200-0",
+    "date": "2025-03-11",
+    "location": "Zoom class",
+    "teacher": "Sneha Rao",
+    "time": "10:00AM",
+    "checkins": 3,
+    "students": [
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      }
+    ],
+    "timestamp": 1741687200000
+  },
+  {
+    "id": "1741680000-1",
+    "date": "2025-03-11",
+    "location": "In-studio",
+    "teacher": "Vaidy Bala",
+    "time": "08:00AM",
+    "checkins": 2,
+    "students": [
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      }
+    ],
+    "timestamp": 1741680000000
+  },
+  {
+    "id": "1741672800-2",
+    "date": "2025-03-11",
+    "location": "Zoom class",
+    "teacher": "Vaidy Bala",
+    "time": "06:00AM",
+    "checkins": 2,
+    "students": [
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      }
+    ],
+    "timestamp": 1741672800000
+  },
+  {
+    "id": "1741600800-0",
+    "date": "2025-03-10",
+    "location": "In-studio",
+    "teacher": "Sneha Rao",
+    "time": "10:00AM",
+    "checkins": 2,
+    "students": [
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      }
+    ],
+    "timestamp": 1741600800000
+  },
+  {
+    "id": "1741600800-2",
+    "date": "2025-03-10",
+    "location": "Zoom class",
+    "teacher": "Vaidy Bala",
+    "time": "10:00AM",
+    "checkins": 6,
+    "students": [
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      }
+    ],
+    "timestamp": 1741600800000
+  },
+  {
+    "id": "1741593600-1",
+    "date": "2025-03-10",
+    "location": "In-studio",
+    "teacher": "Janaki G",
+    "time": "08:00AM",
+    "checkins": 3,
+    "students": [
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      }
+    ],
+    "timestamp": 1741593600000
+  },
+  {
+    "id": "1741536000-2",
+    "date": "2025-03-09",
+    "location": "Zoom class",
+    "teacher": "Arjun Iyer",
+    "time": "04:00PM",
+    "checkins": 2,
+    "students": [
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      }
+    ],
+    "timestamp": 1741536000000
+  },
+  {
+    "id": "1741514400-0",
+    "date": "2025-03-09",
+    "location": "In-studio",
+    "teacher": "Vaidy Bala",
+    "time": "10:00AM",
+    "checkins": 2,
+    "students": [
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      }
+    ],
+    "timestamp": 1741514400000
+  },
+  {
+    "id": "1741500000-1",
+    "date": "2025-03-09",
+    "location": "Zoom class",
+    "teacher": "Vaidy Bala",
+    "time": "06:00AM",
+    "checkins": 2,
+    "students": [
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      }
+    ],
+    "timestamp": 1741500000000
+  },
+  {
+    "id": "1741428000-0",
+    "date": "2025-03-08",
+    "location": "In-studio",
+    "teacher": "Vaidy Bala",
+    "time": "10:00AM",
+    "checkins": 2,
+    "students": [
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      }
+    ],
+    "timestamp": 1741428000000
+  },
+  {
+    "id": "1741334400-0",
+    "date": "2025-03-07",
+    "location": "In-studio",
+    "teacher": "Arjun Iyer",
+    "time": "08:00AM",
+    "checkins": 2,
+    "students": [
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      }
+    ],
+    "timestamp": 1741334400000
+  },
+  {
+    "id": "1741284000-1",
+    "date": "2025-03-06",
+    "location": "In-studio",
+    "teacher": "Vaidy Bala",
+    "time": "06:00PM",
+    "checkins": 6,
+    "students": [
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      }
+    ],
+    "timestamp": 1741284000000
+  },
+  {
+    "id": "1741240800-0",
+    "date": "2025-03-06",
+    "location": "In-studio",
+    "teacher": "Janaki G",
+    "time": "06:00AM",
+    "checkins": 5,
+    "students": [
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      }
+    ],
+    "timestamp": 1741240800000
+  },
+  {
+    "id": "1741161600-0",
+    "date": "2025-03-05",
+    "location": "In-studio",
+    "teacher": "Vaidy Bala",
+    "time": "08:00AM",
+    "checkins": 6,
+    "students": [
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      }
+    ],
+    "timestamp": 1741161600000
+  },
+  {
+    "id": "1741154400-1",
+    "date": "2025-03-05",
+    "location": "In-studio",
+    "teacher": "Vaidy Bala",
+    "time": "06:00AM",
+    "checkins": 5,
+    "students": [
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      }
+    ],
+    "timestamp": 1741154400000
+  },
+  {
+    "id": "1741068000-0",
+    "date": "2025-03-04",
+    "location": "Zoom class",
+    "teacher": "Janaki G",
+    "time": "06:00AM",
+    "checkins": 6,
+    "students": [
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      }
+    ],
+    "timestamp": 1741068000000
+  },
+  {
+    "id": "1740996000-1",
+    "date": "2025-03-03",
+    "location": "In-studio",
+    "teacher": "Sneha Rao",
+    "time": "10:00AM",
+    "checkins": 4,
+    "students": [
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      }
+    ],
+    "timestamp": 1740996000000
+  },
+  {
+    "id": "1740981600-0",
+    "date": "2025-03-03",
+    "location": "In-studio",
+    "teacher": "Arjun Iyer",
+    "time": "06:00AM",
+    "checkins": 3,
+    "students": [
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      }
+    ],
+    "timestamp": 1740981600000
+  },
+  {
+    "id": "1740981600-2",
+    "date": "2025-03-03",
+    "location": "In-studio",
+    "teacher": "Janaki G",
+    "time": "06:00AM",
+    "checkins": 5,
+    "students": [
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      }
+    ],
+    "timestamp": 1740981600000
+  },
+  {
+    "id": "1740931200-0",
+    "date": "2025-03-02",
+    "location": "Zoom class",
+    "teacher": "Sneha Rao",
+    "time": "04:00PM",
+    "checkins": 2,
+    "students": [
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      }
+    ],
+    "timestamp": 1740931200000
+  },
+  {
+    "id": "1740852000-1",
+    "date": "2025-03-01",
+    "location": "Zoom class",
+    "teacher": "Sneha Rao",
+    "time": "06:00PM",
+    "checkins": 6,
+    "students": [
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      }
+    ],
+    "timestamp": 1740852000000
+  },
+  {
+    "id": "1740823200-0",
+    "date": "2025-03-01",
+    "location": "In-studio",
+    "teacher": "Arjun Iyer",
+    "time": "10:00AM",
+    "checkins": 4,
+    "students": [
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      }
+    ],
+    "timestamp": 1740823200000
+  },
+  {
+    "id": "1740758400-0",
+    "date": "2025-02-28",
+    "location": "In-studio",
+    "teacher": "Sneha Rao",
+    "time": "04:00PM",
+    "checkins": 5,
+    "students": [
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      }
+    ],
+    "timestamp": 1740758400000
+  },
+  {
+    "id": "1740679200-1",
+    "date": "2025-02-27",
+    "location": "In-studio",
+    "teacher": "Sneha Rao",
+    "time": "06:00PM",
+    "checkins": 4,
+    "students": [
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      }
+    ],
+    "timestamp": 1740679200000
+  },
+  {
+    "id": "1740650400-0",
+    "date": "2025-02-27",
+    "location": "In-studio",
+    "teacher": "Vaidy Bala",
+    "time": "10:00AM",
+    "checkins": 2,
+    "students": [
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      }
+    ],
+    "timestamp": 1740650400000
+  },
+  {
+    "id": "1740549600-0",
+    "date": "2025-02-26",
+    "location": "Zoom class",
+    "teacher": "Janaki G",
+    "time": "06:00AM",
+    "checkins": 4,
+    "students": [
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      }
+    ],
+    "timestamp": 1740549600000
+  },
+  {
+    "id": "1740499200-2",
+    "date": "2025-02-25",
+    "location": "Zoom class",
+    "teacher": "Arjun Iyer",
+    "time": "04:00PM",
+    "checkins": 5,
+    "students": [
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      }
+    ],
+    "timestamp": 1740499200000
+  },
+  {
+    "id": "1740470400-1",
+    "date": "2025-02-25",
+    "location": "Zoom class",
+    "teacher": "Arjun Iyer",
+    "time": "08:00AM",
+    "checkins": 2,
+    "students": [
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      }
+    ],
+    "timestamp": 1740470400000
+  },
+  {
+    "id": "1740463200-0",
+    "date": "2025-02-25",
+    "location": "Zoom class",
+    "teacher": "Janaki G",
+    "time": "06:00AM",
+    "checkins": 4,
+    "students": [
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      }
+    ],
+    "timestamp": 1740463200000
+  },
+  {
+    "id": "1740420000-0",
+    "date": "2025-02-24",
+    "location": "In-studio",
+    "teacher": "Janaki G",
+    "time": "06:00PM",
+    "checkins": 2,
+    "students": [
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      }
+    ],
+    "timestamp": 1740420000000
+  },
+  {
+    "id": "1740333600-2",
+    "date": "2025-02-23",
+    "location": "In-studio",
+    "teacher": "Sneha Rao",
+    "time": "06:00PM",
+    "checkins": 4,
+    "students": [
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      }
+    ],
+    "timestamp": 1740333600000
+  },
+  {
+    "id": "1740326400-0",
+    "date": "2025-02-23",
+    "location": "Zoom class",
+    "teacher": "Sneha Rao",
+    "time": "04:00PM",
+    "checkins": 6,
+    "students": [
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      }
+    ],
+    "timestamp": 1740326400000
+  },
+  {
+    "id": "1740290400-1",
+    "date": "2025-02-23",
+    "location": "In-studio",
+    "teacher": "Janaki G",
+    "time": "06:00AM",
+    "checkins": 2,
+    "students": [
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      }
+    ],
+    "timestamp": 1740290400000
+  },
+  {
+    "id": "1740204000-0",
+    "date": "2025-02-22",
+    "location": "In-studio",
+    "teacher": "Janaki G",
+    "time": "06:00AM",
+    "checkins": 6,
+    "students": [
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      }
+    ],
+    "timestamp": 1740204000000
+  },
+  {
+    "id": "1740160800-1",
+    "date": "2025-02-21",
+    "location": "Zoom class",
+    "teacher": "Janaki G",
+    "time": "06:00PM",
+    "checkins": 5,
+    "students": [
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      }
+    ],
+    "timestamp": 1740160800000
+  },
+  {
+    "id": "1740132000-0",
+    "date": "2025-02-21",
+    "location": "Zoom class",
+    "teacher": "Arjun Iyer",
+    "time": "10:00AM",
+    "checkins": 4,
+    "students": [
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      }
+    ],
+    "timestamp": 1740132000000
+  },
+  {
+    "id": "1740067200-0",
+    "date": "2025-02-20",
+    "location": "Zoom class",
+    "teacher": "Vaidy Bala",
+    "time": "04:00PM",
+    "checkins": 3,
+    "students": [
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      }
+    ],
+    "timestamp": 1740067200000
+  },
+  {
+    "id": "1740067200-1",
+    "date": "2025-02-20",
+    "location": "In-studio",
+    "teacher": "Vaidy Bala",
+    "time": "04:00PM",
+    "checkins": 2,
+    "students": [
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      }
+    ],
+    "timestamp": 1740067200000
+  },
+  {
+    "id": "1740067200-2",
+    "date": "2025-02-20",
+    "location": "In-studio",
+    "teacher": "Sneha Rao",
+    "time": "04:00PM",
+    "checkins": 5,
+    "students": [
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      }
+    ],
+    "timestamp": 1740067200000
+  },
+  {
+    "id": "1739944800-0",
+    "date": "2025-02-19",
+    "location": "Zoom class",
+    "teacher": "Janaki G",
+    "time": "06:00AM",
+    "checkins": 4,
+    "students": [
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      }
+    ],
+    "timestamp": 1739944800000
+  },
+  {
+    "id": "1739858400-0",
+    "date": "2025-02-18",
+    "location": "Zoom class",
+    "teacher": "Janaki G",
+    "time": "06:00AM",
+    "checkins": 4,
+    "students": [
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      }
+    ],
+    "timestamp": 1739858400000
+  },
+  {
+    "id": "1739815200-0",
+    "date": "2025-02-17",
+    "location": "Zoom class",
+    "teacher": "Janaki G",
+    "time": "06:00PM",
+    "checkins": 2,
+    "students": [
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      }
+    ],
+    "timestamp": 1739815200000
+  },
+  {
+    "id": "1739808000-1",
+    "date": "2025-02-17",
+    "location": "In-studio",
+    "teacher": "Vaidy Bala",
+    "time": "04:00PM",
+    "checkins": 6,
+    "students": [
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      }
+    ],
+    "timestamp": 1739808000000
+  },
+  {
+    "id": "1739728800-2",
+    "date": "2025-02-16",
+    "location": "In-studio",
+    "teacher": "Sneha Rao",
+    "time": "06:00PM",
+    "checkins": 2,
+    "students": [
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      }
+    ],
+    "timestamp": 1739728800000
+  },
+  {
+    "id": "1739721600-0",
+    "date": "2025-02-16",
+    "location": "In-studio",
+    "teacher": "Arjun Iyer",
+    "time": "04:00PM",
+    "checkins": 2,
+    "students": [
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      }
+    ],
+    "timestamp": 1739721600000
+  },
+  {
+    "id": "1739685600-1",
+    "date": "2025-02-16",
+    "location": "Zoom class",
+    "teacher": "Vaidy Bala",
+    "time": "06:00AM",
+    "checkins": 5,
+    "students": [
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      }
+    ],
+    "timestamp": 1739685600000
+  },
+  {
+    "id": "1739613600-0",
+    "date": "2025-02-15",
+    "location": "In-studio",
+    "teacher": "Janaki G",
+    "time": "10:00AM",
+    "checkins": 3,
+    "students": [
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      }
+    ],
+    "timestamp": 1739613600000
+  },
+  {
+    "id": "1739512800-0",
+    "date": "2025-02-14",
+    "location": "In-studio",
+    "teacher": "Arjun Iyer",
+    "time": "06:00AM",
+    "checkins": 6,
+    "students": [
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      }
+    ],
+    "timestamp": 1739512800000
+  },
+  {
+    "id": "1739440800-0",
+    "date": "2025-02-13",
+    "location": "In-studio",
+    "teacher": "Sneha Rao",
+    "time": "10:00AM",
+    "checkins": 3,
+    "students": [
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      }
+    ],
+    "timestamp": 1739440800000
+  },
+  {
+    "id": "1739376000-0",
+    "date": "2025-02-12",
+    "location": "In-studio",
+    "teacher": "Vaidy Bala",
+    "time": "04:00PM",
+    "checkins": 6,
+    "students": [
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      }
+    ],
+    "timestamp": 1739376000000
+  },
+  {
+    "id": "1739296800-0",
+    "date": "2025-02-11",
+    "location": "In-studio",
+    "teacher": "Janaki G",
+    "time": "06:00PM",
+    "checkins": 5,
+    "students": [
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      }
+    ],
+    "timestamp": 1739296800000
+  },
+  {
+    "id": "1739174400-1",
+    "date": "2025-02-10",
+    "location": "In-studio",
+    "teacher": "Janaki G",
+    "time": "08:00AM",
+    "checkins": 5,
+    "students": [
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      }
+    ],
+    "timestamp": 1739174400000
+  },
+  {
+    "id": "1739174400-2",
+    "date": "2025-02-10",
+    "location": "Zoom class",
+    "teacher": "Sneha Rao",
+    "time": "08:00AM",
+    "checkins": 6,
+    "students": [
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      }
+    ],
+    "timestamp": 1739174400000
+  },
+  {
+    "id": "1739167200-0",
+    "date": "2025-02-10",
+    "location": "In-studio",
+    "teacher": "Vaidy Bala",
+    "time": "06:00AM",
+    "checkins": 3,
+    "students": [
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      }
+    ],
+    "timestamp": 1739167200000
+  },
+  {
+    "id": "1739124000-1",
+    "date": "2025-02-09",
+    "location": "Zoom class",
+    "teacher": "Sneha Rao",
+    "time": "06:00PM",
+    "checkins": 5,
+    "students": [
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      }
+    ],
+    "timestamp": 1739124000000
+  },
+  {
+    "id": "1739088000-0",
+    "date": "2025-02-09",
+    "location": "In-studio",
+    "teacher": "Vaidy Bala",
+    "time": "08:00AM",
+    "checkins": 4,
+    "students": [
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      }
+    ],
+    "timestamp": 1739088000000
+  },
+  {
+    "id": "1739080800-2",
+    "date": "2025-02-09",
+    "location": "Zoom class",
+    "teacher": "Janaki G",
+    "time": "06:00AM",
+    "checkins": 2,
+    "students": [
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      }
+    ],
+    "timestamp": 1739080800000
+  },
+  {
+    "id": "1739037600-1",
+    "date": "2025-02-08",
+    "location": "In-studio",
+    "teacher": "Arjun Iyer",
+    "time": "06:00PM",
+    "checkins": 3,
+    "students": [
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      }
+    ],
+    "timestamp": 1739037600000
+  },
+  {
+    "id": "1739001600-0",
+    "date": "2025-02-08",
+    "location": "Zoom class",
+    "teacher": "Arjun Iyer",
+    "time": "08:00AM",
+    "checkins": 4,
+    "students": [
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      }
+    ],
+    "timestamp": 1739001600000
+  },
+  {
+    "id": "1738951200-1",
+    "date": "2025-02-07",
+    "location": "Zoom class",
+    "teacher": "Arjun Iyer",
+    "time": "06:00PM",
+    "checkins": 5,
+    "students": [
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      }
+    ],
+    "timestamp": 1738951200000
+  },
+  {
+    "id": "1738922400-0",
+    "date": "2025-02-07",
+    "location": "Zoom class",
+    "teacher": "Vaidy Bala",
+    "time": "10:00AM",
+    "checkins": 3,
+    "students": [
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      }
+    ],
+    "timestamp": 1738922400000
+  },
+  {
+    "id": "1738836000-0",
+    "date": "2025-02-06",
+    "location": "Zoom class",
+    "teacher": "Janaki G",
+    "time": "10:00AM",
+    "checkins": 5,
+    "students": [
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      }
+    ],
+    "timestamp": 1738836000000
+  },
+  {
+    "id": "1738821600-1",
+    "date": "2025-02-06",
+    "location": "Zoom class",
+    "teacher": "Vaidy Bala",
+    "time": "06:00AM",
+    "checkins": 6,
+    "students": [
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      }
+    ],
+    "timestamp": 1738821600000
+  },
+  {
+    "id": "1738771200-0",
+    "date": "2025-02-05",
+    "location": "In-studio",
+    "teacher": "Janaki G",
+    "time": "04:00PM",
+    "checkins": 5,
+    "students": [
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      }
+    ],
+    "timestamp": 1738771200000
+  },
+  {
+    "id": "1738692000-0",
+    "date": "2025-02-04",
+    "location": "Zoom class",
+    "teacher": "Vaidy Bala",
+    "time": "06:00PM",
+    "checkins": 2,
+    "students": [
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      }
+    ],
+    "timestamp": 1738692000000
+  },
+  {
+    "id": "1738605600-0",
+    "date": "2025-02-03",
+    "location": "Zoom class",
+    "teacher": "Vaidy Bala",
+    "time": "06:00PM",
+    "checkins": 5,
+    "students": [
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      }
+    ],
+    "timestamp": 1738605600000
+  },
+  {
+    "id": "1738605600-2",
+    "date": "2025-02-03",
+    "location": "Zoom class",
+    "teacher": "Arjun Iyer",
+    "time": "06:00PM",
+    "checkins": 4,
+    "students": [
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      }
+    ],
+    "timestamp": 1738605600000
+  },
+  {
+    "id": "1738576800-1",
+    "date": "2025-02-03",
+    "location": "Zoom class",
+    "teacher": "Arjun Iyer",
+    "time": "10:00AM",
+    "checkins": 3,
+    "students": [
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      }
+    ],
+    "timestamp": 1738576800000
+  },
+  {
+    "id": "1738476000-0",
+    "date": "2025-02-02",
+    "location": "Zoom class",
+    "teacher": "Arjun Iyer",
+    "time": "06:00AM",
+    "checkins": 5,
+    "students": [
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      }
+    ],
+    "timestamp": 1738476000000
+  },
+  {
+    "id": "1738396800-1",
+    "date": "2025-02-01",
+    "location": "In-studio",
+    "teacher": "Janaki G",
+    "time": "08:00AM",
+    "checkins": 5,
+    "students": [
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      }
+    ],
+    "timestamp": 1738396800000
+  },
+  {
+    "id": "1738389600-0",
+    "date": "2025-02-01",
+    "location": "In-studio",
+    "teacher": "Janaki G",
+    "time": "06:00AM",
+    "checkins": 5,
+    "students": [
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      }
+    ],
+    "timestamp": 1738389600000
+  },
+  {
+    "id": "1738339200-0",
+    "date": "2025-01-31",
+    "location": "Zoom class",
+    "teacher": "Arjun Iyer",
+    "time": "04:00PM",
+    "checkins": 2,
+    "students": [
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      }
+    ],
+    "timestamp": 1738339200000
+  },
+  {
+    "id": "1738252800-0",
+    "date": "2025-01-30",
+    "location": "In-studio",
+    "teacher": "Vaidy Bala",
+    "time": "04:00PM",
+    "checkins": 5,
+    "students": [
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      }
+    ],
+    "timestamp": 1738252800000
+  },
+  {
+    "id": "1738224000-1",
+    "date": "2025-01-30",
+    "location": "In-studio",
+    "teacher": "Sneha Rao",
+    "time": "08:00AM",
+    "checkins": 2,
+    "students": [
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      }
+    ],
+    "timestamp": 1738224000000
+  },
+  {
+    "id": "1738173600-2",
+    "date": "2025-01-29",
+    "location": "Zoom class",
+    "teacher": "Arjun Iyer",
+    "time": "06:00PM",
+    "checkins": 2,
+    "students": [
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      }
+    ],
+    "timestamp": 1738173600000
+  },
+  {
+    "id": "1738137600-0",
+    "date": "2025-01-29",
+    "location": "Zoom class",
+    "teacher": "Janaki G",
+    "time": "08:00AM",
+    "checkins": 6,
+    "students": [
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      }
+    ],
+    "timestamp": 1738137600000
+  },
+  {
+    "id": "1738130400-1",
+    "date": "2025-01-29",
+    "location": "In-studio",
+    "teacher": "Vaidy Bala",
+    "time": "06:00AM",
+    "checkins": 2,
+    "students": [
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      }
+    ],
+    "timestamp": 1738130400000
+  },
+  {
+    "id": "1738058400-0",
+    "date": "2025-01-28",
+    "location": "In-studio",
+    "teacher": "Sneha Rao",
+    "time": "10:00AM",
+    "checkins": 4,
+    "students": [
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      }
+    ],
+    "timestamp": 1738058400000
+  },
+  {
+    "id": "1738051200-1",
+    "date": "2025-01-28",
+    "location": "Zoom class",
+    "teacher": "Sneha Rao",
+    "time": "08:00AM",
+    "checkins": 5,
+    "students": [
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      }
+    ],
+    "timestamp": 1738051200000
+  },
+  {
+    "id": "1737964800-0",
+    "date": "2025-01-27",
+    "location": "In-studio",
+    "teacher": "Sneha Rao",
+    "time": "08:00AM",
+    "checkins": 5,
+    "students": [
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      }
+    ],
+    "timestamp": 1737964800000
+  },
+  {
+    "id": "1737878400-1",
+    "date": "2025-01-26",
+    "location": "In-studio",
+    "teacher": "Arjun Iyer",
+    "time": "08:00AM",
+    "checkins": 3,
+    "students": [
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      }
+    ],
+    "timestamp": 1737878400000
+  },
+  {
+    "id": "1737878400-2",
+    "date": "2025-01-26",
+    "location": "Zoom class",
+    "teacher": "Arjun Iyer",
+    "time": "08:00AM",
+    "checkins": 6,
+    "students": [
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      }
+    ],
+    "timestamp": 1737878400000
+  },
+  {
+    "id": "1737871200-0",
+    "date": "2025-01-26",
+    "location": "In-studio",
+    "teacher": "Sneha Rao",
+    "time": "06:00AM",
+    "checkins": 4,
+    "students": [
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      }
+    ],
+    "timestamp": 1737871200000
+  },
+  {
+    "id": "1737828000-0",
+    "date": "2025-01-25",
+    "location": "Zoom class",
+    "teacher": "Sneha Rao",
+    "time": "06:00PM",
+    "checkins": 2,
+    "students": [
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      }
+    ],
+    "timestamp": 1737828000000
+  },
+  {
+    "id": "1737741600-0",
+    "date": "2025-01-24",
+    "location": "In-studio",
+    "teacher": "Vaidy Bala",
+    "time": "06:00PM",
+    "checkins": 5,
+    "students": [
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      }
+    ],
+    "timestamp": 1737741600000
+  },
+  {
+    "id": "1737734400-1",
+    "date": "2025-01-24",
+    "location": "In-studio",
+    "teacher": "Sneha Rao",
+    "time": "04:00PM",
+    "checkins": 3,
+    "students": [
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      }
+    ],
+    "timestamp": 1737734400000
+  },
+  {
+    "id": "1737619200-0",
+    "date": "2025-01-23",
+    "location": "In-studio",
+    "teacher": "Sneha Rao",
+    "time": "08:00AM",
+    "checkins": 4,
+    "students": [
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      }
+    ],
+    "timestamp": 1737619200000
+  },
+  {
+    "id": "1737540000-0",
+    "date": "2025-01-22",
+    "location": "Zoom class",
+    "teacher": "Sneha Rao",
+    "time": "10:00AM",
+    "checkins": 2,
+    "students": [
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      }
+    ],
+    "timestamp": 1737540000000
+  },
+  {
+    "id": "1737475200-0",
+    "date": "2025-01-21",
+    "location": "Zoom class",
+    "teacher": "Janaki G",
+    "time": "04:00PM",
+    "checkins": 5,
+    "students": [
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      }
+    ],
+    "timestamp": 1737475200000
+  },
+  {
+    "id": "1737388800-0",
+    "date": "2025-01-20",
+    "location": "Zoom class",
+    "teacher": "Vaidy Bala",
+    "time": "04:00PM",
+    "checkins": 5,
+    "students": [
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      }
+    ],
+    "timestamp": 1737388800000
+  },
+  {
+    "id": "1737360000-1",
+    "date": "2025-01-20",
+    "location": "Zoom class",
+    "teacher": "Janaki G",
+    "time": "08:00AM",
+    "checkins": 5,
+    "students": [
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      }
+    ],
+    "timestamp": 1737360000000
+  },
+  {
+    "id": "1737302400-0",
+    "date": "2025-01-19",
+    "location": "In-studio",
+    "teacher": "Sneha Rao",
+    "time": "04:00PM",
+    "checkins": 4,
+    "students": [
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      }
+    ],
+    "timestamp": 1737302400000
+  },
+  {
+    "id": "1737273600-1",
+    "date": "2025-01-19",
+    "location": "Zoom class",
+    "teacher": "Janaki G",
+    "time": "08:00AM",
+    "checkins": 6,
+    "students": [
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      }
+    ],
+    "timestamp": 1737273600000
+  },
+  {
+    "id": "1737266400-2",
+    "date": "2025-01-19",
+    "location": "In-studio",
+    "teacher": "Sneha Rao",
+    "time": "06:00AM",
+    "checkins": 2,
+    "students": [
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      }
+    ],
+    "timestamp": 1737266400000
+  },
+  {
+    "id": "1737187200-0",
+    "date": "2025-01-18",
+    "location": "In-studio",
+    "teacher": "Arjun Iyer",
+    "time": "08:00AM",
+    "checkins": 3,
+    "students": [
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      }
+    ],
+    "timestamp": 1737187200000
+  },
+  {
+    "id": "1737187200-1",
+    "date": "2025-01-18",
+    "location": "In-studio",
+    "teacher": "Vaidy Bala",
+    "time": "08:00AM",
+    "checkins": 3,
+    "students": [
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      }
+    ],
+    "timestamp": 1737187200000
+  },
+  {
+    "id": "1737129600-2",
+    "date": "2025-01-17",
+    "location": "In-studio",
+    "teacher": "Arjun Iyer",
+    "time": "04:00PM",
+    "checkins": 5,
+    "students": [
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      }
+    ],
+    "timestamp": 1737129600000
+  },
+  {
+    "id": "1737108000-1",
+    "date": "2025-01-17",
+    "location": "Zoom class",
+    "teacher": "Sneha Rao",
+    "time": "10:00AM",
+    "checkins": 6,
+    "students": [
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      }
+    ],
+    "timestamp": 1737108000000
+  },
+  {
+    "id": "1737093600-0",
+    "date": "2025-01-17",
+    "location": "In-studio",
+    "teacher": "Vaidy Bala",
+    "time": "06:00AM",
+    "checkins": 5,
+    "students": [
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      }
+    ],
+    "timestamp": 1737093600000
+  },
+  {
+    "id": "1737050400-1",
+    "date": "2025-01-16",
+    "location": "Zoom class",
+    "teacher": "Janaki G",
+    "time": "06:00PM",
+    "checkins": 3,
+    "students": [
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      }
+    ],
+    "timestamp": 1737050400000
+  },
+  {
+    "id": "1737043200-0",
+    "date": "2025-01-16",
+    "location": "Zoom class",
+    "teacher": "Arjun Iyer",
+    "time": "04:00PM",
+    "checkins": 2,
+    "students": [
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      }
+    ],
+    "timestamp": 1737043200000
+  },
+  {
+    "id": "1736956800-0",
+    "date": "2025-01-15",
+    "location": "In-studio",
+    "teacher": "Arjun Iyer",
+    "time": "04:00PM",
+    "checkins": 6,
+    "students": [
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      }
+    ],
+    "timestamp": 1736956800000
+  },
+  {
+    "id": "1736956800-1",
+    "date": "2025-01-15",
+    "location": "In-studio",
+    "teacher": "Arjun Iyer",
+    "time": "04:00PM",
+    "checkins": 2,
+    "students": [
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      }
+    ],
+    "timestamp": 1736956800000
+  },
+  {
+    "id": "1736877600-0",
+    "date": "2025-01-14",
+    "location": "In-studio",
+    "teacher": "Janaki G",
+    "time": "06:00PM",
+    "checkins": 3,
+    "students": [
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      }
+    ],
+    "timestamp": 1736877600000
+  },
+  {
+    "id": "1736877600-2",
+    "date": "2025-01-14",
+    "location": "In-studio",
+    "teacher": "Sneha Rao",
+    "time": "06:00PM",
+    "checkins": 6,
+    "students": [
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      }
+    ],
+    "timestamp": 1736877600000
+  },
+  {
+    "id": "1736848800-1",
+    "date": "2025-01-14",
+    "location": "Zoom class",
+    "teacher": "Sneha Rao",
+    "time": "10:00AM",
+    "checkins": 5,
+    "students": [
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      }
+    ],
+    "timestamp": 1736848800000
+  },
+  {
+    "id": "1736762400-0",
+    "date": "2025-01-13",
+    "location": "In-studio",
+    "teacher": "Sneha Rao",
+    "time": "10:00AM",
+    "checkins": 6,
+    "students": [
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      }
+    ],
+    "timestamp": 1736762400000
+  },
+  {
+    "id": "1736704800-0",
+    "date": "2025-01-12",
+    "location": "In-studio",
+    "teacher": "Janaki G",
+    "time": "06:00PM",
+    "checkins": 6,
+    "students": [
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      }
+    ],
+    "timestamp": 1736704800000
+  },
+  {
+    "id": "1736668800-1",
+    "date": "2025-01-12",
+    "location": "In-studio",
+    "teacher": "Arjun Iyer",
+    "time": "08:00AM",
+    "checkins": 3,
+    "students": [
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      }
+    ],
+    "timestamp": 1736668800000
+  },
+  {
+    "id": "1736618400-0",
+    "date": "2025-01-11",
+    "location": "Zoom class",
+    "teacher": "Vaidy Bala",
+    "time": "06:00PM",
+    "checkins": 3,
+    "students": [
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      }
+    ],
+    "timestamp": 1736618400000
+  },
+  {
+    "id": "1736611200-1",
+    "date": "2025-01-11",
+    "location": "Zoom class",
+    "teacher": "Vaidy Bala",
+    "time": "04:00PM",
+    "checkins": 4,
+    "students": [
+      {
+        "name": "Student A",
+        "avatar": "https://i.pravatar.cc/40?img=1"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      }
+    ],
+    "timestamp": 1736611200000
+  },
+  {
+    "id": "1736503200-0",
+    "date": "2025-01-10",
+    "location": "In-studio",
+    "teacher": "Sneha Rao",
+    "time": "10:00AM",
+    "checkins": 2,
+    "students": [
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student F",
+        "avatar": "https://i.pravatar.cc/40?img=6"
+      }
+    ],
+    "timestamp": 1736503200000
+  },
+  {
+    "id": "1736496000-1",
+    "date": "2025-01-10",
+    "location": "Zoom class",
+    "teacher": "Sneha Rao",
+    "time": "08:00AM",
+    "checkins": 5,
+    "students": [
+      {
+        "name": "Student B",
+        "avatar": "https://i.pravatar.cc/40?img=2"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      }
+    ],
+    "timestamp": 1736496000000
+  },
+  {
+    "id": "1736445600-1",
+    "date": "2025-01-09",
+    "location": "Zoom class",
+    "teacher": "Arjun Iyer",
+    "time": "06:00PM",
+    "checkins": 2,
+    "students": [
+      {
+        "name": "Student G",
+        "avatar": "https://i.pravatar.cc/40?img=7"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      }
+    ],
+    "timestamp": 1736445600000
+  },
+  {
+    "id": "1736416800-0",
+    "date": "2025-01-09",
+    "location": "Zoom class",
+    "teacher": "Vaidy Bala",
+    "time": "10:00AM",
+    "checkins": 6,
+    "students": [
+      {
+        "name": "Student J",
+        "avatar": "https://i.pravatar.cc/40?img=10"
+      },
+      {
+        "name": "Student E",
+        "avatar": "https://i.pravatar.cc/40?img=5"
+      },
+      {
+        "name": "Student I",
+        "avatar": "https://i.pravatar.cc/40?img=9"
+      },
+      {
+        "name": "Student C",
+        "avatar": "https://i.pravatar.cc/40?img=3"
+      },
+      {
+        "name": "Student D",
+        "avatar": "https://i.pravatar.cc/40?img=4"
+      },
+      {
+        "name": "Student H",
+        "avatar": "https://i.pravatar.cc/40?img=8"
+      }
+    ],
+    "timestamp": 1736416800000
+  }
+]

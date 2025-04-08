@@ -1,23 +1,30 @@
 import React, { useState } from "react";
-
-interface Student {
-  name: string;
-  avatar: string;
-}
 import { Link } from "react-router-dom";
-
-interface RecentClass {
-  id: number;
-  date: string;      // e.g. "Today", "Mon, 19 Oct"
-  location: string;  // e.g. "Zoom class", "In-studio"
-  teacher: string;
-  time: string;      // e.g. "6:05AM"
-  checkins: number;  // number of check-ins
-  students: Student[]; // list of student objects
-}
+import { TableContainer } from '../../components/Common/Table/TableContainer';
+import { Table } from '../../components/Common/Table/Table';
+import { Student, RecentClass } from "./types";
+import dummyRecentClasses from "./recent_classes_90days.json";
 
 const RecentClasses: React.FC = () => {
   const [selectedClass, setSelectedClass] = useState<RecentClass | null>(null);
+  const [recentClasses, setRecentClasses] = useState<RecentClass[]>([]);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [searchTerm, setSearchTerm] = useState("");
+  const [startDate, setStartDate] = useState("");
+  const [endDate, setEndDate] = useState("");
+  const classesPerPage = 10;
+
+  React.useEffect(() => {
+    setRecentClasses(dummyRecentClasses);
+  }, []);
+
+  const filteredClasses = recentClasses.filter(cls => {
+    const matchesTeacher = cls.teacher.toLowerCase().includes(searchTerm.toLowerCase());
+    const timestamp = cls.timestamp || 0;
+    const afterStart = !startDate || timestamp >= new Date(startDate + "T00:00:00").getTime();
+    const beforeEnd = !endDate || timestamp <= new Date(endDate + "T23:59:59").getTime();
+    return matchesTeacher && afterStart && beforeEnd;
+  });
 
   const StudentListModal: React.FC<{
     classItem: RecentClass;
@@ -46,32 +53,76 @@ const RecentClasses: React.FC = () => {
     );
   };
 
-  // Dummy data
-  const recentClasses: RecentClass[] = [
-    { id: 1, date: "Today",        location: "Zoom class", teacher: "Vaidy Bala", time: "6:05AM", checkins: 0, students: [] },
-    { id: 2, date: "Mon, 19 Oct",  location: "Zoom class", teacher: "Vaidy Bala", time: "2:00PM", checkins: 2, students: [
-        { name: "Lakshmi", avatar: "https://i.pravatar.cc/40?img=1" },
-        { name: "Ravi", avatar: "https://i.pravatar.cc/40?img=2" }
-      ]
+  const columns = [
+    {
+      header: 'Date',
+      accessor: (cls: RecentClass) => (
+        <div className="flex items-center">
+          {cls.date === "Today" && (
+            <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded mr-2">
+              Today
+            </span>
+          )}
+          {cls.date}
+        </div>
+      ),
+      className: 'w-1/6'
     },
-    { id: 3, date: "Mon, 19 Oct",  location: "Zoom class", teacher: "Janaki G",   time: "5:21AM", checkins: 5, students: [
-        { name: "Anita", avatar: "https://i.pravatar.cc/40?img=3" },
-        { name: "Kiran", avatar: "https://i.pravatar.cc/40?img=4" },
-        { name: "Ramesh", avatar: "https://i.pravatar.cc/40?img=5" },
-        { name: "Divya", avatar: "https://i.pravatar.cc/40?img=6" },
-        { name: "Sita", avatar: "https://i.pravatar.cc/40?img=7" }
-      ]
+    { 
+      header: 'Location', 
+      accessor: 'location',
+      className: 'w-1/6'
     },
-    { id: 4, date: "Tue, 20 Oct",  location: "In-studio",  teacher: "Sneha Rao",  time: "8:00AM", checkins: 3, students: [
-        { name: "Karthik", avatar: "https://i.pravatar.cc/40?img=8" },
-        { name: "Preeti", avatar: "https://i.pravatar.cc/40?img=9" },
-        { name: "Manoj", avatar: "https://i.pravatar.cc/40?img=10" }
-      ]
+    { 
+      header: 'Teacher', 
+      accessor: 'teacher',
+      className: 'w-1/6'
     },
-    { id: 5, date: "Tue, 20 Oct",  location: "Zoom class", teacher: "Arjun Iyer", time: "6:00PM", checkins: 1, students: [
-        { name: "Meera", avatar: "https://i.pravatar.cc/40?img=11" },
-        { name: "Rahul", avatar: "https://i.pravatar.cc/40?img=12" }
-      ]
+    { 
+      header: 'Time', 
+      accessor: 'time',
+      className: 'w-1/6'
+    },
+    {
+      header: 'Students',
+      accessor: (cls: RecentClass) => (
+        cls.checkins > 0 ? (
+          <button
+            onClick={() => setSelectedClass(cls)}
+            className="text-blue-600 hover:underline"
+          >
+            {cls.checkins} Check-ins
+          </button>
+        ) : (
+          <span className="text-gray-400">No check-ins</span>
+        )
+      ),
+      className: 'w-1/6'
+    },
+    {
+      header: 'Actions',
+      accessor: (cls: RecentClass) => (
+        <div className="space-x-2">
+          <Link 
+            to={`/classes/${cls.id}`}
+            className="text-blue-600 hover:underline"
+          >
+            View
+          </Link>
+          <Link 
+            to={`/classes/${cls.id}/edit`}
+            className="text-yellow-600 hover:underline"
+          >
+            Edit
+          </Link>
+          <button
+            className="text-green-600 hover:underline"
+          >
+            Check-in
+          </button>
+        </div>
+      ),
+      className: 'w-1/6'
     },
   ];
 
@@ -83,57 +134,38 @@ const RecentClasses: React.FC = () => {
           See All
         </Link>
       </div>
-      <div className="overflow-x-auto">
-        <table className="min-w-full text-left border-collapse">
-          <thead className="bg-gray-100">
-            <tr>
-              <th className="py-3 px-4 font-semibold text-gray-700">Date</th>
-              <th className="py-3 px-4 font-semibold text-gray-700">Location</th>
-              <th className="py-3 px-4 font-semibold text-gray-700">Teacher</th>
-              <th className="py-3 px-4 font-semibold text-gray-700">Time</th>
-              <th className="py-3 px-4 font-semibold text-gray-700">Students</th>
-              <th className="py-3 px-4 font-semibold text-gray-700">Actions</th>
-            </tr>
-          </thead>
-          <tbody>
-            {recentClasses.map((cls) => (
-              <tr key={cls.id} className="border-b last:border-0">
-                <td className="py-2 px-4">
-                  {cls.date === "Today" && <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded mr-2">Today</span>}
-                  {cls.date}
-                </td>
-                <td className="py-2 px-4">{cls.location}</td>
-                <td className="py-2 px-4">{cls.teacher}</td>
-                <td className="py-2 px-4">{cls.time}</td>
-                <td className="py-2 px-4">
-                  {cls.checkins > 0 ? (
-                    <button
-                      onClick={() => setSelectedClass(cls)}
-                      className="text-sm text-blue-600 hover:underline"
-                    >
-                      {cls.checkins} Check-ins
-                    </button>
-                  ) : (
-                    <span className="text-gray-400">No check-ins</span>
-                  )}
-                </td>
-                <td className="py-2 px-4 space-x-2">
-                  <Link to={`/classes/${cls.id}`} className="text-sm text-blue-600 hover:underline">View</Link>
-                  <Link to={`/classes/${cls.id}/edit`} className="text-sm text-yellow-600 hover:underline">Edit</Link>
-                  <button className="text-sm text-green-600 hover:underline">Check-in</button>
-                </td>
-              </tr>
-            ))}
-            {recentClasses.length === 0 && (
-              <tr>
-                <td colSpan={6} className="py-4 px-4 text-center text-gray-500">
-                  No recent classes found.
-                </td>
-              </tr>
-            )}
-          </tbody>
-        </table>
+      
+      <div className="flex flex-col md:flex-row md:items-center md:space-x-4 mb-4 space-y-2 md:space-y-0">
+        <input
+          type="text"
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          placeholder="Search by teacher name..."
+          className="w-full md:w-1/3 px-4 py-2 border rounded shadow-sm"
+        />
+        <input
+          type="date"
+          value={startDate}
+          onChange={(e) => setStartDate(e.target.value)}
+          className="px-4 py-2 border rounded shadow-sm"
+        />
+        <input
+          type="date"
+          value={endDate}
+          onChange={(e) => setEndDate(e.target.value)}
+          className="px-4 py-2 border rounded shadow-sm"
+        />
       </div>
+
+      <TableContainer>
+        <Table
+          columns={columns}
+          data={filteredClasses.slice((currentPage - 1) * classesPerPage, currentPage * classesPerPage)}
+          emptyMessage="No recent classes found."
+          isLoading={false}
+        />
+      </TableContainer>
+
       {selectedClass && (
         <StudentListModal
           classItem={selectedClass}
@@ -141,6 +173,26 @@ const RecentClasses: React.FC = () => {
           onClose={() => setSelectedClass(null)}
         />
       )}
+
+      <div className="flex justify-between items-center mt-4">
+        <button
+          onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))}
+          disabled={currentPage === 1}
+          className="px-4 py-2 bg-gray-200 rounded disabled:opacity-50"
+        >
+          Previous
+        </button>
+        <span className="text-sm">
+          Page {currentPage} of {Math.ceil(filteredClasses.length / classesPerPage)}
+        </span>
+        <button
+          onClick={() => setCurrentPage(prev => Math.min(prev + 1, Math.ceil(filteredClasses.length / classesPerPage)))}
+          disabled={currentPage === Math.ceil(filteredClasses.length / classesPerPage)}
+          className="px-4 py-2 bg-gray-200 rounded disabled:opacity-50"
+        >
+          Next
+        </button>
+      </div>
     </div>
   );
 };

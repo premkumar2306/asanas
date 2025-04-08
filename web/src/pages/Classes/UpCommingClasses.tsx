@@ -4,6 +4,22 @@ import { ClassFormData } from "../../components/Classes/types";
 import { CheckInsModal } from '../../components/Classes/CheckInsModal';
 import { Button } from '../../components/common/Button';
 import { IoAdd } from 'react-icons/io5';
+import { Calendar, dateFnsLocalizer } from "react-big-calendar";
+import { format, parse, startOfWeek, getDay } from "date-fns";
+import enUS from "date-fns/locale/en-US";
+import "react-big-calendar/lib/css/react-big-calendar.css";
+
+const locales = {
+  "en-US": enUS,
+};
+
+const localizer = dateFnsLocalizer({
+  format,
+  parse,
+  startOfWeek,
+  getDay,
+  locales,
+});
 
 interface ClassItem {
   id: number;
@@ -41,34 +57,50 @@ export default function UpCommingClasses() {
     return () => clearInterval(timer);
   }, []);
 
-  // Generate dummy data (at least 15 classes) grouped by "Today" and "Tomorrow"
+  // Helper function to format date
+  const formatDate = (date: Date): string => {
+    const today = new Date();
+    const tomorrow = new Date(today);
+    tomorrow.setDate(tomorrow.getDate() + 1);
+
+    if (date.toDateString() === today.toDateString()) return "Today";
+    if (date.toDateString() === tomorrow.toDateString()) return "Tomorrow";
+    return date.toLocaleDateString("en-US", { weekday: 'long', month: 'short', day: 'numeric' });
+  };
+
+  // Generate dummy data for next 30 days
   useEffect(() => {
     const dummyClasses: ClassItem[] = [];
-    // We'll simulate 10 classes for "Today" and 8 for "Tomorrow"
-    for (let i = 1; i <= 10; i++) {
-      dummyClasses.push({
-        id: i,
-        date: "Today",
-        title: `Class ${i} ${i % 4 === 0 ? "Workshop" : i % 3 === 0 ? "Personal Session" : "Group Class"}`,
-        time: `${6 + (i % 12)}:00 ${i % 2 === 0 ? "AM" : "PM"} IST`,
-        teacher: i % 2 === 0 ? "Ravi" : "Sneha",
-        type: i % 4 === 0 ? "workshop" : i % 3 === 0 ? "personal" : "group",
-        fees: i % 3 === 0 ? "INR 500" : "Included in plan",
-        canStart: i % 5 !== 0,
-      });
+    const today = new Date();
+
+    // Generate classes for next 30 days
+    for (let i = 0; i < 30; i++) {
+      const currentDate = new Date(today);
+      currentDate.setDate(today.getDate() + i);
+      
+      // Generate 2-4 classes per day
+      const classesPerDay = Math.floor(Math.random() * 3) + 2;
+      
+      for (let j = 1; j <= classesPerDay; j++) {
+        const classHour = 6 + (j * 2); // Spread classes throughout the day
+        currentDate.setHours(classHour, 0, 0, 0);
+
+        dummyClasses.push({
+          id: Date.now() + (i * 100) + j,
+          date: formatDate(currentDate),
+          title: `Class ${j} ${j % 4 === 0 ? "Workshop" : j % 3 === 0 ? "Personal Session" : "Group Class"}`,
+          time: `${classHour % 12 || 12}:00 ${classHour >= 12 ? 'PM' : 'AM'} IST`,
+          teacher: j % 2 === 0 ? "Ravi" : "Sneha",
+          type: j % 4 === 0 ? "workshop" : j % 3 === 0 ? "personal" : "group",
+          fees: j % 3 === 0 ? "INR 500" : "Included in plan",
+          canStart: currentDate.getTime() <= new Date().getTime(),
+          timestamp: currentDate.getTime(), // Add timestamp for sorting
+        });
+      }
     }
-    for (let i = 11; i <= 18; i++) {
-      dummyClasses.push({
-        id: i,
-        date: "Tomorrow",
-        title: `Class ${i} ${i % 4 === 0 ? "Workshop" : i % 3 === 0 ? "Personal Session" : "Group Class"}`,
-        time: `${6 + (i % 12)}:00 ${i % 2 === 0 ? "AM" : "PM"} IST`,
-        teacher: i % 2 === 0 ? "Arjun" : "Meera",
-        type: i % 4 === 0 ? "workshop" : i % 3 === 0 ? "personal" : "group",
-        fees: i % 3 === 0 ? "USD 10" : "Included in plan",
-        canStart: i % 5 !== 0,
-      });
-    }
+
+    // Sort classes by timestamp
+    dummyClasses.sort((a, b) => (a.timestamp || 0) - (b.timestamp || 0));
     setClasses(dummyClasses);
   }, []);
 
@@ -78,6 +110,15 @@ export default function UpCommingClasses() {
     groups[cls.date].push(cls);
     return groups;
   }, {});
+
+  // Sort dates to ensure they appear in chronological order
+  const sortedDates = Object.keys(groupedClasses).sort((a, b) => {
+    if (a === "Today") return -1;
+    if (b === "Today") return 1;
+    if (a === "Tomorrow") return -1;
+    if (b === "Tomorrow") return 1;
+    return new Date(a).getTime() - new Date(b).getTime();
+  });
 
   // Filter classes based on current tab
   const filterByType = (cls: ClassItem) => {
@@ -133,15 +174,46 @@ export default function UpCommingClasses() {
     setSelectedClassForAttendance(cls);
   };
 
+  const columns = [
+    { header: 'Title', accessor: 'title' },
+    { header: 'Time', accessor: 'time' },
+    { header: 'Teacher', accessor: 'teacher' },
+    { header: 'Fees', accessor: 'fees' },
+    {
+      header: 'Actions',
+      accessor: (cls: ClassItem) => (
+        <div className="space-x-2">
+          <Button
+            variant="outline"
+            size="sm"
+            onClick={() => handleOpenModal('edit', cls)}
+          >
+            Edit
+          </Button>
+          <Button
+            variant="outline"
+            size="sm"
+            onClick={() => handleCheckInsClick(cls)}
+          >
+            Check-ins
+          </Button>
+          <Button
+            variant="danger"
+            size="sm"
+            onClick={() => handleDelete(cls.id)}
+          >
+            Delete
+          </Button>
+        </div>
+      ),
+    },
+  ];
+
   return (
-    <div className="p-4 max-w-5xl mx-auto">
-      <div className="flex justify-between items-center mb-4">
-        <h1 className="text-2xl font-bold">Upcoming Classes</h1>
-        <Button
-          onClick={() => handleOpenModal('create')}
-          variant="success"
-          icon={IoAdd}
-        >
+    <div className="p-6">
+      <div className="flex justify-between items-center mb-6">
+        <h1 className="text-2xl font-bold">Upcoming Classes Calendar</h1>
+        <Button variant="success" onClick={() => handleOpenModal('create')}>
           Create New Class
         </Button>
       </div>
@@ -187,61 +259,32 @@ export default function UpCommingClasses() {
         Current time: <span className="font-medium">{currentTime}</span>
       </div>
 
-      {/* Grouped Classes */}
-      {Object.keys(groupedClasses)
-        .sort()
-        .map((date) => {
-          const classesForDate = groupedClasses[date].filter(filterByType);
-          if (classesForDate.length === 0) return null;
-          return (
-            <div key={date} className="mb-8">
-              <h2 className="text-lg font-semibold mb-2">{date}</h2>
-              <div className="overflow-x-auto bg-white shadow-md rounded-lg">
-                <table className="min-w-full text-left border-collapse">
-                  <thead className="bg-gray-100 text-gray-700">
-                    <tr>
-                      <th className="py-3 px-4 font-semibold">Title</th>
-                      <th className="py-3 px-4 font-semibold">Time</th>
-                      <th className="py-3 px-4 font-semibold">Teacher</th>
-                      <th className="py-3 px-4 font-semibold">Fees</th>
-                      <th className="py-3 px-4 font-semibold">Actions</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {classesForDate.map((cls) => (
-                      <tr key={cls.id} className="border-b last:border-0">
-                        <td className="py-3 px-4">{cls.title}</td>
-                        <td className="py-3 px-4">{cls.time}</td>
-                        <td className="py-3 px-4">{cls.teacher}</td>
-                        <td className="py-3 px-4">{cls.fees}</td>
-                        <td className="py-3 px-4 space-x-2">
-                          <button
-                            onClick={() => handleOpenModal('edit', cls)}
-                            className="text-blue-600 hover:underline"
-                          >
-                            Edit
-                          </button>
-                          <button
-                            onClick={() => handleDelete(cls.id)}
-                            className="text-red-600 hover:underline"
-                          >
-                            Delete
-                          </button>
-                          <button
-                            onClick={() => handleCheckInsClick(cls)}
-                            className="text-blue-600 hover:underline"
-                          >
-                            Check-ins
-                          </button>
-                        </td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          );
-        })}
+      <div style={{ height: "80vh" }}>
+        <Calendar
+          localizer={localizer}
+          events={classes.filter(filterByType).map((cls) => ({
+            id: cls.id,
+            title: `${cls.teacher} - ${cls.time}`,
+            start: new Date(cls.timestamp || 0),
+            end: new Date((cls.timestamp || 0) + 60 * 60 * 1000),
+            teacher: cls.teacher,
+          }))}
+          startAccessor="start"
+          endAccessor="end"
+          defaultView="week"
+          views={["month", "week", "day"]}
+          onSelectEvent={(event) => {
+            const cls = classes.find(c => c.id === event.id);
+            if (cls) {
+              handleCheckInsClick(cls);
+            }
+          }}
+          selectable
+          onSelectSlot={(slotInfo) => {
+            console.log("Selected slot: ", slotInfo);
+          }}
+        />
+      </div>
 
       {/* Modal for New/Edit Class */}
       {showModal && (

@@ -36,7 +36,6 @@ export const PoseDisplay: React.FC<PoseDisplayProps> = ({
           {pose.benefits.map((benefit, idx) => (
             <div>
               <li key={idx}>{benefit}</li>
-              <li key={idx}>{benefit}</li>
             </div>
           ))}
         </ul>

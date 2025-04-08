@@ -6,6 +6,8 @@ import { useTranslation } from "react-i18next";
 function SessionSummary() {
   const { t } = useTranslation();
   const [moodAfter, setMoodAfter] = useState(3);
+  const [showComparison, setShowComparison] = useState(false);
+  const moodBefore = 4; // Dummy mood value from Practice Now
 
   const submitMood = async () => {
     try {
@@ -49,6 +51,26 @@ function SessionSummary() {
             })}
           </div>
         </div>
+        <div className="mb-4">
+          <button
+            onClick={() => setShowComparison(!showComparison)}
+            className="bg-blue-500 text-white p-2 rounded transition-colors w-full"
+          >
+            Compare to Practice Now
+          </button>
+        </div>
+        {showComparison && (
+          <div className="bg-gray-100 p-4 rounded-lg shadow-md mb-4">
+            <p className="text-lg font-semibold mb-2">Comparison</p>
+            <p>Practice Now Mood: {moodBefore}</p>
+            <p>Session Summary Mood: {moodAfter}</p>
+            <p className="mt-2">
+              {moodAfter >= moodBefore
+                ? "Great improvement!"
+                : "Keep working on it!"}
+            </p>
+          </div>
+        )}
       </main>
       <footer className="mt-4">
         <button onClick={submitMood} className="bg-green-500 text-white p-2 hover:bg-green-600 rounded transition-colors w-full">

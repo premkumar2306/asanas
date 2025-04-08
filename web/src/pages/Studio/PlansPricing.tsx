@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import PlanTable from "../../components/PlansPricing/PlanTable";
 import PlanModal from "../../components/PlansPricing/PlanModal";
 import { PlanData, initialPlans } from "../../components/PlansPricing/types";
+import {TableContainer} from "../../components/Common/Table/TableContainer";
+import { Table } from "../../components/Common/Table/Table";
 
 const PlansPricing: React.FC = () => {
   const [plans, setPlans] = useState<PlanData[]>(initialPlans);
@@ -69,6 +70,61 @@ const PlansPricing: React.FC = () => {
     }
   };
 
+  // Define columns for the table
+  const columns = [
+    {
+      header: "Service",
+      accessor: (plan: PlanData) => plan.service,
+      className: "w-1/6",
+    },
+    {
+      header: "Name",
+      accessor: (plan: PlanData) => plan.name,
+      className: "w-1/6",
+    },
+    {
+      header: "Description",
+      accessor: (plan: PlanData) => plan.description,
+      className: "w-1/3",
+    },
+    {
+      header: "Price",
+      accessor: (plan: PlanData) => plan.price,
+      className: "w-1/6",
+    },
+    {
+      header: "Status",
+      accessor: (plan: PlanData) => (plan.active ? "Active" : "Inactive"),
+      className: "w-1/6",
+    },
+    {
+      header: "Actions",
+      accessor: (plan: PlanData) => (
+        <div className="flex space-x-2">
+          <button
+            onClick={() => openEditModal(plan.id)}
+            className="text-blue-600 hover:underline"
+          >
+            Edit
+          </button>
+          <button
+            onClick={() => handleDeactivate(plan.id)}
+            className="text-yellow-600 hover:underline"
+          >
+            {plan.active ? "Deactivate" : "Activate"}
+          </button>
+          <button
+            onClick={() => handleDelete(plan.id)}
+            className="text-red-600 hover:underline"
+          >
+            Delete
+          </button>
+        </div>
+      ),
+      className: "w-1/6",
+    },
+  ];
+
   return (
     <div className="p-6 bg-gray-50 min-h-screen">
       <div className="max-w-6xl mx-auto">
@@ -82,12 +138,14 @@ const PlansPricing: React.FC = () => {
           </button>
         </div>
 
-        <PlanTable
-          plans={plans}
-          onEdit={openEditModal}
-          onDeactivate={handleDeactivate}
-          onDelete={handleDelete}
-        />
+        <TableContainer>
+          <Table
+            columns={columns}
+            data={plans}
+            emptyMessage="No plans found."
+            isLoading={false}
+          />
+        </TableContainer>
 
         {showModal && (
           <PlanModal
