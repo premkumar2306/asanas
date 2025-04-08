@@ -3,7 +3,8 @@ import { db } from "../firebase";
 import { collection, addDoc } from "firebase/firestore";
 import { useTranslation } from "react-i18next";
 import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
-import { IoTimeOutline, IoSearch, IoTrash, IoWarning } from "react-icons/io5";
+import { IoTimeOutline, IoSearch, IoTrash, IoWarning, IoSave } from "react-icons/io5";
+import { Button } from '../components/Common/Button';
 
 interface Pose {
   id: number;
@@ -360,17 +361,15 @@ function FlowBuilder() {
           </DragDropContext>
 
           {selectedPoses.length > 0 && (
-            <button
+            <Button
               onClick={saveFlow}
-              disabled={isSaving}
-              className={`w-full ${
-                isSaving 
-                  ? 'bg-gray-400' 
-                  : 'bg-blue-500 hover:bg-blue-600'
-              } text-white p-3 rounded-lg mt-4 transition-colors`}
+              isLoading={isSaving}
+              fullWidth
+              variant="primary"
+              icon={IoSave}
             >
               {isSaving ? 'Saving...' : 'Save Flow'}
-            </button>
+            </Button>
           )}
 
           {errors.poses && (

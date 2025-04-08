@@ -5,6 +5,8 @@ import { auth } from "../../firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { signOut, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import { useIsMobile } from "../../hooks/useIsMobile";
+import { Button } from '../common/Button';
+import { FcGoogle } from 'react-icons/fc';
 
 function Navbar() {
   const { t } = useTranslation();
@@ -148,20 +150,25 @@ function Navbar() {
           {user ? (
             <div className="space-y-2">
               <span className="block text-sm text-gray-300">{user.email}</span>
-              <button
+              <Button
+                variant="danger"
+                size="sm"
+                fullWidth
                 onClick={handleSignOut}
-                className="bg-red-500 hover:bg-red-600 px-4 py-2 rounded text-sm w-full"
               >
                 Sign Out
-              </button>
+              </Button>
             </div>
           ) : (
-            <button
+            <Button
+              variant="primary"
+              size="sm"
+              fullWidth
+              icon={FcGoogle}
               onClick={signInWithGoogle}
-              className="bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded text-sm w-full"
             >
               Sign In with Google
-            </button>
+            </Button>
           )}
         </div>
       </div>

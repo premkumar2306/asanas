@@ -65,8 +65,6 @@ export interface PlanData {
   isPublic: boolean;
   active: boolean;
   countryPricing?: { country: string; price: string }[];
-
-  /* New Fields */
   termAndClasses?: string;             // e.g. "12 classes • Standard"
   eligibleClasses?: string[];          // list of class names or IDs
   discountCodes?: DiscountCode[];      // array of discount code objects

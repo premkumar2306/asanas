@@ -1,5 +1,6 @@
 import React from 'react';
 import { TabType } from '../../pages/Classes/types';
+import { Button } from '../common/Button';
 
 interface TabSelectorProps {
   currentTab: TabType;
@@ -12,15 +13,14 @@ export default function TabSelector({ currentTab, onTabChange }: TabSelectorProp
   return (
     <div className="space-x-4 mb-4">
       {tabs.map(tab => (
-        <button
+        <Button
           key={tab}
           onClick={() => onTabChange(tab)}
-          className={`px-4 py-2 rounded ${
-            currentTab === tab ? "bg-green-600 text-white" : "bg-gray-200"
-          }`}
+          variant={currentTab === tab ? "success" : "secondary"}
+          size="sm"
         >
           {tab === "all" ? "All classes" : `${tab.charAt(0).toUpperCase() + tab.slice(1)} classes`}
-        </button>
+        </Button>
       ))}
     </div>
   );

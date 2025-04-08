@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import ClassForm from "../../components/Classes/ClassForm";
 import { ClassFormData } from "../../components/Classes/types";
 import { CheckInsModal } from '../../components/Classes/CheckInsModal';
+import { Button } from '../../components/common/Button';
+import { IoAdd } from 'react-icons/io5';
 
 interface ClassItem {
   id: number;
@@ -135,12 +137,13 @@ export default function UpCommingClasses() {
     <div className="p-4 max-w-5xl mx-auto">
       <div className="flex justify-between items-center mb-4">
         <h1 className="text-2xl font-bold">Upcoming Classes</h1>
-        <button
+        <Button
           onClick={() => handleOpenModal('create')}
-          className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700"
+          variant="success"
+          icon={IoAdd}
         >
           Create New Class
-        </button>
+        </Button>
       </div>
 
       {/* Tabs */}
@@ -148,7 +151,7 @@ export default function UpCommingClasses() {
         <button
           onClick={() => setCurrentTab("all")}
           className={`px-4 py-2 rounded ${
-            currentTab === "all" ? "bg-green-600 text-white" : "bg-gray-200"
+            currentTab === "all" ? "bg-blue-600 text-white" : "bg-gray-200"
           }`}
         >
           All classes
@@ -156,7 +159,7 @@ export default function UpCommingClasses() {
         <button
           onClick={() => setCurrentTab("group")}
           className={`px-4 py-2 rounded ${
-            currentTab === "group" ? "bg-green-600 text-white" : "bg-gray-200"
+            currentTab === "group" ? "bg-blue-600 text-white" : "bg-gray-200"
           }`}
         >
           Group classes
@@ -164,7 +167,7 @@ export default function UpCommingClasses() {
         <button
           onClick={() => setCurrentTab("personal")}
           className={`px-4 py-2 rounded ${
-            currentTab === "personal" ? "bg-green-600 text-white" : "bg-gray-200"
+            currentTab === "personal" ? "bg-blue-600 text-white" : "bg-gray-200"
           }`}
         >
           Personal classes
@@ -172,7 +175,7 @@ export default function UpCommingClasses() {
         <button
           onClick={() => setCurrentTab("workshop")}
           className={`px-4 py-2 rounded ${
-            currentTab === "workshop" ? "bg-green-600 text-white" : "bg-gray-200"
+            currentTab === "workshop" ? "bg-blue-600 text-white" : "bg-gray-200"
           }`}
         >
           Workshops
@@ -226,7 +229,7 @@ export default function UpCommingClasses() {
                           </button>
                           <button
                             onClick={() => handleCheckInsClick(cls)}
-                            className="text-green-600 hover:underline"
+                            className="text-blue-600 hover:underline"
                           >
                             Check-ins
                           </button>
