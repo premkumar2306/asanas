@@ -4,7 +4,11 @@ import { StudioInfo } from "../types/studio";
 
 export async function saveStudioInfoToFirestore(studioInfo: StudioInfo, id: string = "default") {
   const studioRef = doc(db, "studioDetails", id);
-  await setDoc(studioRef, studioInfo, { merge: true });
+  try {
+    await setDoc(studioRef, studioInfo, { merge: true });
+  } catch (validationError: any) {
+    console.error("Firestore error:", validationError);
+  }
 }
 
 export async function getStudioInfoFromFirestore(id: string = "default"): Promise<StudioInfo | null> {

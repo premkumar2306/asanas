@@ -1,3 +1,12 @@
+export interface StudioAddress {
+  address1?: string;
+  address2?: string;
+  city?: string;
+  state?: string;
+  country: string;
+  pincode?: string;
+}
+
 export interface StudioInfo {
   /* Basic Information */
   name: string;
@@ -37,10 +46,5 @@ export interface StudioInfo {
   receiptFootnote?: string;
 
   /* Registered Address */
-  address1?: string;
-  address2?: string;
-  city?: string;
-  state?: string;
-  country: string;
-  pincode?: string;
+  address: StudioAddress;
 }

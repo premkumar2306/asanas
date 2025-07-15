@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import * as yup from "yup";
 import { StudioInfo } from "../../types/studio";
 import { getStudioInfoFromFirestore, saveStudioInfoToFirestore } from "../../api/studio";
+import studioData from "../../mocks/studio.json";
 
-export const  studioSchema = yup.object().shape({
+export const studioSchema = yup.object().shape({
   name: yup.string().required("Studio name is required."),
   tagline: yup.string(),
   description: yup.string(),
@@ -29,61 +30,18 @@ export const  studioSchema = yup.object().shape({
   gstin: yup.string().nullable(),
   receiptHeading: yup.string().nullable(),
   receiptFootnote: yup.string().nullable(),
-  address1: yup.string().nullable(),
-  address2: yup.string().nullable(),
-  city: yup.string().nullable(),
-  state: yup.string().nullable(),
-  country: yup.string().required("Country is required."),
-  pincode: yup.string().nullable(),
+  address: yup.object().shape({
+    address1: yup.string().nullable(),
+    address2: yup.string().nullable(),
+    city: yup.string().nullable(),
+    state: yup.string().nullable(),
+    country: yup.string().required("Country is required."),
+    pincode: yup.string().nullable(),
+  }),
 });
 
 const StudioDetails: React.FC = () => {
-  const [studioInfo, setStudioInfo] = useState<StudioInfo>({
-    /** Basic Information */
-    name: "Easy Studio USA",
-    tagline: "Find Your Inner Balance",
-    description: "A modern, easy-to-use yoga studio offering a variety of classes in a relaxed environment.",
-    email: "contact@easystudiousa.com",
-    phone: "+1 (555) 123-4567",
-    emergencyContact: "+1 (555) 987-6543",
-    
-    /** Online Presence */
-    website: "https://www.easystudiousa.com",
-    logoUrl: "https://via.placeholder.com/150",
-    socialMedia: {
-      instagramUrl: "https://www.instagram.com/easystudiousa",
-      facebookUrl: "https://www.facebook.com/easystudiousa",
-      youtubeUrl: "https://www.youtube.com/easystudiousa",
-    },
-    
-    /** Schedule & Services */
-    groupClassSchedule: "https://www.easystudiousa.com/schedule",
-    servicesEnabled: ["Group Classes", "Personal Classes", "Video Courses"],
-    serviceStartDate: "Oct 04, 2026",
-    operatingHours: "Mon-Fri: 6 AM - 9 PM, Sat-Sun: 8 AM - 5 PM",
-    timeZone: "Pacific Time (PT)",
-    
-    /** Registration & Membership */
-    registrationFee: "50", // USD
-    freeTrialsAllowed: 1,
-    membershipOptions: "Monthly, Annual, Drop-In",
-    
-    /** GST & Legal */
-    gstRegistered: false,
-    gstin: "",
-    
-    /** Receipt Details */
-    receiptHeading: "Easy Studio USA",
-    receiptFootnote: "Thank you for choosing Easy Studio USA!",
-    
-    /** Registered Address */
-    address1: "123 Easy Lane",
-    address2: "",
-    city: "Los Angeles",
-    state: "CA",
-    country: "USA",
-    pincode: "90012",
-  });
+  const [studioInfo, setStudioInfo] = useState<StudioInfo>(studioData);
   const [errors, setErrors] = useState<{ [key: string]: string }>({});
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -92,7 +50,10 @@ const StudioDetails: React.FC = () => {
       await studioSchema.validate(studioInfo, { abortEarly: false });
       setErrors({});
       console.log("Saving studio info:", studioInfo);
-      // Add API call or further save logic here.
+      // Save studio info to Firestore
+      await saveStudioInfoToFirestore(studioInfo);
+      // Optionally show a success message or redirect
+      alert("Studio info saved successfully!");
     } catch (validationError: any) {
       const newErrors: { [key: string]: string } = {};
       if (validationError.inner) {
@@ -104,8 +65,8 @@ const StudioDetails: React.FC = () => {
     }
   };
 
-  const postalCodeLabel = studioInfo.country === "India" ? "Pincode" : "Zip Code";
-  const currencySymbol = studioInfo.country === "India" ? "INR" : "USD";
+  const postalCodeLabel = studioInfo.address.country === "India" ? "Pincode" : "Zip Code";
+  const currencySymbol = studioInfo.address.country === "India" ? "INR" : "USD";
 
   // Time zone options
   const timeZoneOptions = [
@@ -347,7 +308,7 @@ const StudioDetails: React.FC = () => {
                   type="text"
                   value={studioInfo.registrationFee || ""}
                   onChange={(e) => setStudioInfo({ ...studioInfo, registrationFee: e.target.value })}
-                  placeholder={studioInfo.country === "India" ? "INR 500" : "USD 50"}
+                  placeholder={studioInfo.address.country === "India" ? "INR 500" : "USD 50"}
                   className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-200"
                 />
               </div>
@@ -461,8 +422,8 @@ const StudioDetails: React.FC = () => {
                 <label className="block text-sm font-medium text-gray-700">Address Line 1</label>
                 <input
                   type="text"
-                  value={studioInfo.address1 || studioInfo.address}
-                  onChange={(e) => setStudioInfo({ ...studioInfo, address1: e.target.value })}
+                  value={studioInfo.address.address1 || ""}
+                  onChange={(e) => setStudioInfo({ ...studioInfo, address: { ...studioInfo.address, address1: e.target.value } })}
                   className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-200"
                 />
               </div>
@@ -471,8 +432,8 @@ const StudioDetails: React.FC = () => {
                 <label className="block text-sm font-medium text-gray-700">Address Line 2</label>
                 <input
                   type="text"
-                  value={studioInfo.address2 || ""}
-                  onChange={(e) => setStudioInfo({ ...studioInfo, address2: e.target.value })}
+                  value={studioInfo.address.address2 || ""}
+                  onChange={(e) => setStudioInfo({ ...studioInfo, address: { ...studioInfo.address, address2: e.target.value } })}
                   className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-200"
                 />
               </div>
@@ -481,8 +442,8 @@ const StudioDetails: React.FC = () => {
                   <label className="block text-sm font-medium text-gray-700">City</label>
                   <input
                     type="text"
-                    value={studioInfo.city || "Los Angeles"}
-                    onChange={(e) => setStudioInfo({ ...studioInfo, city: e.target.value })}
+                    value={studioInfo.address.city || ""}
+                    onChange={(e) => setStudioInfo({ ...studioInfo, address: { ...studioInfo.address, city: e.target.value } })}
                     className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-200"
                   />
                 </div>
@@ -490,21 +451,19 @@ const StudioDetails: React.FC = () => {
                   <label className="block text-sm font-medium text-gray-700">State</label>
                   <input
                     type="text"
-                    value={studioInfo.state || "CA"}
-                    onChange={(e) => setStudioInfo({ ...studioInfo, state: e.target.value })}
+                    value={studioInfo.address.state || ""}
+                    onChange={(e) => setStudioInfo({ ...studioInfo, address: { ...studioInfo.address, state: e.target.value } })}
                     className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-200"
                   />
                 </div>
               </div>
               <div>
-                <label className="block text-sm font-medium text-gray-700">
-                  {studioInfo.country === "India" ? "Pincode" : "Zip Code"}
-                </label>
+                <label className="block text-sm font-medium text-gray-700">{postalCodeLabel}</label>
                 <input
                   type="text"
-                  value={studioInfo.pincode || "90012"}
-                  onChange={(e) => setStudioInfo({ ...studioInfo, pincode: e.target.value })}
-                  placeholder={studioInfo.country === "India" ? "e.g. 560001" : "e.g. 90210"}
+                  value={studioInfo.address.pincode || ""}
+                  onChange={(e) => setStudioInfo({ ...studioInfo, address: { ...studioInfo.address, pincode: e.target.value } })}
+                  placeholder={studioInfo.address.country === "India" ? "e.g. 560001" : "e.g. 90210"}
                   className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-200"
                 />
               </div>
