@@ -1,5 +1,6 @@
 import { TeamMember } from '../types';
 
+// Exporting the mock data so it can be reused across Studio and Team pages
 export const mockTeamMembers: TeamMember[] = [
   {
     id: "1",
@@ -17,5 +18,28 @@ export const mockTeamMembers: TeamMember[] = [
     gender: "male",
     imageUrl: "https://i.pravatar.cc/200?img=12",
   },
-  // ... rest of the team members
+  {
+    id: "3",
+    name: "Meera Joshi",
+    role: "Vinyasa Instructor",
+    bio: "Meera leads energetic classes that sync breath with movement, inspiring students to reach their potential.",
+    gender: "female",
+    imageUrl: "https://i.pravatar.cc/200?img=47",
+  },
+  {
+    id: "4",
+    name: "Arjun Iyer",
+    role: "Restorative Yoga Specialist",
+    bio: "Arjun focuses on gentle, restorative yoga sessions that help students recover and relax.",
+    gender: "male",
+    imageUrl: "https://i.pravatar.cc/200?img=12",
+  },
+  {
+    id: "5",
+    name: "Sneha Rao",
+    role: "Power Yoga Instructor",
+    bio: "Sneha delivers challenging power yoga classes designed to build endurance and mental focus.",
+    gender: "female",
+    imageUrl: "https://i.pravatar.cc/200?img=47",
+  },
 ];

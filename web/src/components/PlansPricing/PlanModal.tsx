@@ -7,6 +7,7 @@ interface PlanModalProps {
   onClose: () => void;
   onSave: () => void;
   onChange: (data: PlanData) => void;
+  locations: { id: string; name: string }[]; // <-- Add this prop
 }
 
 const PlanModal: React.FC<PlanModalProps> = ({
@@ -15,6 +16,7 @@ const PlanModal: React.FC<PlanModalProps> = ({
   onClose,
   onSave,
   onChange,
+  locations,
 }) => {
   const updateField = (field: keyof PlanData, value: any) => {
     onChange({ ...data, [field]: value });
@@ -268,6 +270,48 @@ const PlanModal: React.FC<PlanModalProps> = ({
                 />
               </div>
             )}
+
+            {/* Locations */}
+            <div className="md:col-span-2">
+              <label className="block text-sm font-medium text-gray-700">
+                Locations
+              </label>
+              <div className="space-y-2">
+                {locations.map((location) => (
+                  <div key={location.id} className="flex items-center">
+                    <input
+                      type="checkbox"
+                      checked={data.locations?.some((loc) => loc.id === location.id)}
+                      onChange={(e) => {
+                        const newLocations = e.target.checked
+                          ? [...(data.locations || []), { id: location.id, name: location.name }]
+                          : data.locations?.filter((loc) => loc.id !== location.id) || [];
+                        updateField("locations", newLocations);
+                      }}
+                      className="h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded"
+                    />
+                    <span className="ml-2 text-sm text-gray-700">
+                      {location.name}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Location selection */}
+            <div>
+              <label className="block text-sm font-medium text-gray-700">Location</label>
+              <select
+                value={data.locationId || ""}
+                onChange={(e) => updateField("locationId", e.target.value)}
+                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+              >
+                <option value="">Select a location</option>
+                {locations.map((loc) => (
+                  <option key={loc.id} value={loc.id}>{loc.name}</option>
+                ))}
+              </select>
+            </div>
 
             {/* Toggles */}
             <div className="md:col-span-2 space-y-4">

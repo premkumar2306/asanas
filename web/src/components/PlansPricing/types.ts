@@ -1,4 +1,6 @@
 // src/components/PlansPricing/types.ts
+import { DiscountCode } from '../../types/index';
+
 export interface PlanData {
   id: number;
   service: string;
@@ -21,6 +23,7 @@ export interface PlanData {
   eligibleClasses?: string[];
   discountCodes?: DiscountCode[];
   trialDropIn?: boolean;
+  locationId?: string; // <-- Add this field to associate with a studio location
 }
 
 export const initialPlans: PlanData[] = [

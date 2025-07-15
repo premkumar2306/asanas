@@ -7,6 +7,16 @@ export interface StudioAddress {
   pincode?: string;
 }
 
+export interface Location {
+  id: string;
+  name: string;
+  address: string;
+  capacity: number;
+  amenities: string[];
+  isActive: boolean;
+  team?: string[]; // Array of TeamMember IDs
+}
+
 export interface StudioInfo {
   /* Basic Information */
   name: string;
@@ -47,4 +57,8 @@ export interface StudioInfo {
 
   /* Registered Address */
   address: StudioAddress;
+
+  /* Locations */
+  locations?: Location[];
+  team?: any[]; // Add team field for Firestore compatibility
 }
