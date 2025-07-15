@@ -1,55 +1,9 @@
 import React, { useState } from "react";
 import * as yup from "yup";
+import { StudioInfo } from "../../types/studio";
+import { getStudioInfoFromFirestore, saveStudioInfoToFirestore } from "../../api/studio";
 
-/** Data model for Studio details */
-interface StudioInfo {
-  /* Basic Information */
-  name: string;
-  tagline: string;
-  description: string;
-  email: string;
-  phone: string;
-  emergencyContact: string;
-
-  /* Online Presence */
-  website: string;
-  logoUrl: string;
-  socialMedia: {
-    instagramUrl: string;
-    facebookUrl: string;
-    youtubeUrl: string;
-  };
-
-  /* Schedule & Services */
-  groupClassSchedule?: string;
-  servicesEnabled: string[];
-  serviceStartDate?: string;
-  operatingHours: string;
-  timeZone: string;
-  
-  /* Registration & Membership */
-  registrationFee?: string;
-  freeTrialsAllowed?: number;
-  membershipOptions?: string;
-  
-  /* GST & Legal */
-  gstRegistered: boolean;
-  gstin?: string;
-
-  /* Receipt Details */
-  receiptHeading?: string;
-  receiptFootnote?: string;
-
-  /* Registered Address */
-  address1?: string;
-  address2?: string;
-  city?: string;
-  state?: string;
-  country: string;
-  pincode?: string;
-}
-
-const studioSchema = yup.object().shape({
+export const  studioSchema = yup.object().shape({
   name: yup.string().required("Studio name is required."),
   tagline: yup.string(),
   description: yup.string(),
