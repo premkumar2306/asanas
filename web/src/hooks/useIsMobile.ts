@@ -5,7 +5,9 @@ import { useEffect, useState } from "react";
  * @param breakpoint - The pixel width below which the screen is considered mobile (default: 768px)
  */
 export function useIsMobile(breakpoint = 768): boolean {
-  const [isMobile, setIsMobile] = useState(() => window.innerWidth < breakpoint);
+  const [isMobile, setIsMobile] = useState(
+    () => window.innerWidth < breakpoint,
+  );
 
   useEffect(() => {
     const handleResize = () => {

@@ -9,6 +9,7 @@ This document contains technical details and feature breakdowns for contributing
 Yogasara is a full-featured yoga platform built with instructors and students in mind.
 
 ### Core Features
+
 - Multi-language support (`i18n`)
 - Yoga pose library from the Ashtanga Primary Series
 - Live & pre-recorded class flows
@@ -72,6 +73,7 @@ src/
 ## 🔥 Firebase Setup
 
 Used services:
+
 - Firebase Authentication (Email Link)
 - Firestore (for instructors, classes, flows)
 - Firebase Hosting
@@ -85,6 +87,7 @@ Collections tracked in `FIRESTORE_SCHEMA.md`.
 ## 📊 Analytics
 
 We use:
+
 - Firebase Analytics (basic setup)
 - Weekly summary via GitHub Actions to students
 - RUM/APM via Datadog (backend APIs)
@@ -115,6 +118,7 @@ We use:
 ## 🧪 Testing
 
 We currently use:
+
 - Cypress for end-to-end (WIP)
 - Vitest for unit testing (coming soon)
 - Manual QA checklist in Notion
@@ -132,6 +136,7 @@ Check open issues or roadmap. PRs welcome!
 Welcome! Here’s how to get up and running fast:
 
 ### 🔧 Setup
+
 1. Clone the repo:  
    `git clone https://github.com/your-org/yogasara.git`
 2. Install dependencies:  
@@ -142,6 +147,7 @@ Welcome! Here’s how to get up and running fast:
 5. Visit `http://localhost:5173`
 
 ### 🛠 Key Areas to Know
+
 - `components/` – Reusable elements for buttons, modals, etc.
 - `pages/` – All route-based logic for instructors, students
 - `flows/` – Core logic for yoga session building
@@ -151,6 +157,7 @@ Welcome! Here’s how to get up and running fast:
 - `README.dev.md` – You’re here!
 
 ### 🤝 Need Help?
+
 - For access issues or bugs, ping the lead developer.
 - Check open issues or Notion onboarding board.
 - Unsure where to put a feature? Ask in the dev chat.

@@ -14,7 +14,7 @@ export const useRecentClasses = () => {
         teacher: "Vaidy Bala",
         time: "6:05AM",
         checkins: 0,
-        students: []
+        students: [],
       },
       {
         id: 2,
@@ -28,15 +28,15 @@ export const useRecentClasses = () => {
             id: 1,
             name: "John Doe",
             email: "john@example.com",
-            avatar: "https://via.placeholder.com/40"
+            avatar: "https://via.placeholder.com/40",
           },
           {
             id: 2,
             name: "Jane Smith",
             email: "jane@example.com",
-            avatar: "https://via.placeholder.com/40"
-          }
-        ]
+            avatar: "https://via.placeholder.com/40",
+          },
+        ],
       },
       {
         id: 3,
@@ -50,22 +50,22 @@ export const useRecentClasses = () => {
             id: 3,
             name: "Alice Johnson",
             email: "alice@example.com",
-            avatar: "https://via.placeholder.com/40"
+            avatar: "https://via.placeholder.com/40",
           },
           {
             id: 4,
             name: "Bob Wilson",
             email: "bob@example.com",
-            avatar: "https://via.placeholder.com/40"
+            avatar: "https://via.placeholder.com/40",
           },
           {
             id: 5,
             name: "Carol Brown",
             email: "carol@example.com",
-            avatar: "https://via.placeholder.com/40"
-          }
-        ]
-      }
+            avatar: "https://via.placeholder.com/40",
+          },
+        ],
+      },
     ];
 
     setRecentClasses(dummyData);

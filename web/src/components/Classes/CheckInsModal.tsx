@@ -41,14 +41,22 @@ export const CheckInsModal: React.FC<CheckInsModalProps> = ({
         <div className="mb-6">
           <h3 className="font-semibold text-lg mb-2">{classTitle}</h3>
           <div className="grid grid-cols-3 gap-4 text-sm text-gray-600">
-            <p><span className="font-medium">Date:</span> {date}</p>
-            <p><span className="font-medium">Time:</span> {time}</p>
-            <p><span className="font-medium">Teacher:</span> {teacher}</p>
+            <p>
+              <span className="font-medium">Date:</span> {date}
+            </p>
+            <p>
+              <span className="font-medium">Time:</span> {time}
+            </p>
+            <p>
+              <span className="font-medium">Teacher:</span> {teacher}
+            </p>
           </div>
         </div>
 
         <div className="mb-4">
-          <h4 className="font-semibold mb-2">Attended Students ({students.length})</h4>
+          <h4 className="font-semibold mb-2">
+            Attended Students ({students.length})
+          </h4>
           {students.length > 0 ? (
             <div className="overflow-y-auto max-h-96">
               <table className="min-w-full divide-y divide-gray-200">
@@ -73,7 +81,10 @@ export const CheckInsModal: React.FC<CheckInsModalProps> = ({
                           <div className="h-10 w-10 flex-shrink-0">
                             <img
                               className="h-10 w-10 rounded-full"
-                              src={student.avatar || "https://via.placeholder.com/40"}
+                              src={
+                                student.avatar ||
+                                "https://via.placeholder.com/40"
+                              }
                               alt=""
                             />
                           </div>
@@ -85,7 +96,9 @@ export const CheckInsModal: React.FC<CheckInsModalProps> = ({
                         </div>
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap">
-                        <div className="text-sm text-gray-900">{student.email}</div>
+                        <div className="text-sm text-gray-900">
+                          {student.email}
+                        </div>
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap">
                         <div className="text-sm text-gray-900">

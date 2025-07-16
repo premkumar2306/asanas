@@ -1,18 +1,18 @@
-import React, { useState } from 'react';
-import { FcGoogle } from 'react-icons/fc';
-import { HiMail } from 'react-icons/hi';
-import { AiOutlineLock } from 'react-icons/ai';
-import { FormInput } from '../components/Auth/FormInput';
-import { AuthButton } from '../components/Auth/AuthButton';
-import { useAuth } from '../hooks/useAuth';
-import type { SignInFormData } from '../types/auth';
+import React, { useState } from "react";
+import { FcGoogle } from "react-icons/fc";
+import { HiMail } from "react-icons/hi";
+import { AiOutlineLock } from "react-icons/ai";
+import { FormInput } from "../components/Auth/FormInput";
+import { AuthButton } from "../components/Auth/AuthButton";
+import { useAuth } from "../hooks/useAuth";
+import type { SignInFormData } from "../types/auth";
 
 export const SignIn: React.FC = () => {
   const [formData, setFormData] = useState<SignInFormData>({
-    email: '',
-    password: '',
+    email: "",
+    password: "",
   });
-  
+
   const { isLoading, error, handleEmailSignIn, handleGoogleSignIn } = useAuth();
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -48,7 +48,9 @@ export const SignIn: React.FC = () => {
             <FormInput
               type="email"
               value={formData.email}
-              onChange={(value) => setFormData(prev => ({ ...prev, email: value }))}
+              onChange={(value) =>
+                setFormData((prev) => ({ ...prev, email: value }))
+              }
               placeholder="Email address"
               required
               Icon={HiMail}
@@ -56,19 +58,17 @@ export const SignIn: React.FC = () => {
             <FormInput
               type="password"
               value={formData.password}
-              onChange={(value) => setFormData(prev => ({ ...prev, password: value }))}
+              onChange={(value) =>
+                setFormData((prev) => ({ ...prev, password: value }))
+              }
               placeholder="Password"
               required
               Icon={AiOutlineLock}
             />
           </div>
 
-          <AuthButton
-            type="submit"
-            disabled={isLoading}
-            variant="primary"
-          >
-            {isLoading ? 'Signing in...' : 'Sign in with Email'}
+          <AuthButton type="submit" disabled={isLoading} variant="primary">
+            {isLoading ? "Signing in..." : "Sign in with Email"}
           </AuthButton>
         </form>
 
@@ -78,7 +78,9 @@ export const SignIn: React.FC = () => {
             <div className="w-full border-t border-gray-300" />
           </div>
           <div className="relative flex justify-center text-sm">
-            <span className="px-2 bg-white text-gray-500">Or continue with</span>
+            <span className="px-2 bg-white text-gray-500">
+              Or continue with
+            </span>
           </div>
         </div>
 

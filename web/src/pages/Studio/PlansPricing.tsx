@@ -3,8 +3,14 @@ import PlanModal from "../../components/PlansPricing/PlanModal";
 import { PlanData, initialPlans } from "../../components/PlansPricing/types";
 import { TableContainer } from "../../components/Common/Table/TableContainer";
 import { Table } from "../../components/Common/Table/Table";
-import { getPlansFromFirestore, savePlanToFirestore, deletePlanFromFirestore, updatePlanInFirestore, getStudioInfoFromFirestore } from "../../api/studio";
-import { Location } from '../../types/studio';
+import {
+  getPlansFromFirestore,
+  savePlanToFirestore,
+  deletePlanFromFirestore,
+  updatePlanInFirestore,
+  getStudioInfoFromFirestore,
+} from "../../api/studio";
+import { Location } from "../../types/studio";
 
 const PlansPricing: React.FC = () => {
   const [plans, setPlans] = useState<PlanData[]>([]);
@@ -28,7 +34,7 @@ const PlansPricing: React.FC = () => {
     active: true,
     countryPricing: [],
     termMonths: 1,
-    locationId: ""
+    locationId: "",
   });
   const [locations, setLocations] = useState<Location[]>([]);
   const [selectedLocationId, setSelectedLocationId] = useState<string>("");
@@ -43,8 +49,10 @@ const PlansPricing: React.FC = () => {
 
   useEffect(() => {
     async function fetchLocations() {
-      const studioInfo = await getStudioInfoFromFirestore('default');
-      setLocations(Array.isArray(studioInfo?.locations) ? studioInfo.locations : []);
+      const studioInfo = await getStudioInfoFromFirestore("default");
+      setLocations(
+        Array.isArray(studioInfo?.locations) ? studioInfo.locations : [],
+      );
     }
     fetchLocations();
   }, []);
@@ -76,13 +84,17 @@ const PlansPricing: React.FC = () => {
       setPlans([...plans, newPlan]);
     } else {
       await updatePlanInFirestore(modalData);
-      setPlans((prev) => prev.map((p) => (p.id === modalData.id ? { ...modalData } : p)));
+      setPlans((prev) =>
+        prev.map((p) => (p.id === modalData.id ? { ...modalData } : p)),
+      );
     }
     setShowModal(false);
   };
 
   const handleDeactivate = async (planId: number) => {
-    const updatedPlans = plans.map((p) => (p.id === planId ? { ...p, active: !p.active } : p));
+    const updatedPlans = plans.map((p) =>
+      p.id === planId ? { ...p, active: !p.active } : p,
+    );
     setPlans(updatedPlans);
     const plan = updatedPlans.find((p) => p.id === planId);
     if (plan) await updatePlanInFirestore(plan);
@@ -163,22 +175,30 @@ const PlansPricing: React.FC = () => {
           </button>
         </div>
         <div className="mb-4">
-          <label className="block text-sm font-medium text-gray-700 mb-2">Filter by Location</label>
+          <label className="block text-sm font-medium text-gray-700 mb-2">
+            Filter by Location
+          </label>
           <select
             value={selectedLocationId}
-            onChange={e => setSelectedLocationId(e.target.value)}
+            onChange={(e) => setSelectedLocationId(e.target.value)}
             className="block w-full max-w-xs rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
           >
             <option value="">All Locations</option>
-            {locations.map(loc => (
-              <option key={loc.id} value={loc.id}>{loc.name}</option>
+            {locations.map((loc) => (
+              <option key={loc.id} value={loc.id}>
+                {loc.name}
+              </option>
             ))}
           </select>
         </div>
         <TableContainer>
           <Table
             columns={columns}
-            data={selectedLocationId ? plans.filter(p => p.locationId === selectedLocationId) : plans}
+            data={
+              selectedLocationId
+                ? plans.filter((p) => p.locationId === selectedLocationId)
+                : plans
+            }
             emptyMessage="No plans found."
             isLoading={false}
           />
@@ -190,7 +210,7 @@ const PlansPricing: React.FC = () => {
             onClose={() => setShowModal(false)}
             onSave={handleSave}
             onChange={setModalData}
-            locations={locations.map(loc => ({ id: loc.id, name: loc.name }))}
+            locations={locations.map((loc) => ({ id: loc.id, name: loc.name }))}
           />
         )}
       </div>

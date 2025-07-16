@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react';
-import { Pose, FlowState } from '../types/pose';
+import { useState, useEffect } from "react";
+import { Pose, FlowState } from "../types/pose";
 
 export const useYogaFlow = () => {
   const [state, setState] = useState<FlowState>({
@@ -13,7 +13,7 @@ export const useYogaFlow = () => {
     try {
       const response = await fetch("/data/poses.json");
       const data = await response.json();
-      setState(prev => ({
+      setState((prev) => ({
         ...prev,
         poses: data.poses.slice(0, 500),
       }));
@@ -23,7 +23,7 @@ export const useYogaFlow = () => {
   };
 
   const nextPose = () => {
-    setState(prev => ({
+    setState((prev) => ({
       ...prev,
       currentPoseIndex: (prev.currentPoseIndex + 1) % prev.poses.length,
       timeLeft: 30,
@@ -31,7 +31,7 @@ export const useYogaFlow = () => {
   };
 
   const togglePause = () => {
-    setState(prev => ({
+    setState((prev) => ({
       ...prev,
       isPaused: !prev.isPaused,
     }));
@@ -51,14 +51,19 @@ export const useYogaFlow = () => {
     }
 
     const timer = setTimeout(() => {
-      setState(prev => ({
+      setState((prev) => ({
         ...prev,
         timeLeft: prev.timeLeft - 1,
       }));
     }, 1000);
 
     return () => clearTimeout(timer);
-  }, [state.timeLeft, state.isPaused, state.currentPoseIndex, state.poses.length]);
+  }, [
+    state.timeLeft,
+    state.isPaused,
+    state.currentPoseIndex,
+    state.poses.length,
+  ]);
 
   return {
     ...state,

@@ -3,7 +3,7 @@ export interface ClassSession {
   title: string;
   description: string;
   instructorId: string;
-  level: 'beginner' | 'intermediate' | 'advanced';
+  level: "beginner" | "intermediate" | "advanced";
   time: string;
   duration: number;
   gmeetLink: string;
@@ -19,7 +19,7 @@ export interface SubscriptionPlan {
   name: string;
   description: string;
   price: number;
-  duration: 'monthly' | 'quarterly' | 'yearly';
+  duration: "monthly" | "quarterly" | "yearly";
   classesPerMonth: number;
   features: string[];
 }
@@ -28,9 +28,9 @@ export interface Booking {
   id: string;
   classId: string;
   studentId: string;
-  status: 'confirmed' | 'cancelled' | 'pending';
+  status: "confirmed" | "cancelled" | "pending";
   bookingDate: Date;
-  paymentStatus: 'paid' | 'pending' | 'failed';
+  paymentStatus: "paid" | "pending" | "failed";
 }
 
 export interface Student {
@@ -38,10 +38,9 @@ export interface Student {
   name: string;
   email: string;
   subscriptionId?: string;
-  subscriptionStatus: 'active' | 'inactive';
+  subscriptionStatus: "active" | "inactive";
   classesRemaining: number;
 }
-
 
 export interface DiscountCode {
   code: string;
@@ -65,8 +64,8 @@ export interface PlanData {
   isPublic: boolean;
   active: boolean;
   countryPricing?: { country: string; price: string }[];
-  termAndClasses?: string;             // e.g. "12 classes • Standard"
-  eligibleClasses?: string[];          // list of class names or IDs
-  discountCodes?: DiscountCode[];      // array of discount code objects
-  trialDropIn?: boolean;              // whether there's a trial drop-in option
+  termAndClasses?: string; // e.g. "12 classes • Standard"
+  eligibleClasses?: string[]; // list of class names or IDs
+  discountCodes?: DiscountCode[]; // array of discount code objects
+  trialDropIn?: boolean; // whether there's a trial drop-in option
 }

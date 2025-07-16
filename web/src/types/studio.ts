@@ -41,12 +41,12 @@ export interface StudioInfo {
   serviceStartDate?: string;
   operatingHours: string;
   timeZone: string;
-  
+
   /* Registration & Membership */
   registrationFee?: string;
   freeTrialsAllowed?: number;
   membershipOptions?: string;
-  
+
   /* GST & Legal */
   gstRegistered: boolean;
   gstin?: string;

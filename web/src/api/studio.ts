@@ -1,9 +1,21 @@
-import { doc, setDoc, getDoc, collection, addDoc, getDocs, updateDoc, deleteDoc } from "firebase/firestore";
+import {
+  doc,
+  setDoc,
+  getDoc,
+  collection,
+  addDoc,
+  getDocs,
+  updateDoc,
+  deleteDoc,
+} from "firebase/firestore";
 import { db } from "../firebase";
 import { StudioInfo } from "../types/studio";
 import { PlanData } from "../components/PlansPricing/types";
 
-export async function saveStudioInfoToFirestore(studioInfo: StudioInfo, id: string = "default") {
+export async function saveStudioInfoToFirestore(
+  studioInfo: StudioInfo,
+  id: string = "default",
+) {
   const studioRef = doc(db, "studioDetails", id);
   try {
     await setDoc(studioRef, studioInfo, { merge: true });
@@ -13,7 +25,9 @@ export async function saveStudioInfoToFirestore(studioInfo: StudioInfo, id: stri
   }
 }
 
-export async function getStudioInfoFromFirestore(id: string = "default"): Promise<StudioInfo | null> {
+export async function getStudioInfoFromFirestore(
+  id: string = "default",
+): Promise<StudioInfo | null> {
   const studioRef = doc(db, "studioDetails", id);
   const docSnap = await getDoc(studioRef);
   return docSnap.exists() ? (docSnap.data() as StudioInfo) : null;
@@ -33,7 +47,7 @@ export async function savePlanToFirestore(plan: PlanData) {
 export async function getPlansFromFirestore(): Promise<PlanData[]> {
   const plansRef = collection(db, "studioPlans");
   const snapshot = await getDocs(plansRef);
-  return snapshot.docs.map(doc => doc.data() as PlanData);
+  return snapshot.docs.map((doc) => doc.data() as PlanData);
 }
 
 export async function deletePlanFromFirestore(planId: number) {

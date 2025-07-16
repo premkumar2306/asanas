@@ -1,18 +1,12 @@
 import React from "react";
 import { PoseDisplay } from "./PoseDisplay";
 import { useYogaFlow } from "../../hooks/useYogaFlow";
-import { Button } from '../common/Button';
-import { IoPlaySkipForward, IoPlay, IoPause } from 'react-icons/io5';
+import { Button } from "../common/Button";
+import { IoPlaySkipForward, IoPlay, IoPause } from "react-icons/io5";
 
 export const Player: React.FC = () => {
-  const {
-    poses,
-    currentPoseIndex,
-    timeLeft,
-    isPaused,
-    nextPose,
-    togglePause,
-  } = useYogaFlow();
+  const { poses, currentPoseIndex, timeLeft, isPaused, nextPose, togglePause } =
+    useYogaFlow();
 
   if (poses.length === 0) {
     return (
@@ -28,11 +22,11 @@ export const Player: React.FC = () => {
   return (
     <div className="player min-h-[calc(100vh-6rem)] pt-4 flex flex-col items-center justify-start text-center relative">
       {/* Progress bar */}
-      <div 
-        className="absolute top-0 left-0 h-2 bg-blue-400 transition-all duration-300" 
-        style={{ width: `${progressPercent}%` }} 
+      <div
+        className="absolute top-0 left-0 h-2 bg-blue-400 transition-all duration-300"
+        style={{ width: `${progressPercent}%` }}
       />
-      
+
       <PoseDisplay
         pose={currentPose}
         currentIndex={currentPoseIndex}
@@ -42,11 +36,7 @@ export const Player: React.FC = () => {
 
       {currentPoseIndex < poses.length - 1 ? (
         <div className="flex flex-col gap-2 absolute bottom-10">
-          <Button
-            onClick={nextPose}
-            variant="primary"
-            icon={IoPlaySkipForward}
-          >
+          <Button onClick={nextPose} variant="primary" icon={IoPlaySkipForward}>
             Skip / Next Pose
           </Button>
           <Button

@@ -33,7 +33,8 @@ export const CheckInsModal: React.FC<CheckInsModalProps> = ({
             <span className="font-semibold">Time:</span> {classDetails.time}
           </p>
           <p className="text-gray-600">
-            <span className="font-semibold">Teacher:</span> {classDetails.teacher}
+            <span className="font-semibold">Teacher:</span>{" "}
+            {classDetails.teacher}
           </p>
         </div>
 

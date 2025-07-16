@@ -1,39 +1,35 @@
 {
-    "name": "Easy Studio USA",
-    "tagline": "Find Your Inner Balance",
-    "description": "A modern, easy-to-use yoga studio offering a variety of classes in a relaxed environment.",
-    "email": "contact@easystudiousa.com",
-    "phone": "+1 (555) 123-4567",
-    "emergencyContact": "+1 (555) 987-6543",
-    "website": "https://www.easystudiousa.com",
-    "logoUrl": "https://via.placeholder.com/150",
-    "socialMedia": {
-        "instagramUrl": "https://www.instagram.com/easystudiousa",
-        "facebookUrl": "https://www.facebook.com/easystudiousa",
-        "youtubeUrl": "https://www.youtube.com/easystudiousa"
-    },
-    "groupClassSchedule": "https://www.easystudiousa.com/schedule",
-    "servicesEnabled": [
-        "Group Classes",
-        "Personal Classes",
-        "Video Courses"
-    ],
-    "serviceStartDate": "Oct 04, 2026",
-    "operatingHours": "Mon-Fri: 6 AM - 9 PM, Sat-Sun: 8 AM - 5 PM",
-    "timeZone": "Pacific Time (PT)",
-    "registrationFee": "50",
-    "freeTrialsAllowed": 1,
-    "membershipOptions": "Monthly, Annual, Drop-In",
-    "gstRegistered": false,
-    "gstin": "",
-    "receiptHeading": "Easy Studio USA",
-    "receiptFootnote": "Thank you for choosing Easy Studio USA!",
-    "address": {
-        "address1": "123 Easy Lane",
-        "address2": "",
-        "city": "Los Angeles",
-        "state": "CA",
-        "country": "USA",
-        "pincode": "90012"
-    }
+  "name": "Easy Studio USA",
+  "tagline": "Find Your Inner Balance",
+  "description": "A modern, easy-to-use yoga studio offering a variety of classes in a relaxed environment.",
+  "email": "contact@easystudiousa.com",
+  "phone": "+1 (555) 123-4567",
+  "emergencyContact": "+1 (555) 987-6543",
+  "website": "https://www.easystudiousa.com",
+  "logoUrl": "https://via.placeholder.com/150",
+  "socialMedia": {
+    "instagramUrl": "https://www.instagram.com/easystudiousa",
+    "facebookUrl": "https://www.facebook.com/easystudiousa",
+    "youtubeUrl": "https://www.youtube.com/easystudiousa"
+  },
+  "groupClassSchedule": "https://www.easystudiousa.com/schedule",
+  "servicesEnabled": ["Group Classes", "Personal Classes", "Video Courses"],
+  "serviceStartDate": "Oct 04, 2026",
+  "operatingHours": "Mon-Fri: 6 AM - 9 PM, Sat-Sun: 8 AM - 5 PM",
+  "timeZone": "Pacific Time (PT)",
+  "registrationFee": "50",
+  "freeTrialsAllowed": 1,
+  "membershipOptions": "Monthly, Annual, Drop-In",
+  "gstRegistered": false,
+  "gstin": "",
+  "receiptHeading": "Easy Studio USA",
+  "receiptFootnote": "Thank you for choosing Easy Studio USA!",
+  "address": {
+    "address1": "123 Easy Lane",
+    "address2": "",
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "pincode": "90012"
+  }
 }

@@ -1,6 +1,6 @@
-import React from 'react';
-import { Location, StudioAddress } from '../../types/studio';
-import { TeamMember } from '../../pages/Studio/Team';
+import React from "react";
+import { Location, StudioAddress } from "../../types/studio";
+import { TeamMember } from "../../pages/Studio/Team";
 
 interface LocationFormProps {
   newLocation: any; // Accept Location or partial for editing
@@ -11,7 +11,14 @@ interface LocationFormProps {
   teamMembers: TeamMember[];
 }
 
-const LocationForm: React.FC<LocationFormProps> = ({ newLocation, setNewLocation, onAdd, onCancel, show, teamMembers }) => {
+const LocationForm: React.FC<LocationFormProps> = ({
+  newLocation,
+  setNewLocation,
+  onAdd,
+  onCancel,
+  show,
+  teamMembers,
+}) => {
   if (!show) return null;
 
   // Fix addressObj updates to always set country to a string
@@ -21,7 +28,7 @@ const LocationForm: React.FC<LocationFormProps> = ({ newLocation, setNewLocation
     city: newLocation.addressObj?.city || "",
     state: newLocation.addressObj?.state || "",
     country: newLocation.addressObj?.country || "",
-    pincode: newLocation.addressObj?.pincode || ""
+    pincode: newLocation.addressObj?.pincode || "",
   };
 
   return (
@@ -30,93 +37,148 @@ const LocationForm: React.FC<LocationFormProps> = ({ newLocation, setNewLocation
         <h2 className="text-xl font-bold mb-4">Add New Location</h2>
         <div className="space-y-4">
           <div>
-            <label className="block text-sm font-medium text-gray-700">Name</label>
+            <label className="block text-sm font-medium text-gray-700">
+              Name
+            </label>
             <input
               type="text"
               value={newLocation.name}
-              onChange={(e) => setNewLocation({ ...newLocation, name: e.target.value })}
+              onChange={(e) =>
+                setNewLocation({ ...newLocation, name: e.target.value })
+              }
               className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
             />
           </div>
           {/* Address fields as object */}
           <div>
-            <label className="block text-sm font-medium text-gray-700">Address Line 1</label>
+            <label className="block text-sm font-medium text-gray-700">
+              Address Line 1
+            </label>
             <input
               type="text"
               value={safeAddressObj.address1}
-              onChange={e => setNewLocation({ ...newLocation, addressObj: { ...safeAddressObj, address1: e.target.value } })}
+              onChange={(e) =>
+                setNewLocation({
+                  ...newLocation,
+                  addressObj: { ...safeAddressObj, address1: e.target.value },
+                })
+              }
               className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
             />
           </div>
           <div>
-            <label className="block text-sm font-medium text-gray-700">Address Line 2</label>
+            <label className="block text-sm font-medium text-gray-700">
+              Address Line 2
+            </label>
             <input
               type="text"
               value={safeAddressObj.address2}
-              onChange={e => setNewLocation({ ...newLocation, addressObj: { ...safeAddressObj, address2: e.target.value } })}
+              onChange={(e) =>
+                setNewLocation({
+                  ...newLocation,
+                  addressObj: { ...safeAddressObj, address2: e.target.value },
+                })
+              }
               className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
             />
           </div>
           <div>
-            <label className="block text-sm font-medium text-gray-700">City</label>
+            <label className="block text-sm font-medium text-gray-700">
+              City
+            </label>
             <input
               type="text"
               value={safeAddressObj.city}
-              onChange={e => setNewLocation({ ...newLocation, addressObj: { ...safeAddressObj, city: e.target.value } })}
+              onChange={(e) =>
+                setNewLocation({
+                  ...newLocation,
+                  addressObj: { ...safeAddressObj, city: e.target.value },
+                })
+              }
               className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
             />
           </div>
           <div>
-            <label className="block text-sm font-medium text-gray-700">State</label>
+            <label className="block text-sm font-medium text-gray-700">
+              State
+            </label>
             <input
               type="text"
               value={safeAddressObj.state}
-              onChange={e => setNewLocation({ ...newLocation, addressObj: { ...safeAddressObj, state: e.target.value } })}
+              onChange={(e) =>
+                setNewLocation({
+                  ...newLocation,
+                  addressObj: { ...safeAddressObj, state: e.target.value },
+                })
+              }
               className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
             />
           </div>
           <div>
-            <label className="block text-sm font-medium text-gray-700">Country</label>
+            <label className="block text-sm font-medium text-gray-700">
+              Country
+            </label>
             <input
               type="text"
               value={safeAddressObj.country}
-              onChange={e => setNewLocation({ ...newLocation, addressObj: { ...safeAddressObj, country: e.target.value } })}
+              onChange={(e) =>
+                setNewLocation({
+                  ...newLocation,
+                  addressObj: { ...safeAddressObj, country: e.target.value },
+                })
+              }
               className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
             />
           </div>
           <div>
-            <label className="block text-sm font-medium text-gray-700">Pincode</label>
+            <label className="block text-sm font-medium text-gray-700">
+              Pincode
+            </label>
             <input
               type="text"
               value={safeAddressObj.pincode}
-              onChange={e => setNewLocation({ ...newLocation, addressObj: { ...safeAddressObj, pincode: e.target.value } })}
+              onChange={(e) =>
+                setNewLocation({
+                  ...newLocation,
+                  addressObj: { ...safeAddressObj, pincode: e.target.value },
+                })
+              }
               className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
             />
           </div>
           <div>
-            <label className="block text-sm font-medium text-gray-700">Capacity</label>
+            <label className="block text-sm font-medium text-gray-700">
+              Capacity
+            </label>
             <input
               type="number"
               value={newLocation.capacity}
-              onChange={(e) => setNewLocation({ ...newLocation, capacity: parseInt(e.target.value) })}
+              onChange={(e) =>
+                setNewLocation({
+                  ...newLocation,
+                  capacity: parseInt(e.target.value),
+                })
+              }
               className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
             />
           </div>
           <div>
-            <label className="block text-sm font-medium text-gray-700">Team Members</label>
+            <label className="block text-sm font-medium text-gray-700">
+              Team Members
+            </label>
             <div className="flex flex-wrap gap-2">
               {teamMembers.map((member) => (
                 <label key={member.id} className="flex items-center gap-1">
                   <input
                     type="checkbox"
                     checked={newLocation.team?.includes(member.id) || false}
-                    onChange={e => {
+                    onChange={(e) => {
                       const team = newLocation.team || [];
                       setNewLocation({
                         ...newLocation,
                         team: e.target.checked
                           ? [...team, member.id]
-                          : team.filter(id => id !== member.id)
+                          : team.filter((id) => id !== member.id),
                       });
                     }}
                   />

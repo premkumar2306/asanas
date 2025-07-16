@@ -8,9 +8,9 @@ interface RecentClassesTableProps {
   onClassesUpdate: (updatedClasses: RecentClass[]) => void;
 }
 
-export const RecentClassesTable: React.FC<RecentClassesTableProps> = ({ 
+export const RecentClassesTable: React.FC<RecentClassesTableProps> = ({
   classes,
-  onClassesUpdate 
+  onClassesUpdate,
 }) => {
   const [selectedClass, setSelectedClass] = useState<RecentClass | null>(null);
   const [showSearchModal, setShowSearchModal] = useState(false);
@@ -37,9 +37,9 @@ export const RecentClassesTable: React.FC<RecentClassesTableProps> = ({
             ...(cls.students || []),
             {
               ...student,
-              checkInTime: new Date().toLocaleTimeString()
-            }
-          ]
+              checkInTime: new Date().toLocaleTimeString(),
+            },
+          ],
         };
       }
       return cls;

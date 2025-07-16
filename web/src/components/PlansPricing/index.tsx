@@ -54,7 +54,7 @@ const PlanManager: React.FC = () => {
       setPlans([...plans, { ...modalData, id: Date.now() }]);
     } else if (modalMode === "edit" && editingId !== null) {
       setPlans((prev) =>
-        prev.map((p) => (p.id === editingId ? { ...modalData } : p))
+        prev.map((p) => (p.id === editingId ? { ...modalData } : p)),
       );
     }
     setShowModal(false);
@@ -62,7 +62,7 @@ const PlanManager: React.FC = () => {
 
   const handleDeactivate = (planId: number) => {
     setPlans((prev) =>
-      prev.map((p) => (p.id === planId ? { ...p, active: !p.active } : p))
+      prev.map((p) => (p.id === planId ? { ...p, active: !p.active } : p)),
     );
   };
 

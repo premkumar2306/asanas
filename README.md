@@ -22,6 +22,7 @@ This app includes:
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Node.js & npm installed
 - Firebase CLI (for deployment)
 - Git (to clone the repo)
@@ -36,11 +37,13 @@ npm run dev
 ```
 
 To build for production:
+
 ```bash
 npm run build
 ```
 
 To deploy (if using Firebase):
+
 ```bash
 firebase deploy
 ```
@@ -50,6 +53,7 @@ firebase deploy
 ## 📖 Yoga Poses - Ashtanga Primary Series
 
 ### 1) Standing Poses
+
 - Samasthiti: Standing still
 - Surya Namaskara (A & B): Sun salutation
 - Padangushtasana: Thumb to foot pose
@@ -66,6 +70,7 @@ firebase deploy
 - Virabhadrasana (A & B): Warrior pose
 
 ### 2) Sitting Poses
+
 - Dandasana (Chaturanga Dandasana): Four-Limbed Staff Pose (staff means spine, body support)
 - Paschimattanasana (3 types): West-Back (extended-intense) stretching pose
 - Purvatanasana: Est-Front (extended-intense) stretching pose
@@ -90,6 +95,7 @@ firebase deploy
 - Paschimattanasana: West-Back (extended-intense) stretching pose
 
 ### 3) Finishing Poses
+
 - Salamba Sarvangasana: All limbs pose
 - Halasana: Plow pose
 - Karnapidasana: Ear pressure pose
@@ -141,4 +147,5 @@ If you're an instructor or yoga practitioner and want to contribute ideas or cla
 ---
 
 ## 🙏 Om Shanti
+
 Happy practicing!

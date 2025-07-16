@@ -1,21 +1,14 @@
 {
-    "poses": [
+  "poses": [
     {
       "name": "Bharadvaja’s Twist",
       "sanskrit": "Bharadvajasana I",
       "difficulty": 1,
       "id": 0,
       "description": "To practice Bharadvaja's Twist, you can follow these steps: 1. Begin by sitting on the floor with your legs extended in front of you. 2. Bend your knees and shift your weight to the right hip. 3. Bring your feet to the left side of your body, stacking your knees on top of each other. 4. Inhale and lengthen your spine. 5. Exhale and twist to the right, placing your left hand on your right knee and your right hand on the floor behind you. 6. Hold the twist for 5-10 breaths, then repeat on the other side.",
-      "tags": [
-        "hipOpening",
-        "seated",
-        "twist"
-      ],
+      "tags": ["hipOpening", "seated", "twist"],
       "category": "Seated Poses",
-      "benefits": [
-        "Improves flexibility",
-        "Enhances relaxation"
-      ],
+      "benefits": ["Improves flexibility", "Enhances relaxation"],
       "image_url": "https://example.com/yoga_poses/0.jpg",
       "video_url": "https://example.com/yoga_videos/0.mp4",
       "duration": "30s",
@@ -27,15 +20,9 @@
       "difficulty": 1,
       "id": 1,
       "description": "Begin by standing with your feet hip-width apart, keeping your spine straight and shoulders relaxed. Exhale and bend forward from your hips, keeping your knees straight or slightly bent if needed. Reach down with your hands and hold your big toes with your thumb, index, and middle fingers. If you can't reach your toes, you can use a strap or hold onto your ankles or shins. With each inhale, lengthen your spine and look forward. With each exhale, fold deeper into the pose, bringing your chest closer to your thighs. Try to straighten your legs as much as you comfortably can, but don't strain or force them to be completely straight. Keep your weight balanced between the balls and heels of your feet, and actively engage your quadriceps to support your legs. Relax your neck and let your head hang, allowing any tension to release. Hold the pose for 5-10 breaths, breathing deeply and maintaining a steady, relaxed breath.",
-      "tags": [
-        "forwardBend",
-        "standing"
-      ],
+      "tags": ["forwardBend", "standing"],
       "category": "Standing Poses",
-      "benefits": [
-        "Improves flexibility",
-        "Enhances relaxation"
-      ],
+      "benefits": ["Improves flexibility", "Enhances relaxation"],
       "image_url": "https://example.com/yoga_poses/1.jpg",
       "video_url": "https://example.com/yoga_videos/1.mp4",
       "duration": "30s",
@@ -47,16 +34,9 @@
       "difficulty": 2,
       "id": 2,
       "description": "Sit on the floor with your legs extended. Bend your knees, then lean back slightly and lift your feet off the ground, balancing on your sit bones. Extend your arms forward, parallel to the floor. Straighten your legs as much as you can, forming a V-shape with your body. Keep your back straight and hold for 5-10 breaths.",
-      "tags": [
-        "core",
-        "seated",
-        "strengthening"
-      ],
+      "tags": ["core", "seated", "strengthening"],
       "category": "Seated Poses",
-      "benefits": [
-        "Improves flexibility",
-        "Enhances relaxation"
-      ],
+      "benefits": ["Improves flexibility", "Enhances relaxation"],
       "image_url": "https://example.com/yoga_poses/2.jpg",
       "video_url": "https://example.com/yoga_videos/2.mp4",
       "duration": "30s",
@@ -68,16 +48,9 @@
       "difficulty": 1,
       "id": 3,
       "description": "Sit with your legs extended, then bend your knees and bring the soles of your feet together. Hold your feet with your hands, and gently press your knees towards the floor. Keep your spine straight and hold for several breaths.",
-      "tags": [
-        "forwardBend",
-        "hipOpening",
-        "seated"
-      ],
+      "tags": ["forwardBend", "hipOpening", "seated"],
       "category": "Seated Poses",
-      "benefits": [
-        "Improves flexibility",
-        "Enhances relaxation"
-      ],
+      "benefits": ["Improves flexibility", "Enhances relaxation"],
       "image_url": "https://example.com/yoga_poses/3.jpg",
       "video_url": "https://example.com/yoga_videos/3.mp4",
       "duration": "30s",
@@ -89,15 +62,9 @@
       "difficulty": 2,
       "id": 4,
       "description": "Lie on your stomach with your arms by your sides. Bend your knees and reach back to hold your ankles. Inhale and lift your chest and thighs off the floor, pulling your ankles up and back. Hold for several breaths.",
-      "tags": [
-        "chestOpening",
-        "backbends"
-      ],
+      "tags": ["chestOpening", "backbends"],
       "category": "Backbends",
-      "benefits": [
-        "Improves flexibility",
-        "Enhances relaxation"
-      ],
+      "benefits": ["Improves flexibility", "Enhances relaxation"],
       "image_url": "https://example.com/yoga_poses/4.jpg",
       "video_url": "https://example.com/yoga_videos/4.mp4",
       "duration": "30s",
@@ -109,14 +76,9 @@
       "difficulty": 2,
       "id": 5,
       "description": "Lie on your back with your knees bent and feet flat on the floor, hip-width apart. Place your arms alongside your body with palms facing down. Press your feet and arms into the floor as you lift your hips towards the ceiling. Hold for several breaths.",
-      "tags": [
-        "backbends"
-      ],
+      "tags": ["backbends"],
       "category": "Backbends",
-      "benefits": [
-        "Improves flexibility",
-        "Enhances relaxation"
-      ],
+      "benefits": ["Improves flexibility", "Enhances relaxation"],
       "image_url": "https://example.com/yoga_poses/5.jpg",
       "video_url": "https://example.com/yoga_videos/5.mp4",
       "duration": "30s",
@@ -128,15 +90,9 @@
       "difficulty": 2,
       "id": 6,
       "description": "Kneel on the floor with your knees hip-width apart. Place your hands on your lower back with your fingers pointing down. Press your hips forward and lean back, reaching for your heels. Lift your chest and hold for several breaths.",
-      "tags": [
-        "chestOpening",
-        "backbends"
-      ],
+      "tags": ["chestOpening", "backbends"],
       "category": "Backbends",
-      "benefits": [
-        "Improves flexibility",
-        "Enhances relaxation"
-      ],
+      "benefits": ["Improves flexibility", "Enhances relaxation"],
       "image_url": "https://example.com/yoga_poses/6.jpg",
       "video_url": "https://example.com/yoga_videos/6.mp4",
       "duration": "30s",
@@ -148,14 +104,9 @@
       "difficulty": 1,
       "id": 7,
       "description": "Start on your hands and knees with your wrists directly under your shoulders and your knees under your hips. On an exhale, round your spine towards the ceiling, tucking your chin to your chest. Inhale and return to a neutral spine.",
-      "tags": [
-        "core"
-      ],
+      "tags": ["core"],
       "category": "Core Strengthening",
-      "benefits": [
-        "Improves flexibility",
-        "Enhances relaxation"
-      ],
+      "benefits": ["Improves flexibility", "Enhances relaxation"],
       "image_url": "https://example.com/yoga_poses/7.jpg",
       "video_url": "https://example.com/yoga_videos/7.mp4",
       "duration": "30s",
@@ -167,14 +118,9 @@
       "difficulty": 1,
       "id": 8,
       "description": "Start on your hands and knees with your wrists directly under your shoulders and your knees under your hips. Inhale, arch your back, and lift your head and tailbone towards the ceiling (Cow Pose). Exhale, round your spine and tuck your chin to your chest (Cat Pose). Repeat for several breaths.",
-      "tags": [
-        "backbends"
-      ],
+      "tags": ["backbends"],
       "category": "Backbends",
-      "benefits": [
-        "Improves flexibility",
-        "Enhances relaxation"
-      ],
+      "benefits": ["Improves flexibility", "Enhances relaxation"],
       "image_url": "https://example.com/yoga_poses/8.jpg",
       "video_url": "https://example.com/yoga_videos/8.mp4",
       "duration": "30s",
@@ -186,14 +132,9 @@
       "difficulty": 1,
       "id": 9,
       "description": "Begin in a plank position. Lower your knees to the floor, then lower your chest and chin, keeping your elbows close to your body. Your hips should remain slightly lifted. Hold for a few breaths.",
-      "tags": [
-        "core"
-      ],
+      "tags": ["core"],
       "category": "Core Strengthening",
-      "benefits": [
-        "Improves flexibility",
-        "Enhances relaxation"
-      ],
+      "benefits": ["Improves flexibility", "Enhances relaxation"],
       "image_url": "https://example.com/yoga_poses/9.jpg",
       "video_url": "https://example.com/yoga_videos/9.mp4",
       "duration": "30s",
@@ -205,16 +146,9 @@
       "difficulty": 2,
       "id": 10,
       "description": "Stand with your feet together. Inhale and raise your arms above your head. Exhale and bend your knees, lowering your hips as if you are sitting back into a chair. Keep your chest lifted and hold for several breaths.",
-      "tags": [
-        "core",
-        "standing",
-        "strengthening"
-      ],
+      "tags": ["core", "standing", "strengthening"],
       "category": "Standing Poses",
-      "benefits": [
-        "Improves flexibility",
-        "Enhances relaxation"
-      ],
+      "benefits": ["Improves flexibility", "Enhances relaxation"],
       "image_url": "https://example.com/yoga_poses/10.jpg",
       "video_url": "https://example.com/yoga_videos/10.mp4",
       "duration": "30s",
@@ -226,16 +160,9 @@
       "difficulty": 1,
       "id": 11,
       "description": "Kneel on the floor and sit back on your heels. Exhale and fold forward, bringing your forehead to the floor. Extend your arms in front of you or rest them alongside your body. Hold for several breaths.",
-      "tags": [
-        "forwardBend",
-        "hipOpening",
-        "restorative"
-      ],
+      "tags": ["forwardBend", "hipOpening", "restorative"],
       "category": "Forward Bends",
-      "benefits": [
-        "Improves flexibility",
-        "Enhances relaxation"
-      ],
+      "benefits": ["Improves flexibility", "Enhances relaxation"],
       "image_url": "https://example.com/yoga_poses/11.jpg",
       "video_url": "https://example.com/yoga_videos/11.mp4",
       "duration": "30s",
@@ -247,14 +174,9 @@
       "difficulty": 3,
       "id": 22,
       "description": "Start in a seated position with your legs extended. Bend your knees and bring your feet to the floor. Place your right hand on the floor behind you and your left hand on your right knee. Inhale and lengthen your spine, then exhale and twist to the right. Hold for several breaths and repeat on the other side.",
-      "tags": [
-        "armBalance"
-      ],
+      "tags": ["armBalance"],
       "category": "Arm Balance Poses",
-      "benefits": [
-        "Improves flexibility",
-        "Enhances relaxation"
-      ],
+      "benefits": ["Improves flexibility", "Enhances relaxation"],
       "image_url": "https://example.com/yoga_poses/22.jpg",
       "video_url": "https://example.com/yoga_videos/22.mp4",
       "duration": "30s",
@@ -266,16 +188,9 @@
       "difficulty": 3,
       "id": 23,
       "description": "Stand with your feet together. Lift your right leg and hold your big toe with your right hand. Extend your right leg forward, keeping your spine straight. Hold for several breaths and repeat on the other side.",
-      "tags": [
-        "balancing",
-        "hipOpening",
-        "standing"
-      ],
+      "tags": ["balancing", "hipOpening", "standing"],
       "category": "Standing Poses",
-      "benefits": [
-        "Improves flexibility",
-        "Enhances relaxation"
-      ],
+      "benefits": ["Improves flexibility", "Enhances relaxation"],
       "image_url": "https://example.com/yoga_poses/23.jpg",
       "video_url": "https://example.com/yoga_videos/23.mp4",
       "duration": "30s",
@@ -287,14 +202,9 @@
       "difficulty": 2,
       "id": 24,
       "description": "Start on your hands and knees with your wrists directly under your shoulders and your knees under your hips. Walk your hands forward, lowering your chest towards the floor while keeping your hips lifted. Hold for several breaths.",
-      "tags": [
-        "forwardBend"
-      ],
+      "tags": ["forwardBend"],
       "category": "Forward Bends",
-      "benefits": [
-        "Improves flexibility",
-        "Enhances relaxation"
-      ],
+      "benefits": ["Improves flexibility", "Enhances relaxation"],
       "image_url": "https://example.com/yoga_poses/24.jpg",
       "video_url": "https://example.com/yoga_videos/24.mp4",
       "duration": "30s",
@@ -306,15 +216,9 @@
       "difficulty": 2,
       "id": 25,
       "description": "Stand with your feet wide apart. Turn your right foot out and bend your right knee, bringing your right thigh parallel to the floor. Place your right hand on the floor outside your right foot and extend your left arm over your head. Hold for several breaths and repeat on the other side.",
-      "tags": [
-        "standing",
-        "strengthening"
-      ],
+      "tags": ["standing", "strengthening"],
       "category": "Standing Poses",
-      "benefits": [
-        "Improves flexibility",
-        "Enhances relaxation"
-      ],
+      "benefits": ["Improves flexibility", "Enhances relaxation"],
       "image_url": "https://example.com/yoga_poses/25.jpg",
       "video_url": "https://example.com/yoga_videos/25.mp4",
       "duration": "30s",
@@ -326,15 +230,9 @@
       "difficulty": 1,
       "id": 26,
       "description": "Stand with your feet wide apart. Turn your right foot out and extend your arms parallel to the floor. Reach your right hand towards your right foot and extend your left arm towards the ceiling. Hold for several breaths and repeat on the other side.",
-      "tags": [
-        "standing",
-        "strengthening"
-      ],
+      "tags": ["standing", "strengthening"],
       "category": "Standing Poses",
-      "benefits": [
-        "Improves flexibility",
-        "Enhances relaxation"
-      ],
+      "benefits": ["Improves flexibility", "Enhances relaxation"],
       "image_url": "https://example.com/yoga_poses/26.jpg",
       "video_url": "https://example.com/yoga_videos/26.mp4",
       "duration": "30s",
@@ -346,15 +244,9 @@
       "difficulty": 3,
       "id": 27,
       "description": "Start in a forearm plank position with your elbows under your shoulders and your body in a straight line. Engage your core and lift one leg towards the ceiling. Hold for several breaths and repeat on the other side.",
-      "tags": [
-        "inversion",
-        "strengthening"
-      ],
+      "tags": ["inversion", "strengthening"],
       "category": "Inversions",
-      "benefits": [
-        "Improves flexibility",
-        "Enhances relaxation"
-      ],
+      "benefits": ["Improves flexibility", "Enhances relaxation"],
       "image_url": "https://example.com/yoga_poses/27.jpg",
       "video_url": "https://example.com/yoga_videos/27.mp4",
       "duration": "30s",
@@ -366,15 +258,9 @@
       "difficulty": 1,
       "id": 28,
       "description": "Sit with your legs extended. Bend your right knee and place your right foot on the floor outside your left thigh. Bring your left foot to the outside of your right hip. Inhale and lengthen your spine, then exhale and twist to the right, placing your left hand on your right knee and your right hand behind you. Hold for several breaths and repeat on the other side.",
-      "tags": [
-        "hipOpening",
-        "seated"
-      ],
+      "tags": ["hipOpening", "seated"],
       "category": "Seated Poses",
-      "benefits": [
-        "Improves flexibility",
-        "Enhances relaxation"
-      ],
+      "benefits": ["Improves flexibility", "Enhances relaxation"],
       "image_url": "https://example.com/yoga_poses/28.jpg",
       "video_url": "https://example.com/yoga_videos/28.mp4",
       "duration": "30s",
@@ -386,14 +272,9 @@
       "difficulty": 3,
       "id": 29,
       "description": "Start in a squatting position with your feet hip-width apart. Place your hands on the floor in front of you, shoulder-width apart. Bend your elbows and lift your hips, bringing your knees to the backs of your upper arms. Shift your weight forward and lift your feet off the ground, balancing on your hands. Hold for several breaths.",
-      "tags": [
-        "armBalance"
-      ],
+      "tags": ["armBalance"],
       "category": "Arm Balance Poses",
-      "benefits": [
-        "Improves flexibility",
-        "Enhances relaxation"
-      ],
+      "benefits": ["Improves flexibility", "Enhances relaxation"],
       "image_url": "https://example.com/yoga_poses/29.jpg",
       "video_url": "https://example.com/yoga_videos/29.mp4",
       "duration": "30s",
@@ -405,15 +286,9 @@
       "difficulty": 2,
       "id": 30,
       "description": "Lie on your back with your legs extended and your arms alongside your body. Inhale and lift your chest and legs off the floor, balancing on your sit bones. Keep your back straight and hold for several breaths.",
-      "tags": [
-        "chestOpening",
-        "backbends"
-      ],
+      "tags": ["chestOpening", "backbends"],
       "category": "Backbends",
-      "benefits": [
-        "Improves flexibility",
-        "Enhances relaxation"
-      ],
+      "benefits": ["Improves flexibility", "Enhances relaxation"],
       "image_url": "https://example.com/yoga_poses/30.jpg",
       "video_url": "https://example.com/yoga_videos/30.mp4",
       "duration": "30s",
@@ -425,16 +300,9 @@
       "difficulty": 2,
       "id": 31,
       "description": "Start in a plank position with your wrists directly under your shoulders and your body in a straight line. Lower your body towards the floor, keeping your elbows close to your sides. Hold for several breaths.",
-      "tags": [
-        "armBalance",
-        "core",
-        "strengthening"
-      ],
+      "tags": ["armBalance", "core", "strengthening"],
       "category": "Core Strengthening",
-      "benefits": [
-        "Improves flexibility",
-        "Enhances relaxation"
-      ],
+      "benefits": ["Improves flexibility", "Enhances relaxation"],
       "image_url": "https://example.com/yoga_poses/31.jpg",
       "video_url": "https://example.com/yoga_videos/31.mp4",
       "duration": "30s",

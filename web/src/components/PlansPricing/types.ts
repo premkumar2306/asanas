@@ -1,5 +1,5 @@
 // src/components/PlansPricing/types.ts
-import { DiscountCode } from '../../types/index';
+import { DiscountCode } from "../../types/index";
 
 export interface PlanData {
   id: number;
@@ -32,7 +32,8 @@ export const initialPlans: PlanData[] = [
     service: "Group Classes",
     name: "Hatha Beginners & Breathwork",
     description: "Basic Hatha Yoga. Gentle flow. Suitable for new students.",
-    specialInstructions: "Arrive 10 mins early. Comfortable clothing recommended.",
+    specialInstructions:
+      "Arrive 10 mins early. Comfortable clothing recommended.",
     accessType: "online",
     paymentModel: "standard",
     renewalReminders: true,
@@ -50,7 +51,8 @@ export const initialPlans: PlanData[] = [
     service: "Workshops",
     name: "Headstand Workshop - 2 days",
     description: "Learn fundamentals of headstand safely in a 2-day workshop.",
-    specialInstructions: "Practice caution. If you have neck injuries, consult first.",
+    specialInstructions:
+      "Practice caution. If you have neck injuries, consult first.",
     accessType: "both",
     paymentModel: "donation",
     renewalReminders: false,

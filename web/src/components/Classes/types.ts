@@ -1,15 +1,15 @@
 export interface ClassFormData {
   id?: string;
-  service: 'group' | 'personal' | 'workshop';
+  service: "group" | "personal" | "workshop";
   zoomUser?: string;
   startsAt: string;
   duration: number;
   recurringDays: string[];
   teacher: string;
   description: string;
-  classType: 'online' | 'in-studio' | 'hybrid';
+  classType: "online" | "in-studio" | "hybrid";
   maxCapacity?: number;
-  paymentModel: 'standard' | 'donation' | 'free';
+  paymentModel: "standard" | "donation" | "free";
   trialDropIn: boolean;
   eligiblePlans: string[];
   discountCodes: string[];
@@ -20,24 +20,24 @@ export interface ClassFormData {
 }
 
 export const DAYS_OF_WEEK = [
-  'Monday',
-  'Tuesday',
-  'Wednesday',
-  'Thursday',
-  'Friday',
-  'Saturday',
-  'Sunday'
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+  "Sunday",
 ];
 
 export const INITIAL_CLASS_DATA: ClassFormData = {
-  service: 'group',
-  startsAt: '',
+  service: "group",
+  startsAt: "",
   duration: 60,
   recurringDays: [],
-  teacher: '',
-  description: '',
-  classType: 'online',
-  paymentModel: 'standard',
+  teacher: "",
+  description: "",
+  classType: "online",
+  paymentModel: "standard",
   trialDropIn: false,
   eligiblePlans: [],
   discountCodes: [],

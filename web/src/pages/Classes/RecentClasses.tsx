@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { TableContainer } from '../../components/Common/Table/TableContainer';
-import { Table } from '../../components/Common/Table/Table';
+import { TableContainer } from "../../components/Common/Table/TableContainer";
+import { Table } from "../../components/Common/Table/Table";
 import { Student, RecentClass } from "./types";
 import dummyRecentClasses from "./recent_classes_90days.json";
 
@@ -18,11 +18,15 @@ const RecentClasses: React.FC = () => {
     setRecentClasses(dummyRecentClasses);
   }, []);
 
-  const filteredClasses = recentClasses.filter(cls => {
-    const matchesTeacher = cls.teacher.toLowerCase().includes(searchTerm.toLowerCase());
+  const filteredClasses = recentClasses.filter((cls) => {
+    const matchesTeacher = cls.teacher
+      .toLowerCase()
+      .includes(searchTerm.toLowerCase());
     const timestamp = cls.timestamp || 0;
-    const afterStart = !startDate || timestamp >= new Date(startDate + "T00:00:00").getTime();
-    const beforeEnd = !endDate || timestamp <= new Date(endDate + "T23:59:59").getTime();
+    const afterStart =
+      !startDate || timestamp >= new Date(startDate + "T00:00:00").getTime();
+    const beforeEnd =
+      !endDate || timestamp <= new Date(endDate + "T23:59:59").getTime();
     return matchesTeacher && afterStart && beforeEnd;
   });
 
@@ -40,13 +44,19 @@ const RecentClasses: React.FC = () => {
           <ul className="space-y-2 mb-4">
             {students.map((student, idx) => (
               <li key={idx} className="flex items-center space-x-2">
-                <img src={student.avatar} alt={student.name} className="w-10 h-10 rounded-full" />
+                <img
+                  src={student.avatar}
+                  alt={student.name}
+                  className="w-10 h-10 rounded-full"
+                />
                 <span className="text-sm">{student.name}</span>
               </li>
             ))}
           </ul>
           <div className="flex justify-end">
-            <button onClick={onClose} className="text-sm text-gray-600">Close</button>
+            <button onClick={onClose} className="text-sm text-gray-600">
+              Close
+            </button>
           </div>
         </div>
       </div>
@@ -55,7 +65,7 @@ const RecentClasses: React.FC = () => {
 
   const columns = [
     {
-      header: 'Date',
+      header: "Date",
       accessor: (cls: RecentClass) => (
         <div className="flex items-center">
           {cls.date === "Today" && (
@@ -66,26 +76,26 @@ const RecentClasses: React.FC = () => {
           {cls.date}
         </div>
       ),
-      className: 'w-1/6'
-    },
-    { 
-      header: 'Location', 
-      accessor: 'location',
-      className: 'w-1/6'
-    },
-    { 
-      header: 'Teacher', 
-      accessor: 'teacher',
-      className: 'w-1/6'
-    },
-    { 
-      header: 'Time', 
-      accessor: 'time',
-      className: 'w-1/6'
+      className: "w-1/6",
     },
     {
-      header: 'Students',
-      accessor: (cls: RecentClass) => (
+      header: "Location",
+      accessor: "location",
+      className: "w-1/6",
+    },
+    {
+      header: "Teacher",
+      accessor: "teacher",
+      className: "w-1/6",
+    },
+    {
+      header: "Time",
+      accessor: "time",
+      className: "w-1/6",
+    },
+    {
+      header: "Students",
+      accessor: (cls: RecentClass) =>
         cls.checkins > 0 ? (
           <button
             onClick={() => setSelectedClass(cls)}
@@ -95,34 +105,29 @@ const RecentClasses: React.FC = () => {
           </button>
         ) : (
           <span className="text-gray-400">No check-ins</span>
-        )
-      ),
-      className: 'w-1/6'
+        ),
+      className: "w-1/6",
     },
     {
-      header: 'Actions',
+      header: "Actions",
       accessor: (cls: RecentClass) => (
         <div className="space-x-2">
-          <Link 
+          <Link
             to={`/classes/${cls.id}`}
             className="text-blue-600 hover:underline"
           >
             View
           </Link>
-          <Link 
+          <Link
             to={`/classes/${cls.id}/edit`}
             className="text-yellow-600 hover:underline"
           >
             Edit
           </Link>
-          <button
-            className="text-green-600 hover:underline"
-          >
-            Check-in
-          </button>
+          <button className="text-green-600 hover:underline">Check-in</button>
         </div>
       ),
-      className: 'w-1/6'
+      className: "w-1/6",
     },
   ];
 
@@ -134,7 +139,7 @@ const RecentClasses: React.FC = () => {
           See All
         </Link>
       </div>
-      
+
       <div className="flex flex-col md:flex-row md:items-center md:space-x-4 mb-4 space-y-2 md:space-y-0">
         <input
           type="text"
@@ -160,7 +165,10 @@ const RecentClasses: React.FC = () => {
       <TableContainer>
         <Table
           columns={columns}
-          data={filteredClasses.slice((currentPage - 1) * classesPerPage, currentPage * classesPerPage)}
+          data={filteredClasses.slice(
+            (currentPage - 1) * classesPerPage,
+            currentPage * classesPerPage,
+          )}
           emptyMessage="No recent classes found."
           isLoading={false}
         />
@@ -176,18 +184,28 @@ const RecentClasses: React.FC = () => {
 
       <div className="flex justify-between items-center mt-4">
         <button
-          onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))}
+          onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
           disabled={currentPage === 1}
           className="px-4 py-2 bg-gray-200 rounded disabled:opacity-50"
         >
           Previous
         </button>
         <span className="text-sm">
-          Page {currentPage} of {Math.ceil(filteredClasses.length / classesPerPage)}
+          Page {currentPage} of{" "}
+          {Math.ceil(filteredClasses.length / classesPerPage)}
         </span>
         <button
-          onClick={() => setCurrentPage(prev => Math.min(prev + 1, Math.ceil(filteredClasses.length / classesPerPage)))}
-          disabled={currentPage === Math.ceil(filteredClasses.length / classesPerPage)}
+          onClick={() =>
+            setCurrentPage((prev) =>
+              Math.min(
+                prev + 1,
+                Math.ceil(filteredClasses.length / classesPerPage),
+              ),
+            )
+          }
+          disabled={
+            currentPage === Math.ceil(filteredClasses.length / classesPerPage)
+          }
           className="px-4 py-2 bg-gray-200 rounded disabled:opacity-50"
         >
           Next

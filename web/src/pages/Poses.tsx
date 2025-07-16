@@ -2,7 +2,14 @@ import React, { useState, useEffect } from "react";
 import Player from "../components/Student/Player";
 import { useTranslation } from "react-i18next";
 import { db } from "../firebase";
-import { collection, query, where, getDocs, orderBy, limit } from "firebase/firestore";
+import {
+  collection,
+  query,
+  where,
+  getDocs,
+  orderBy,
+  limit,
+} from "firebase/firestore";
 
 function StudentDashboard() {
   const { t } = useTranslation();

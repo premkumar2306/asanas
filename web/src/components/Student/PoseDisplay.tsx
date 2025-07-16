@@ -1,5 +1,5 @@
-import React from 'react';
-import { Pose } from '../../types/pose';
+import React from "react";
+import { Pose } from "../../types/pose";
 
 interface PoseDisplayProps {
   pose: Pose;
@@ -22,7 +22,10 @@ export const PoseDisplay: React.FC<PoseDisplayProps> = ({
         Pose {currentIndex + 1} of {totalPoses} • Time left: {timeLeft}s
       </p>
       <img
-        src={pose.image?.trim() || "https://via.placeholder.com/300x200?text=Yoga+Pose"}
+        src={
+          pose.image?.trim() ||
+          "https://via.placeholder.com/300x200?text=Yoga+Pose"
+        }
         alt={pose.name}
         className="mx-auto mb-4 max-h-64 object-contain rounded shadow"
       />

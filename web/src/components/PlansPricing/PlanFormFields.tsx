@@ -15,7 +15,9 @@ const PlanFormFields: React.FC<PlanFormFieldsProps> = ({ data, onChange }) => {
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
       {/* Service */}
       <div>
-        <label className="block text-sm font-medium text-gray-700">Service</label>
+        <label className="block text-sm font-medium text-gray-700">
+          Service
+        </label>
         <select
           value={data.service}
           onChange={(e) => updateData({ service: e.target.value })}
@@ -30,7 +32,9 @@ const PlanFormFields: React.FC<PlanFormFieldsProps> = ({ data, onChange }) => {
 
       {/* Plan Name */}
       <div>
-        <label className="block text-sm font-medium text-gray-700">Plan Name</label>
+        <label className="block text-sm font-medium text-gray-700">
+          Plan Name
+        </label>
         <input
           type="text"
           value={data.name}

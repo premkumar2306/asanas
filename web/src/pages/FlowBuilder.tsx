@@ -3,8 +3,14 @@ import { db } from "../firebase";
 import { collection, addDoc } from "firebase/firestore";
 import { useTranslation } from "react-i18next";
 import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
-import { IoTimeOutline, IoSearch, IoTrash, IoWarning, IoSave } from "react-icons/io5";
-import { Button } from '../components/Common/Button';
+import {
+  IoTimeOutline,
+  IoSearch,
+  IoTrash,
+  IoWarning,
+  IoSave,
+} from "react-icons/io5";
+import { Button } from "../components/Common/Button";
 
 interface Pose {
   id: number;
@@ -79,7 +85,9 @@ function FlowBuilder() {
 
     // Validate durations
     const invalidDurations = selectedPoses.some(
-      pose => pose.duration < CONSTANTS.MIN_POSE_DURATION || pose.duration > CONSTANTS.MAX_POSE_DURATION
+      (pose) =>
+        pose.duration < CONSTANTS.MIN_POSE_DURATION ||
+        pose.duration > CONSTANTS.MAX_POSE_DURATION,
     );
     if (invalidDurations) {
       newErrors.duration = `Each pose duration must be between ${CONSTANTS.MIN_POSE_DURATION} and ${CONSTANTS.MAX_POSE_DURATION} seconds`;
@@ -94,8 +102,8 @@ function FlowBuilder() {
 
   useEffect(() => {
     fetch("/data/poses.json")
-      .then(res => res.json())
-      .then(data => setPoses(data.poses));
+      .then((res) => res.json())
+      .then((data) => setPoses(data.poses));
   }, []);
 
   useEffect(() => {
@@ -107,7 +115,7 @@ function FlowBuilder() {
     const flowPose: FlowPose = {
       ...pose,
       duration: 30, // Default 30 seconds
-      notes: ""
+      notes: "",
     };
     setSelectedPoses([...selectedPoses, flowPose]);
   };
@@ -117,7 +125,7 @@ function FlowBuilder() {
     // Ensure duration is within bounds
     const validDuration = Math.min(
       Math.max(duration, CONSTANTS.MIN_POSE_DURATION),
-      CONSTANTS.MAX_POSE_DURATION
+      CONSTANTS.MAX_POSE_DURATION,
     );
     updatedPoses[index].duration = validDuration;
     setSelectedPoses(updatedPoses);
@@ -136,18 +144,20 @@ function FlowBuilder() {
 
   const onDragEnd = (result: any) => {
     if (!result.destination) return;
-    
+
     const items = Array.from(selectedPoses);
     const [reorderedItem] = items.splice(result.source.index, 1);
     items.splice(result.destination.index, 0, reorderedItem);
-    
+
     setSelectedPoses(items);
   };
 
-  const filteredPoses = poses.filter(pose => {
-    const matchesSearch = pose.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                         pose.sanskrit.toLowerCase().includes(searchTerm.toLowerCase());
-    const matchesDifficulty = filterDifficulty === 0 || pose.difficulty === filterDifficulty;
+  const filteredPoses = poses.filter((pose) => {
+    const matchesSearch =
+      pose.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      pose.sanskrit.toLowerCase().includes(searchTerm.toLowerCase());
+    const matchesDifficulty =
+      filterDifficulty === 0 || pose.difficulty === filterDifficulty;
     const matchesCategory = !filterCategory || pose.category === filterCategory;
     return matchesSearch && matchesDifficulty && matchesCategory;
   });
@@ -168,23 +178,26 @@ function FlowBuilder() {
         poseSequence: selectedPoses,
         totalDuration,
         createdAt: new Date(),
-        difficulty: Math.max(...selectedPoses.map(pose => pose.difficulty)),
+        difficulty: Math.max(...selectedPoses.map((pose) => pose.difficulty)),
         posesCount: selectedPoses.length,
-        lastModified: new Date()
+        lastModified: new Date(),
       };
 
       await addDoc(collection(db, "flows"), flowData);
-      
+
       // Clear form after successful save
       setFlowName("");
       setFlowDescription("");
       setSelectedPoses([]);
       setErrors({});
-      
+
       alert("Flow saved successfully!");
     } catch (error) {
       console.error("Error saving flow:", error);
-      setErrors({ ...errors, submit: "Failed to save flow. Please try again." });
+      setErrors({
+        ...errors,
+        submit: "Failed to save flow. Please try again.",
+      });
     } finally {
       setIsSaving(false);
     }
@@ -193,7 +206,7 @@ function FlowBuilder() {
   return (
     <div className="container mx-auto p-4">
       <h2 className="text-2xl font-bold mb-6">{t("flowBuilder")}</h2>
-      
+
       {/* Flow Details with Validation */}
       <div className="mb-6">
         <div className="mb-4">
@@ -201,7 +214,7 @@ function FlowBuilder() {
             type="text"
             placeholder="Flow Name *"
             className={`w-full mb-1 p-2 border rounded ${
-              errors.flowName ? 'border-red-500' : ''
+              errors.flowName ? "border-red-500" : ""
             }`}
             value={flowName}
             onChange={(e) => setFlowName(e.target.value)}
@@ -218,7 +231,7 @@ function FlowBuilder() {
           <textarea
             placeholder="Flow Description"
             className={`w-full p-2 border rounded ${
-              errors.flowDescription ? 'border-red-500' : ''
+              errors.flowDescription ? "border-red-500" : ""
             }`}
             value={flowDescription}
             onChange={(e) => setFlowDescription(e.target.value)}
@@ -236,7 +249,7 @@ function FlowBuilder() {
         {/* Available Poses Panel */}
         <div className="w-1/2 bg-white rounded-lg shadow p-4">
           <h3 className="text-xl font-semibold mb-4">Available Poses</h3>
-          
+
           {/* Filters */}
           <div className="mb-4 space-y-2">
             <div className="flex items-center bg-gray-100 rounded-lg p-2">
@@ -249,7 +262,7 @@ function FlowBuilder() {
                 onChange={(e) => setSearchTerm(e.target.value)}
               />
             </div>
-            
+
             <select
               className="w-full p-2 border rounded"
               value={filterDifficulty}
@@ -267,9 +280,13 @@ function FlowBuilder() {
               onChange={(e) => setFilterCategory(e.target.value)}
             >
               <option value="">All Categories</option>
-              {Array.from(new Set(poses.map(pose => pose.category))).map(category => (
-                <option key={category} value={category}>{category}</option>
-              ))}
+              {Array.from(new Set(poses.map((pose) => pose.category))).map(
+                (category) => (
+                  <option key={category} value={category}>
+                    {category}
+                  </option>
+                ),
+              )}
             </select>
           </div>
 
@@ -296,7 +313,8 @@ function FlowBuilder() {
           <h3 className="text-xl font-semibold mb-4">
             Selected Flow
             <span className="text-sm font-normal text-gray-500 ml-2">
-              Total Duration: {Math.floor(totalDuration / 60)}m {totalDuration % 60}s
+              Total Duration: {Math.floor(totalDuration / 60)}m{" "}
+              {totalDuration % 60}s
             </span>
           </h3>
 
@@ -330,7 +348,7 @@ function FlowBuilder() {
                               <IoTrash />
                             </button>
                           </div>
-                          
+
                           <div className="flex items-center gap-2 mb-2">
                             <IoTimeOutline />
                             <input
@@ -338,16 +356,25 @@ function FlowBuilder() {
                               min="5"
                               step="5"
                               value={pose.duration}
-                              onChange={(e) => handleUpdatePoseDuration(index, Number(e.target.value))}
+                              onChange={(e) =>
+                                handleUpdatePoseDuration(
+                                  index,
+                                  Number(e.target.value),
+                                )
+                              }
                               className="w-20 p-1 border rounded"
                             />
-                            <span className="text-sm text-gray-500">seconds</span>
+                            <span className="text-sm text-gray-500">
+                              seconds
+                            </span>
                           </div>
 
                           <textarea
                             placeholder="Add notes for this pose..."
                             value={pose.notes}
-                            onChange={(e) => handleUpdatePoseNotes(index, e.target.value)}
+                            onChange={(e) =>
+                              handleUpdatePoseNotes(index, e.target.value)
+                            }
                             className="w-full p-2 text-sm border rounded"
                           />
                         </div>
@@ -368,7 +395,7 @@ function FlowBuilder() {
               variant="primary"
               icon={IoSave}
             >
-              {isSaving ? 'Saving...' : 'Save Flow'}
+              {isSaving ? "Saving..." : "Save Flow"}
             </Button>
           )}
 

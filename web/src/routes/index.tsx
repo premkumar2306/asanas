@@ -3,12 +3,12 @@ import { Routes, Route } from "react-router-dom";
 import StudentDashboard from "../pages/StudentDashboard";
 import FlowBuilder from "../pages/FlowBuilder";
 import SessionSummary from "../pages/Classes/SessionSummary";
-import Poses from '../pages/Poses';
-import SignIn from '../pages/SignIn';
-import UpCommingClasses from '../pages/Classes/UpCommingClasses';
-import StudioDetails from '../pages/Studio/StudioDetails';
-import InStudioLocations from '../pages/Studio/InStudioLocations';
-import PlansPricing from '../pages/Studio/PlansPricing';
+import Poses from "../pages/Poses";
+import SignIn from "../pages/SignIn";
+import UpCommingClasses from "../pages/Classes/UpCommingClasses";
+import StudioDetails from "../pages/Studio/StudioDetails";
+import InStudioLocations from "../pages/Studio/InStudioLocations";
+import PlansPricing from "../pages/Studio/PlansPricing";
 import RecentClasses from "../pages/Classes/RecentClasses";
 import Team from "../pages/Studio/Team";
 

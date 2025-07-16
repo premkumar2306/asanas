@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from "react";
 import ClassForm from "../../components/Classes/ClassForm";
-import { ClassFormData, INITIAL_CLASS_DATA } from "../../components/Classes/types";
-import { CheckInsModal } from '../../components/Classes/CheckInsModal';
-import { Button } from '../../components/common/Button';
+import {
+  ClassFormData,
+  INITIAL_CLASS_DATA,
+} from "../../components/Classes/types";
+import { CheckInsModal } from "../../components/Classes/CheckInsModal";
+import { Button } from "../../components/common/Button";
 import { Calendar, dateFnsLocalizer } from "react-big-calendar";
 import { format, parse, startOfWeek, getDay } from "date-fns";
 import enUS from "date-fns/locale/en-US";
@@ -22,18 +25,21 @@ export default function UpcomingClasses() {
   const [classes, setClasses] = useState(generateDummyClasses());
   const [showModal, setShowModal] = useState(false);
   const [editingClass, setEditingClass] = useState(null);
-  const [formMode, setFormMode] = useState<'create' | 'edit'>('create');
-  const [selectedClassForAttendance, setSelectedClassForAttendance] = useState(null);
+  const [formMode, setFormMode] = useState<"create" | "edit">("create");
+  const [selectedClassForAttendance, setSelectedClassForAttendance] =
+    useState(null);
   const [currentTab, setCurrentTab] = useState("all");
 
   useEffect(() => {
     const timer = setInterval(() => {
-      setCurrentTime(new Date().toLocaleString("en-IN", { timeZoneName: "short" }));
+      setCurrentTime(
+        new Date().toLocaleString("en-IN", { timeZoneName: "short" }),
+      );
     }, 1000);
     return () => clearInterval(timer);
   }, []);
 
-  const handleOpenModal = (mode: 'create' | 'edit', classItem?: ClassItem) => {
+  const handleOpenModal = (mode: "create" | "edit", classItem?: ClassItem) => {
     setFormMode(mode);
     setEditingClass(classItem || null);
     setShowModal(true);
@@ -41,13 +47,17 @@ export default function UpcomingClasses() {
 
   const handleFormSubmit = (data: ClassFormData) => {
     const weekday = new Date(data.startsAt).getDay();
-    if (formMode === 'create') {
+    if (formMode === "create") {
       const newClass = {
         id: Date.now(),
         date: new Date(data.startsAt).toLocaleDateString(),
         title: data.description,
         description: data.description,
-        time: new Date(data.startsAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) + " IST",
+        time:
+          new Date(data.startsAt).toLocaleTimeString([], {
+            hour: "2-digit",
+            minute: "2-digit",
+          }) + " IST",
         teacher: data.teacher,
         type: data.service,
         fees: "Included in plan",
@@ -55,11 +65,11 @@ export default function UpcomingClasses() {
         timestamp: new Date(data.startsAt).getTime(),
         recurringDays: data.recurringDays,
       };
-      setClasses(prev => [...prev, newClass]);
+      setClasses((prev) => [...prev, newClass]);
     } else if (editingClass) {
       const updatedTimestamp = new Date(data.startsAt).getTime();
-      setClasses(prev =>
-        prev.map(cls =>
+      setClasses((prev) =>
+        prev.map((cls) =>
           cls.id === editingClass.id
             ? {
                 ...cls,
@@ -69,12 +79,16 @@ export default function UpcomingClasses() {
                 type: data.service,
                 timestamp: updatedTimestamp,
                 startsAt: data.startsAt,
-                time: new Date(data.startsAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) + ' IST',
+                time:
+                  new Date(data.startsAt).toLocaleTimeString([], {
+                    hour: "2-digit",
+                    minute: "2-digit",
+                  }) + " IST",
                 date: new Date(data.startsAt).toLocaleDateString(),
                 recurringDays: data.recurringDays,
               }
-            : cls
-        )
+            : cls,
+        ),
       );
     }
     setShowModal(false);
@@ -93,7 +107,7 @@ export default function UpcomingClasses() {
   };
 
   const handleCreateClass = () => {
-    setFormMode('create');
+    setFormMode("create");
     setEditingClass(INITIAL_CLASS_DATA);
     setShowModal(true);
   };
@@ -102,16 +116,13 @@ export default function UpcomingClasses() {
     <div className="p-6">
       <div className="flex justify-between items-center mb-6">
         <h1 className="text-2xl font-bold">Upcoming Classes Calendar</h1>
-        <Button 
-          variant="success" 
-          onClick={handleCreateClass}
-        >
+        <Button variant="success" onClick={handleCreateClass}>
           Create New Class
         </Button>
       </div>
 
       <div className="space-x-4 mb-4">
-        {["all", "group", "personal", "workshop"].map(tab => (
+        {["all", "group", "personal", "workshop"].map((tab) => (
           <button
             key={tab}
             onClick={() => setCurrentTab(tab)}
@@ -143,8 +154,8 @@ export default function UpcomingClasses() {
           defaultView="week"
           views={["month", "week", "day"]}
           onSelectEvent={(event) => {
-            const cls = classes.find(c => c.id === event.id);
-            if (cls) handleOpenModal('edit', cls);
+            const cls = classes.find((c) => c.id === event.id);
+            if (cls) handleOpenModal("edit", cls);
           }}
           selectable
         />
@@ -155,7 +166,7 @@ export default function UpcomingClasses() {
           <div className="bg-white rounded-lg shadow-xl p-6 w-full max-w-2xl">
             <div className="flex justify-between items-center mb-4">
               <h2 className="text-xl font-bold">
-                {formMode === 'create' ? 'Create New Class' : 'Edit Class'}
+                {formMode === "create" ? "Create New Class" : "Edit Class"}
               </h2>
               <button
                 onClick={() => {
@@ -168,10 +179,17 @@ export default function UpcomingClasses() {
               </button>
             </div>
             <ClassForm
-              initialData={formMode === 'create' ? INITIAL_CLASS_DATA : {
-                ...editingClass,
-                startsAt: new Date(editingClass.timestamp || Date.now()).toLocaleString('sv-SE').replace(' ', 'T').slice(0, 16),
-              }}
+              initialData={
+                formMode === "create"
+                  ? INITIAL_CLASS_DATA
+                  : {
+                      ...editingClass,
+                      startsAt: new Date(editingClass.timestamp || Date.now())
+                        .toLocaleString("sv-SE")
+                        .replace(" ", "T")
+                        .slice(0, 16),
+                    }
+              }
               onSubmit={handleFormSubmit}
               mode={formMode}
             />

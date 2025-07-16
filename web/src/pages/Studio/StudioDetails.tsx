@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from "react";
 import * as yup from "yup";
 import { StudioInfo } from "../../types/studio";
-import { getStudioInfoFromFirestore, saveStudioInfoToFirestore } from "../../api/studio";
+import {
+  getStudioInfoFromFirestore,
+  saveStudioInfoToFirestore,
+} from "../../api/studio";
 import studioData from "../../mocks/studio.json";
 import StudioDetailForm from "../../components/Studio/StudioDetailForm";
 
@@ -74,7 +77,8 @@ const StudioDetails: React.FC = () => {
     }
   };
 
-  const postalCodeLabel = studioInfo.address.country === "India" ? "Pincode" : "Zip Code";
+  const postalCodeLabel =
+    studioInfo.address.country === "India" ? "Pincode" : "Zip Code";
   const currencySymbol = studioInfo.address.country === "India" ? "INR" : "USD";
 
   // Time zone options

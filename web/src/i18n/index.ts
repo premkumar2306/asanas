@@ -8,9 +8,9 @@ const resources = {
       instructorSignup: "Instructor Signup",
       studentDashboard: "Student Dashboard",
       flowBuilder: "Flow Builder",
-      sessionSummary: "Session Summary"
+      sessionSummary: "Session Summary",
       // add additional keys as needed
-    }
+    },
   },
   es: {
     translation: {
@@ -18,10 +18,10 @@ const resources = {
       instructorSignup: "Registro de Instructor",
       studentDashboard: "Panel de Estudiantes",
       flowBuilder: "Constructor de Secuencias",
-      sessionSummary: "Resumen de la Sesión"
+      sessionSummary: "Resumen de la Sesión",
       // add additional keys as needed
-    }
-  }
+    },
+  },
 };
 
 i18n.use(initReactI18next).init({

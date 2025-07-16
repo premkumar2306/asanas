@@ -1,4 +1,4 @@
-import { TeamMember } from '../types';
+import { TeamMember } from "../types";
 
 // Exporting the mock data so it can be reused across Studio and Team pages
 export const mockTeamMembers: TeamMember[] = [

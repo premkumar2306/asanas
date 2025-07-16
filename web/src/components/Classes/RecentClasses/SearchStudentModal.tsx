@@ -17,7 +17,7 @@ export const SearchStudentModal: React.FC<SearchStudentModalProps> = ({
   const filteredStudents = mockStudents.filter(
     (student) =>
       student.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      student.email.toLowerCase().includes(searchTerm.toLowerCase())
+      student.email.toLowerCase().includes(searchTerm.toLowerCase()),
   );
 
   const handleAddStudent = () => {
@@ -32,7 +32,10 @@ export const SearchStudentModal: React.FC<SearchStudentModalProps> = ({
       <div className="bg-white rounded-lg shadow-xl p-6 w-full max-w-md">
         <div className="flex justify-between items-center mb-4">
           <h2 className="text-xl font-bold">Add Student Check-in</h2>
-          <button onClick={onClose} className="text-gray-500 hover:text-gray-700">
+          <button
+            onClick={onClose}
+            className="text-gray-500 hover:text-gray-700"
+          >
             ✕
           </button>
         </div>

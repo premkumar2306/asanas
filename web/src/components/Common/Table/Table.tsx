@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 interface Column<T> {
   header: string;
@@ -19,7 +19,7 @@ export function Table<T extends { id?: string | number }>({
   data,
   onRowClick,
   isLoading = false,
-  emptyMessage = "No data available"
+  emptyMessage = "No data available",
 }: TableProps<T>) {
   return (
     <table className="min-w-full divide-y divide-gray-200">
@@ -37,7 +37,7 @@ export function Table<T extends { id?: string | number }>({
                 text-gray-500 
                 uppercase 
                 tracking-wider
-                ${column.className || ''}
+                ${column.className || ""}
               `}
             >
               {column.header}
@@ -57,7 +57,10 @@ export function Table<T extends { id?: string | number }>({
           </tr>
         ) : data.length === 0 ? (
           <tr>
-            <td colSpan={columns.length} className="px-6 py-4 text-center text-gray-500">
+            <td
+              colSpan={columns.length}
+              className="px-6 py-4 text-center text-gray-500"
+            >
               {emptyMessage}
             </td>
           </tr>
@@ -67,7 +70,7 @@ export function Table<T extends { id?: string | number }>({
               key={item.id || rowIndex}
               onClick={() => onRowClick?.(item)}
               className={`
-                ${onRowClick ? 'cursor-pointer' : ''}
+                ${onRowClick ? "cursor-pointer" : ""}
                 transition-colors
                 duration-150
                 hover:bg-gray-50
@@ -84,10 +87,10 @@ export function Table<T extends { id?: string | number }>({
                     text-sm 
                     text-gray-900
                     group-hover:text-gray-700
-                    ${column.className || ''}
+                    ${column.className || ""}
                   `}
                 >
-                  {typeof column.accessor === 'function'
+                  {typeof column.accessor === "function"
                     ? column.accessor(item)
                     : item[column.accessor]}
                 </td>

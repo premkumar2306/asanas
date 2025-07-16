@@ -13,7 +13,7 @@ function SessionSummary() {
     try {
       await addDoc(collection(db, "moods"), {
         moodAfter,
-        createdAt: new Date()
+        createdAt: new Date(),
       });
       console.log("Mood submitted");
     } catch (error) {
@@ -73,7 +73,10 @@ function SessionSummary() {
         )}
       </main>
       <footer className="mt-4">
-        <button onClick={submitMood} className="bg-green-500 text-white p-2 hover:bg-green-600 rounded transition-colors w-full">
+        <button
+          onClick={submitMood}
+          className="bg-green-500 text-white p-2 hover:bg-green-600 rounded transition-colors w-full"
+        >
           Submit
         </button>
       </footer>

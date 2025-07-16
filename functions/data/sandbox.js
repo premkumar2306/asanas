@@ -1,4 +1,3 @@
-var fs = require("fs");
 const sample = require("./list.json");
 
 const map = new Map();

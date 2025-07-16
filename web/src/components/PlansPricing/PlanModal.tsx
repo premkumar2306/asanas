@@ -89,7 +89,9 @@ const PlanModal: React.FC<PlanModalProps> = ({
               </label>
               <textarea
                 value={data.specialInstructions}
-                onChange={(e) => updateField("specialInstructions", e.target.value)}
+                onChange={(e) =>
+                  updateField("specialInstructions", e.target.value)
+                }
                 rows={2}
                 className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
               />
@@ -185,7 +187,10 @@ const PlanModal: React.FC<PlanModalProps> = ({
                 ))}
                 <button
                   onClick={() => {
-                    const newPricing = [...(data.countryPricing || []), { country: "", price: "" }];
+                    const newPricing = [
+                      ...(data.countryPricing || []),
+                      { country: "", price: "" },
+                    ];
                     updateField("countryPricing", newPricing);
                   }}
                   className="mt-2 px-4 py-2 text-sm border border-gray-300 rounded-md text-gray-700 hover:bg-gray-50"
@@ -234,7 +239,9 @@ const PlanModal: React.FC<PlanModalProps> = ({
               <input
                 type="date"
                 value={data.subscriptionStartDate}
-                onChange={(e) => updateField("subscriptionStartDate", e.target.value)}
+                onChange={(e) =>
+                  updateField("subscriptionStartDate", e.target.value)
+                }
                 className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
               />
             </div>
@@ -264,7 +271,9 @@ const PlanModal: React.FC<PlanModalProps> = ({
                 <input
                   type="text"
                   value={data.restrictEmails}
-                  onChange={(e) => updateField("restrictEmails", e.target.value)}
+                  onChange={(e) =>
+                    updateField("restrictEmails", e.target.value)
+                  }
                   placeholder="Enter comma-separated email addresses"
                   className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                 />
@@ -281,11 +290,18 @@ const PlanModal: React.FC<PlanModalProps> = ({
                   <div key={location.id} className="flex items-center">
                     <input
                       type="checkbox"
-                      checked={data.locations?.some((loc) => loc.id === location.id)}
+                      checked={data.locations?.some(
+                        (loc) => loc.id === location.id,
+                      )}
                       onChange={(e) => {
                         const newLocations = e.target.checked
-                          ? [...(data.locations || []), { id: location.id, name: location.name }]
-                          : data.locations?.filter((loc) => loc.id !== location.id) || [];
+                          ? [
+                              ...(data.locations || []),
+                              { id: location.id, name: location.name },
+                            ]
+                          : data.locations?.filter(
+                              (loc) => loc.id !== location.id,
+                            ) || [];
                         updateField("locations", newLocations);
                       }}
                       className="h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded"
@@ -300,7 +316,9 @@ const PlanModal: React.FC<PlanModalProps> = ({
 
             {/* Location selection */}
             <div>
-              <label className="block text-sm font-medium text-gray-700">Location</label>
+              <label className="block text-sm font-medium text-gray-700">
+                Location
+              </label>
               <select
                 value={data.locationId || ""}
                 onChange={(e) => updateField("locationId", e.target.value)}
@@ -308,7 +326,9 @@ const PlanModal: React.FC<PlanModalProps> = ({
               >
                 <option value="">Select a location</option>
                 {locations.map((loc) => (
-                  <option key={loc.id} value={loc.id}>{loc.name}</option>
+                  <option key={loc.id} value={loc.id}>
+                    {loc.name}
+                  </option>
                 ))}
               </select>
             </div>
@@ -319,7 +339,9 @@ const PlanModal: React.FC<PlanModalProps> = ({
                 <input
                   type="checkbox"
                   checked={data.renewalReminders}
-                  onChange={(e) => updateField("renewalReminders", e.target.checked)}
+                  onChange={(e) =>
+                    updateField("renewalReminders", e.target.checked)
+                  }
                   className="h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded"
                 />
                 <label className="text-sm font-medium text-gray-700">
